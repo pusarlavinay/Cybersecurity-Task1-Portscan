@@ -1,0 +1,5348 @@
+┌──(root㉿vinaykali)-[~]
+└─# sudo nmap -sS 192.168.1.0/24 -oN scan_output.txt
+
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-08-05 11:04 IST
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+Nmap scan report for 192.168.1.0
+Host is up (0.071s latency).
+Not shown: 991 filtered tcp ports (no-response)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+2605/tcp  closed bgpd
+8008/tcp  open   http
+8010/tcp  open   xmpp
+10215/tcp closed unknown
+12174/tcp closed unknown
+14442/tcp closed unknown
+49175/tcp closed unknown
+
+Nmap scan report for 192.168.1.1
+Host is up (0.078s latency).
+Not shown: 991 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+2605/tcp  closed bgpd
+8008/tcp  open   http
+8010/tcp  open   xmpp
+12174/tcp closed unknown
+14442/tcp closed unknown
+49175/tcp closed unknown
+
+Nmap scan report for 192.168.1.2
+Host is up (0.074s latency).
+Not shown: 992 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+2605/tcp  closed bgpd
+8008/tcp  open   http
+8010/tcp  open   xmpp
+12174/tcp closed unknown
+49175/tcp closed unknown
+
+Nmap scan report for 192.168.1.3
+Host is up (0.100s latency).
+Not shown: 994 filtered tcp ports (no-response)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+8008/tcp  open   http
+8010/tcp  open   xmpp
+12174/tcp closed unknown
+49175/tcp closed unknown
+
+Nmap scan report for 192.168.1.4
+Host is up (0.080s latency).
+Not shown: 989 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+2605/tcp  closed bgpd
+5226/tcp  closed hp-status
+8008/tcp  open   http
+8010/tcp  open   xmpp
+10215/tcp closed unknown
+12174/tcp closed unknown
+14442/tcp closed unknown
+49175/tcp closed unknown
+
+Nmap scan report for 192.168.1.5
+Host is up (2.7s latency).
+Not shown: 993 closed tcp ports (reset)
+PORT     STATE    SERVICE
+22/tcp   filtered ssh
+23/tcp   filtered telnet
+80/tcp   open     http
+89/tcp   filtered su-mit-tg
+443/tcp  open     https
+8008/tcp open     http
+8010/tcp open     xmpp
+
+Nmap scan report for 192.168.1.6
+Host is up (0.083s latency).
+Not shown: 992 filtered tcp ports (no-response)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+2605/tcp  closed bgpd
+8008/tcp  open   http
+8010/tcp  open   xmpp
+12174/tcp closed unknown
+14442/tcp closed unknown
+49175/tcp closed unknown
+
+Nmap scan report for 192.168.1.7
+Host is up (0.076s latency).
+Not shown: 985 filtered tcp ports (no-response), 2 filtered tcp ports (net-unreach)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1108/tcp  closed ratio-adp
+1801/tcp  closed msmq
+2605/tcp  closed bgpd
+2809/tcp  closed corbaloc
+5226/tcp  closed hp-status
+6106/tcp  closed isdninfo
+8008/tcp  open   http
+10215/tcp closed unknown
+12174/tcp closed unknown
+14442/tcp closed unknown
+32769/tcp closed filenet-rpc
+49175/tcp closed unknown
+
+Nmap scan report for 192.168.1.8
+Host is up (0.073s latency).
+Not shown: 970 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach), 27 closed tcp ports (reset)
+PORT     STATE SERVICE
+8008/tcp open  http
+8010/tcp open  xmpp
+
+Nmap scan report for 192.168.1.9
+Host is up (0.066s latency).
+Not shown: 976 filtered tcp ports (no-response)
+PORT      STATE  SERVICE
+19/tcp    closed chargen
+113/tcp   closed ident
+163/tcp   closed cmip-man
+1108/tcp  closed ratio-adp
+1801/tcp  closed msmq
+2605/tcp  closed bgpd
+2809/tcp  closed corbaloc
+4550/tcp  closed gds-adppiw-db
+5087/tcp  closed biotic
+5226/tcp  closed hp-status
+6106/tcp  closed isdninfo
+8008/tcp  open   http
+8010/tcp  open   xmpp
+8254/tcp  closed unknown
+8291/tcp  closed unknown
+8333/tcp  closed bitcoin
+10215/tcp closed unknown
+12174/tcp closed unknown
+14442/tcp closed unknown
+32769/tcp closed filenet-rpc
+32770/tcp closed sometimes-rpc3
+32773/tcp closed sometimes-rpc9
+49175/tcp closed unknown
+49400/tcp closed compaqdiag
+
+Nmap scan report for 192.168.1.10
+Host is up (0.12s latency).
+Not shown: 994 filtered tcp ports (no-response)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+8008/tcp  open   http
+8010/tcp  open   xmpp
+12174/tcp closed unknown
+49175/tcp closed unknown
+
+Nmap scan report for 192.168.1.11
+Host is up (0.052s latency).
+Not shown: 987 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+2605/tcp  closed bgpd
+2809/tcp  closed corbaloc
+5226/tcp  closed hp-status
+8008/tcp  open   http
+8010/tcp  open   xmpp
+10215/tcp closed unknown
+12174/tcp closed unknown
+14442/tcp closed unknown
+32769/tcp closed filenet-rpc
+49175/tcp closed unknown
+
+Nmap scan report for 192.168.1.12
+Host is up (0.047s latency).
+Not shown: 965 filtered tcp ports (no-response), 2 filtered tcp ports (net-unreach), 31 closed tcp ports (reset)
+PORT     STATE SERVICE
+8008/tcp open  http
+8010/tcp open  xmpp
+
+Nmap scan report for 192.168.1.13
+Host is up (0.11s latency).
+Not shown: 994 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+8008/tcp  open   http
+8010/tcp  open   xmpp
+49175/tcp closed unknown
+
+Nmap scan report for 192.168.1.14
+Host is up (0.11s latency).
+Not shown: 992 filtered tcp ports (no-response), 2 filtered tcp ports (net-unreach)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+2605/tcp  closed bgpd
+8008/tcp  open   http
+12174/tcp closed unknown
+49175/tcp closed unknown
+
+Nmap scan report for 192.168.1.15
+Host is up (0.040s latency).
+Not shown: 990 filtered tcp ports (no-response)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+2605/tcp  closed bgpd
+5226/tcp  closed hp-status
+8008/tcp  open   http
+8010/tcp  open   xmpp
+10215/tcp closed unknown
+12174/tcp closed unknown
+14442/tcp closed unknown
+49175/tcp closed unknown
+
+Nmap scan report for 192.168.1.16
+Host is up (0.060s latency).
+Not shown: 972 filtered tcp ports (no-response), 26 closed tcp ports (reset)
+PORT     STATE SERVICE
+8008/tcp open  http
+8010/tcp open  xmpp
+
+Nmap scan report for 192.168.1.17
+Host is up (0.16s latency).
+Not shown: 997 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+1801/tcp closed msmq
+8008/tcp open   http
+8010/tcp open   xmpp
+
+Nmap scan report for 192.168.1.18
+Host is up (0.070s latency).
+Not shown: 966 filtered tcp ports (no-response), 32 closed tcp ports (reset)
+PORT     STATE SERVICE
+8008/tcp open  http
+8010/tcp open  xmpp
+
+Nmap scan report for 192.168.1.19
+Host is up (0.048s latency).
+Not shown: 976 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach)
+PORT      STATE  SERVICE
+19/tcp    closed chargen
+113/tcp   closed ident
+163/tcp   closed cmip-man
+1108/tcp  closed ratio-adp
+1801/tcp  closed msmq
+2605/tcp  closed bgpd
+2809/tcp  closed corbaloc
+4550/tcp  closed gds-adppiw-db
+5087/tcp  closed biotic
+5226/tcp  closed hp-status
+6106/tcp  closed isdninfo
+8008/tcp  open   http
+8010/tcp  open   xmpp
+8254/tcp  closed unknown
+8291/tcp  closed unknown
+10215/tcp closed unknown
+12174/tcp closed unknown
+14442/tcp closed unknown
+32769/tcp closed filenet-rpc
+32770/tcp closed sometimes-rpc3
+32773/tcp closed sometimes-rpc9
+49175/tcp closed unknown
+49400/tcp closed compaqdiag
+
+Nmap scan report for 192.168.1.20
+Host is up (0.11s latency).
+All 1000 scanned ports on 192.168.1.20 are in ignored states.
+Not shown: 971 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach), 28 closed tcp ports (reset)
+
+Nmap scan report for 192.168.1.21
+Host is up (0.14s latency).
+Not shown: 990 filtered tcp ports (no-response), 3 filtered tcp ports (net-unreach)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+2605/tcp  closed bgpd
+8010/tcp  open   xmpp
+12174/tcp closed unknown
+14442/tcp closed unknown
+49175/tcp closed unknown
+
+Nmap scan report for 192.168.1.22
+Host is up (0.081s latency).
+Not shown: 983 filtered tcp ports (no-response)
+PORT      STATE  SERVICE
+19/tcp    closed chargen
+163/tcp   closed cmip-man
+1108/tcp  closed ratio-adp
+1801/tcp  closed msmq
+2605/tcp  closed bgpd
+2809/tcp  closed corbaloc
+5087/tcp  closed biotic
+5226/tcp  closed hp-status
+6106/tcp  closed isdninfo
+8010/tcp  open   xmpp
+8254/tcp  closed unknown
+10215/tcp closed unknown
+12174/tcp closed unknown
+14442/tcp closed unknown
+32769/tcp closed filenet-rpc
+32770/tcp closed sometimes-rpc3
+49175/tcp closed unknown
+
+Nmap scan report for 192.168.1.23
+Host is up (0.096s latency).
+Not shown: 993 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+8008/tcp  open   http
+8010/tcp  open   xmpp
+12174/tcp closed unknown
+49175/tcp closed unknown
+
+Nmap scan report for 192.168.1.24
+Host is up (0.080s latency).
+Not shown: 994 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+1801/tcp closed msmq
+2605/tcp closed bgpd
+8008/tcp open   http
+8010/tcp open   xmpp
+
+Nmap scan report for 192.168.1.25
+Host is up (2.2s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT     STATE SERVICE
+8008/tcp open  http
+8010/tcp open  xmpp
+
+Nmap scan report for 192.168.1.26
+Host is up (0.13s latency).
+Not shown: 988 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+2605/tcp  closed bgpd
+5226/tcp  closed hp-status
+8008/tcp  open   http
+8010/tcp  open   xmpp
+10215/tcp closed unknown
+12174/tcp closed unknown
+14442/tcp closed unknown
+32769/tcp closed filenet-rpc
+49175/tcp closed unknown
+
+Nmap scan report for 192.168.1.27
+Host is up (0.089s latency).
+Not shown: 992 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+2605/tcp  closed bgpd
+8008/tcp  open   http
+8010/tcp  open   xmpp
+12174/tcp closed unknown
+14442/tcp closed unknown
+
+Nmap scan report for 192.168.1.28
+Host is up (0.078s latency).
+Not shown: 979 filtered tcp ports (no-response), 3 filtered tcp ports (net-unreach)
+PORT      STATE  SERVICE
+19/tcp    closed chargen
+113/tcp   closed ident
+163/tcp   closed cmip-man
+1108/tcp  closed ratio-adp
+1801/tcp  closed msmq
+2605/tcp  closed bgpd
+2809/tcp  closed corbaloc
+5087/tcp  closed biotic
+5226/tcp  closed hp-status
+6106/tcp  closed isdninfo
+8008/tcp  open   http
+8010/tcp  open   xmpp
+10215/tcp closed unknown
+12174/tcp closed unknown
+14442/tcp closed unknown
+32769/tcp closed filenet-rpc
+32770/tcp closed sometimes-rpc3
+49175/tcp closed unknown
+
+Nmap scan report for 192.168.1.29
+Host is up (0.10s latency).
+Not shown: 987 filtered tcp ports (no-response), 2 filtered tcp ports (net-unreach)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+2605/tcp  closed bgpd
+5226/tcp  closed hp-status
+8008/tcp  open   http
+8010/tcp  open   xmpp
+10215/tcp closed unknown
+12174/tcp closed unknown
+14442/tcp closed unknown
+32769/tcp closed filenet-rpc
+49175/tcp closed unknown
+
+Nmap scan report for 192.168.1.30
+Host is up (0.13s latency).
+Not shown: 995 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+1801/tcp closed msmq
+8008/tcp open   http
+8010/tcp open   xmpp
+
+Nmap scan report for 192.168.1.31
+Host is up (0.17s latency).
+Not shown: 997 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+1801/tcp closed msmq
+
+Nmap scan report for 192.168.1.32
+Host is up (0.096s latency).
+Not shown: 994 filtered tcp ports (no-response), 2 filtered tcp ports (net-unreach)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+12174/tcp closed unknown
+49175/tcp closed unknown
+
+Nmap scan report for 192.168.1.33
+Host is up (0.079s latency).
+Not shown: 995 filtered tcp ports (no-response)
+PORT      STATE  SERVICE
+1801/tcp  closed msmq
+2605/tcp  closed bgpd
+8008/tcp  open   http
+12174/tcp closed unknown
+49175/tcp closed unknown
+
+Nmap scan report for 192.168.1.34
+Host is up (0.11s latency).
+Not shown: 992 filtered tcp ports (no-response)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+2605/tcp  closed bgpd
+8008/tcp  open   http
+8010/tcp  open   xmpp
+12174/tcp closed unknown
+14442/tcp closed unknown
+49175/tcp closed unknown
+
+Nmap scan report for 192.168.1.35
+Host is up (0.084s latency).
+Not shown: 983 filtered tcp ports (no-response), 3 filtered tcp ports (net-unreach)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1108/tcp  closed ratio-adp
+1801/tcp  closed msmq
+2605/tcp  closed bgpd
+2809/tcp  closed corbaloc
+5087/tcp  closed biotic
+5226/tcp  closed hp-status
+6106/tcp  closed isdninfo
+8008/tcp  open   http
+10215/tcp closed unknown
+12174/tcp closed unknown
+14442/tcp closed unknown
+32769/tcp closed filenet-rpc
+49175/tcp closed unknown
+
+Nmap scan report for 192.168.1.36
+Host is up (0.068s latency).
+Not shown: 967 filtered tcp ports (no-response), 2 filtered tcp ports (net-unreach), 29 closed tcp ports (reset)
+PORT     STATE SERVICE
+8008/tcp open  http
+8010/tcp open  xmpp
+
+Nmap scan report for 192.168.1.37
+Host is up (0.092s latency).
+Not shown: 989 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+2605/tcp  closed bgpd
+5226/tcp  closed hp-status
+8008/tcp  open   http
+10215/tcp closed unknown
+12174/tcp closed unknown
+14442/tcp closed unknown
+32769/tcp closed filenet-rpc
+49175/tcp closed unknown
+
+Nmap scan report for 192.168.1.38
+Host is up (0.15s latency).
+Not shown: 990 filtered tcp ports (no-response), 2 filtered tcp ports (net-unreach)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+2605/tcp  closed bgpd
+8008/tcp  open   http
+8010/tcp  open   xmpp
+12174/tcp closed unknown
+14442/tcp closed unknown
+49175/tcp closed unknown
+
+Nmap scan report for 192.168.1.39
+Host is up (0.17s latency).
+Not shown: 991 filtered tcp ports (no-response)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+2605/tcp  closed bgpd
+8008/tcp  open   http
+8010/tcp  open   xmpp
+10215/tcp closed unknown
+12174/tcp closed unknown
+14442/tcp closed unknown
+49175/tcp closed unknown
+
+Nmap scan report for 192.168.1.40
+Host is up (0.10s latency).
+Not shown: 990 filtered tcp ports (no-response)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+2605/tcp  closed bgpd
+5226/tcp  closed hp-status
+8010/tcp  open   xmpp
+10215/tcp closed unknown
+12174/tcp closed unknown
+14442/tcp closed unknown
+32769/tcp closed filenet-rpc
+49175/tcp closed unknown
+
+Nmap scan report for 192.168.1.41
+Host is up (0.059s latency).
+Not shown: 984 filtered tcp ports (no-response), 2 filtered tcp ports (net-unreach)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1108/tcp  closed ratio-adp
+1801/tcp  closed msmq
+2605/tcp  closed bgpd
+2809/tcp  closed corbaloc
+5226/tcp  closed hp-status
+6106/tcp  closed isdninfo
+8008/tcp  open   http
+8010/tcp  open   xmpp
+10215/tcp closed unknown
+12174/tcp closed unknown
+14442/tcp closed unknown
+32769/tcp closed filenet-rpc
+49175/tcp closed unknown
+
+Nmap scan report for 192.168.1.42
+Host is up (0.073s latency).
+Not shown: 993 filtered tcp ports (no-response), 3 filtered tcp ports (net-unreach)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+8008/tcp  open   http
+49175/tcp closed unknown
+
+Nmap scan report for 192.168.1.43
+Host is up (0.14s latency).
+Not shown: 992 filtered tcp ports (no-response)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+2605/tcp  closed bgpd
+8010/tcp  open   xmpp
+10215/tcp closed unknown
+12174/tcp closed unknown
+14442/tcp closed unknown
+49175/tcp closed unknown
+
+Nmap scan report for 192.168.1.44
+Host is up (0.27s latency).
+Not shown: 996 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+1801/tcp closed msmq
+8010/tcp open   xmpp
+
+Nmap scan report for 192.168.1.45
+Host is up (0.054s latency).
+Not shown: 993 filtered tcp ports (no-response), 2 filtered tcp ports (net-unreach)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+8010/tcp  open   xmpp
+12174/tcp closed unknown
+49175/tcp closed unknown
+
+Nmap scan report for 192.168.1.46
+Host is up (0.19s latency).
+Not shown: 991 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+2605/tcp  closed bgpd
+8008/tcp  open   http
+8010/tcp  open   xmpp
+12174/tcp closed unknown
+14442/tcp closed unknown
+49175/tcp closed unknown
+
+Nmap scan report for 192.168.1.47
+Host is up (0.12s latency).
+Not shown: 992 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+2605/tcp  closed bgpd
+8008/tcp  open   http
+8010/tcp  open   xmpp
+12174/tcp closed unknown
+49175/tcp closed unknown
+
+Nmap scan report for 192.168.1.48
+Host is up (0.070s latency).
+Not shown: 994 filtered tcp ports (no-response)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+2605/tcp  closed bgpd
+8008/tcp  open   http
+12174/tcp closed unknown
+49175/tcp closed unknown
+
+Nmap scan report for 192.168.1.49
+Host is up (0.066s latency).
+Not shown: 990 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+2605/tcp  closed bgpd
+8008/tcp  open   http
+8010/tcp  open   xmpp
+10215/tcp closed unknown
+12174/tcp closed unknown
+14442/tcp closed unknown
+49175/tcp closed unknown
+
+Nmap scan report for 192.168.1.50
+Host is up (0.12s latency).
+Not shown: 991 filtered tcp ports (no-response)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+2605/tcp  closed bgpd
+8008/tcp  open   http
+8010/tcp  open   xmpp
+10215/tcp closed unknown
+12174/tcp closed unknown
+14442/tcp closed unknown
+49175/tcp closed unknown
+
+Nmap scan report for 192.168.1.51
+Host is up (0.11s latency).
+Not shown: 992 filtered tcp ports (no-response)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+2605/tcp  closed bgpd
+8008/tcp  open   http
+8010/tcp  open   xmpp
+12174/tcp closed unknown
+14442/tcp closed unknown
+49175/tcp closed unknown
+
+Nmap scan report for 192.168.1.52
+Host is up (0.073s latency).
+Not shown: 964 filtered tcp ports (no-response), 34 closed tcp ports (reset)
+PORT     STATE SERVICE
+8008/tcp open  http
+8010/tcp open  xmpp
+
+Nmap scan report for 192.168.1.53
+Host is up (0.064s latency).
+Not shown: 984 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1108/tcp  closed ratio-adp
+1801/tcp  closed msmq
+2605/tcp  closed bgpd
+2809/tcp  closed corbaloc
+5087/tcp  closed biotic
+5226/tcp  closed hp-status
+6106/tcp  closed isdninfo
+8008/tcp  open   http
+8010/tcp  open   xmpp
+10215/tcp closed unknown
+12174/tcp closed unknown
+14442/tcp closed unknown
+32769/tcp closed filenet-rpc
+49175/tcp closed unknown
+
+Nmap scan report for 192.168.1.54
+Host is up (0.059s latency).
+Not shown: 999 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+8008/tcp open  http
+
+Nmap scan report for 192.168.1.55
+Host is up (0.054s latency).
+Not shown: 987 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+2605/tcp  closed bgpd
+2809/tcp  closed corbaloc
+5226/tcp  closed hp-status
+8008/tcp  open   http
+8010/tcp  open   xmpp
+10215/tcp closed unknown
+12174/tcp closed unknown
+14442/tcp closed unknown
+32769/tcp closed filenet-rpc
+49175/tcp closed unknown
+
+Nmap scan report for 192.168.1.56
+Host is up (0.15s latency).
+Not shown: 995 filtered tcp ports (no-response)
+PORT      STATE  SERVICE
+1801/tcp  closed msmq
+2605/tcp  closed bgpd
+8008/tcp  open   http
+12174/tcp closed unknown
+49175/tcp closed unknown
+
+Nmap scan report for 192.168.1.57
+Host is up (0.067s latency).
+Not shown: 994 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+8008/tcp  open   http
+12174/tcp closed unknown
+49175/tcp closed unknown
+
+Nmap scan report for 192.168.1.58
+Host is up (0.062s latency).
+Not shown: 981 filtered tcp ports (no-response)
+PORT      STATE  SERVICE
+19/tcp    closed chargen
+113/tcp   closed ident
+163/tcp   closed cmip-man
+1108/tcp  closed ratio-adp
+1801/tcp  closed msmq
+2605/tcp  closed bgpd
+2809/tcp  closed corbaloc
+5087/tcp  closed biotic
+5226/tcp  closed hp-status
+6106/tcp  closed isdninfo
+8008/tcp  open   http
+8010/tcp  open   xmpp
+8254/tcp  closed unknown
+10215/tcp closed unknown
+12174/tcp closed unknown
+14442/tcp closed unknown
+32769/tcp closed filenet-rpc
+32770/tcp closed sometimes-rpc3
+49175/tcp closed unknown
+
+Nmap scan report for 192.168.1.59
+Host is up (0.19s latency).
+Not shown: 994 filtered tcp ports (no-response)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+8008/tcp  open   http
+8010/tcp  open   xmpp
+12174/tcp closed unknown
+49175/tcp closed unknown
+
+Nmap scan report for 192.168.1.60
+Host is up (0.15s latency).
+Not shown: 995 filtered tcp ports (no-response)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+8008/tcp  open   http
+8010/tcp  open   xmpp
+49175/tcp closed unknown
+
+Nmap scan report for 192.168.1.61
+Host is up (0.25s latency).
+Not shown: 994 filtered tcp ports (no-response)
+PORT      STATE  SERVICE
+1801/tcp  closed msmq
+2605/tcp  closed bgpd
+8008/tcp  open   http
+8010/tcp  open   xmpp
+12174/tcp closed unknown
+49175/tcp closed unknown
+
+Nmap scan report for 192.168.1.62
+Host is up (0.096s latency).
+Not shown: 989 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+2605/tcp  closed bgpd
+5226/tcp  closed hp-status
+8008/tcp  open   http
+8010/tcp  open   xmpp
+10215/tcp closed unknown
+12174/tcp closed unknown
+14442/tcp closed unknown
+49175/tcp closed unknown
+
+Nmap scan report for 192.168.1.63
+Host is up (0.14s latency).
+Not shown: 981 filtered tcp ports (no-response), 2 filtered tcp ports (net-unreach)
+PORT      STATE  SERVICE
+19/tcp    closed chargen
+113/tcp   closed ident
+1108/tcp  closed ratio-adp
+1801/tcp  closed msmq
+2605/tcp  closed bgpd
+2809/tcp  closed corbaloc
+5087/tcp  closed biotic
+5226/tcp  closed hp-status
+6106/tcp  closed isdninfo
+8008/tcp  open   http
+8010/tcp  open   xmpp
+10215/tcp closed unknown
+12174/tcp closed unknown
+14442/tcp closed unknown
+32769/tcp closed filenet-rpc
+32770/tcp closed sometimes-rpc3
+49175/tcp closed unknown
+
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+Debugging Increased to 1.
+Increased max_successful_tryno for 192.168.1.79 to 3 (packet drop)
+Bogus rttdelta: 1512532 (srtt 74717) ... ignoring
+Increased max_successful_tryno for 192.168.1.126 to 2 (packet drop)
+Bogus rttdelta: 1660638 (srtt 111818) ... ignoring
+Increased max_successful_tryno for 192.168.1.69 to 2 (packet drop)
+Bogus rttdelta: 1740933 (srtt 74717) ... ignoring
+Bogus rttdelta: 1846080 (srtt 142738) ... ignoring
+Increased max_successful_tryno for 192.168.1.125 to 2 (packet drop)
+Bogus rttdelta: 1985989 (srtt 74717) ... ignoring
+Bogus rttdelta: 2042231 (srtt 111818) ... ignoring
+Bogus rttdelta: 2282608 (srtt 142738) ... ignoring
+Bogus rttdelta: 2429978 (srtt 111818) ... ignoring
+Bogus rttdelta: 2686056 (srtt 142738) ... ignoring
+Bogus rttdelta: 2175042 (srtt 82507) ... ignoring
+Bogus rttdelta: 2188130 (srtt 69419) ... ignoring
+Bogus rttdelta: 2149406 (srtt 57469) ... ignoring
+Bogus rttdelta: 2137456 (srtt 69419) ... ignoring
+processData took 159ms
+doAnyOutstandingRetransmits took 79ms
+doAnyOutstandingRetransmits took 52ms
+doAnyOutstandingRetransmits took 63ms
+doAnyOutstandingRetransmits took 38ms
+doAnyOutstandingRetransmits took 284ms
+doAnyOutstandingRetransmits took 40ms
+doAnyOutstandingRetransmits took 287ms
+doAnyOutstandingRetransmits took 71ms
+doAnyOutstandingRetransmits took 36ms
+doAnyOutstandingRetransmits took 45ms
+doAnyOutstandingRetransmits took 44ms
+Increased max_successful_tryno for 192.168.1.93 to 1 (packet drop)
+doAnyOutstandingRetransmits took 31ms
+Increased max_successful_tryno for 192.168.1.102 to 2 (packet drop)
+doAnyOutstandingRetransmits took 98ms
+Bogus rttdelta: 2446443 (srtt 153032) ... ignoring
+Bogus rttdelta: 2423872 (srtt 175603) ... ignoring
+Increased max_successful_tryno for 192.168.1.93 to 2 (packet drop)
+doAnyOutstandingRetransmits took 46ms
+doAnyOutstandingRetransmits took 48ms
+doAnyOutstandingRetransmits took 87ms
+doAnyOutstandingRetransmits took 75ms
+doAnyOutstandingRetransmits took 78ms
+doAnyOutstandingRetransmits took 55ms
+doAnyOutstandingRetransmits took 55ms
+doAnyOutstandingRetransmits took 34ms
+doAnyOutstandingRetransmits took 54ms
+doAnyOutstandingRetransmits took 36ms
+doAnyOutstandingRetransmits took 32ms
+doAnyOutstandingRetransmits took 32ms
+doAnyOutstandingRetransmits took 36ms
+Overall sending rates: 139.26 packets / s, 6080.74 bytes / s.
+Nmap scan report for 192.168.1.64
+Host is up (0.063s latency).
+Scanned at 2025-08-05 11:41:33 IST for 1641s
+Not shown: 997 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 63152 rttvar: 54658  to: 281784
+
+Nmap scan report for 192.168.1.65
+Host is up (0.038s latency).
+Scanned at 2025-08-05 11:41:31 IST for 1647s
+Not shown: 996 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 38376 rttvar: 23860  to: 133816
+
+Nmap scan report for 192.168.1.66
+Host is up (0.094s latency).
+Scanned at 2025-08-05 11:41:31 IST for 1604s
+Not shown: 994 filtered tcp ports (no-response)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+8008/tcp  open   http
+8010/tcp  open   xmpp
+12174/tcp closed unknown
+49175/tcp closed unknown
+Final times for host: srtt: 94297 rttvar: 62783  to: 345429
+
+Nmap scan report for 192.168.1.67
+Host is up (0.059s latency).
+Scanned at 2025-08-05 11:41:31 IST for 1644s
+Not shown: 995 filtered tcp ports (no-response), 2 filtered tcp ports (net-unreach)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 58881 rttvar: 40251  to: 219885
+
+Nmap scan report for 192.168.1.68
+Host is up (0.078s latency).
+Scanned at 2025-08-05 11:41:31 IST for 1593s
+Not shown: 991 filtered tcp ports (no-response), 3 filtered tcp ports (net-unreach)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+8008/tcp  open   http
+8010/tcp  open   xmpp
+12174/tcp closed unknown
+49175/tcp closed unknown
+Final times for host: srtt: 77716 rttvar: 56928  to: 305428
+
+Nmap scan report for 192.168.1.69
+Host is up (0.067s latency).
+Scanned at 2025-08-05 11:41:31 IST for 1645s
+Not shown: 997 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 67217 rttvar: 62843  to: 318589
+
+Nmap scan report for 192.168.1.70
+Host is up (0.049s latency).
+Scanned at 2025-08-05 11:41:31 IST for 1650s
+Not shown: 996 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 48516 rttvar: 36226  to: 193420
+
+Nmap scan report for 192.168.1.71
+Host is up (0.043s latency).
+Scanned at 2025-08-05 11:41:31 IST for 1643s
+Not shown: 998 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8010/tcp open   xmpp
+Final times for host: srtt: 42883 rttvar: 36918  to: 190555
+
+Nmap scan report for 192.168.1.72
+Host is up (0.057s latency).
+Scanned at 2025-08-05 11:41:31 IST for 1644s
+Not shown: 998 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8010/tcp open   xmpp
+Final times for host: srtt: 56710 rttvar: 62864  to: 308166
+
+Nmap scan report for 192.168.1.73
+Host is up (0.061s latency).
+Scanned at 2025-08-05 11:41:31 IST for 1622s
+Not shown: 990 filtered tcp ports (no-response)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+2605/tcp  closed bgpd
+5226/tcp  closed hp-status
+8008/tcp  open   http
+8010/tcp  open   xmpp
+10215/tcp closed unknown
+12174/tcp closed unknown
+14442/tcp closed unknown
+49175/tcp closed unknown
+Final times for host: srtt: 61025 rttvar: 51277  to: 266133
+
+Nmap scan report for 192.168.1.74
+Host is up (0.067s latency).
+Scanned at 2025-08-05 11:41:31 IST for 1644s
+Not shown: 997 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 66830 rttvar: 69883  to: 346362
+
+Nmap scan report for 192.168.1.75
+Host is up (0.042s latency).
+Scanned at 2025-08-05 11:41:33 IST for 1647s
+Not shown: 995 filtered tcp ports (no-response), 2 filtered tcp ports (net-unreach)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 42261 rttvar: 27040  to: 150421
+
+Nmap scan report for 192.168.1.76
+Host is up (0.068s latency).
+Scanned at 2025-08-05 11:41:35 IST for 1619s
+Not shown: 989 filtered tcp ports (no-response)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+2605/tcp  closed bgpd
+5226/tcp  closed hp-status
+8008/tcp  open   http
+8010/tcp  open   xmpp
+10215/tcp closed unknown
+12174/tcp closed unknown
+14442/tcp closed unknown
+32769/tcp closed filenet-rpc
+49175/tcp closed unknown
+Final times for host: srtt: 68029 rttvar: 63377  to: 321537
+
+Nmap scan report for 192.168.1.77
+Host is up (0.045s latency).
+Scanned at 2025-08-05 11:41:32 IST for 1647s
+Not shown: 997 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 44677 rttvar: 46391  to: 230241
+
+Nmap scan report for 192.168.1.78
+Host is up (0.051s latency).
+Scanned at 2025-08-05 11:41:32 IST for 1649s
+Not shown: 995 filtered tcp ports (no-response), 2 filtered tcp ports (net-unreach)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 51073 rttvar: 49736  to: 250017
+
+Nmap scan report for 192.168.1.79
+Host is up (0.038s latency).
+Scanned at 2025-08-05 11:41:33 IST for 1647s
+Not shown: 997 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 37554 rttvar: 26122  to: 142042
+
+Nmap scan report for 192.168.1.80
+Host is up (0.089s latency).
+Scanned at 2025-08-05 11:41:40 IST for 1616s
+Not shown: 991 filtered tcp ports (no-response)
+PORT      STATE  SERVICE
+1801/tcp  closed msmq
+2605/tcp  closed bgpd
+5226/tcp  closed hp-status
+8008/tcp  open   http
+8010/tcp  open   xmpp
+10215/tcp closed unknown
+12174/tcp closed unknown
+14442/tcp closed unknown
+49175/tcp closed unknown
+Final times for host: srtt: 88703 rttvar: 72883  to: 380235
+
+Nmap scan report for 192.168.1.81
+Host is up (0.11s latency).
+Scanned at 2025-08-05 11:41:32 IST for 1637s
+Not shown: 997 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 112818 rttvar: 119458  to: 590650
+
+Nmap scan report for 192.168.1.82
+Host is up (0.066s latency).
+Scanned at 2025-08-05 11:41:35 IST for 1643s
+Not shown: 995 filtered tcp ports (no-response), 2 filtered tcp ports (net-unreach)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 65743 rttvar: 54575  to: 284043
+
+Nmap scan report for 192.168.1.83
+Host is up (0.043s latency).
+Scanned at 2025-08-05 11:41:38 IST for 1641s
+Not shown: 997 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 43202 rttvar: 39853  to: 202614
+
+Nmap scan report for 192.168.1.84
+Host is up (0.049s latency).
+Scanned at 2025-08-05 11:41:32 IST for 1649s
+Not shown: 997 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 49203 rttvar: 37574  to: 199499
+
+Nmap scan report for 192.168.1.85
+Host is up (0.043s latency).
+Scanned at 2025-08-05 11:41:32 IST for 1648s
+Not shown: 996 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 43402 rttvar: 32115  to: 171862
+
+Nmap scan report for 192.168.1.86
+Host is up (0.038s latency).
+Scanned at 2025-08-05 11:41:45 IST for 1635s
+Not shown: 997 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach)
+PORT     STATE SERVICE
+8008/tcp open  http
+8010/tcp open  xmpp
+Final times for host: srtt: 37846 rttvar: 24112  to: 134294
+
+Nmap scan report for 192.168.1.87
+Host is up (0.062s latency).
+Scanned at 2025-08-05 11:41:40 IST for 1640s
+Not shown: 997 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 62101 rttvar: 66229  to: 327017
+
+Nmap scan report for 192.168.1.88
+Host is up (0.056s latency).
+Scanned at 2025-08-05 11:41:32 IST for 1648s
+Not shown: 997 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 56401 rttvar: 58972  to: 292289
+
+Nmap scan report for 192.168.1.89
+Host is up (0.057s latency).
+Scanned at 2025-08-05 11:41:45 IST for 1637s
+Not shown: 997 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach)
+PORT     STATE SERVICE
+8008/tcp open  http
+8010/tcp open  xmpp
+Final times for host: srtt: 57150 rttvar: 50488  to: 259102
+
+Nmap scan report for 192.168.1.90
+Host is up (0.054s latency).
+Scanned at 2025-08-05 11:41:40 IST for 1641s
+Not shown: 996 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 54155 rttvar: 55933  to: 277887
+
+Nmap scan report for 192.168.1.91
+Host is up (0.033s latency).
+Scanned at 2025-08-05 11:41:32 IST for 1646s
+Not shown: 997 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 33172 rttvar: 15598  to: 100000
+
+Nmap scan report for 192.168.1.92
+Host is up (0.058s latency).
+Scanned at 2025-08-05 11:41:32 IST for 1649s
+Not shown: 997 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 58013 rttvar: 40704  to: 220829
+
+Nmap scan report for 192.168.1.93
+Host is up (0.049s latency).
+Scanned at 2025-08-05 11:41:42 IST for 1639s
+Not shown: 997 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8010/tcp open   xmpp
+Final times for host: srtt: 49194 rttvar: 41071  to: 213478
+
+Nmap scan report for 192.168.1.94
+Host is up (0.048s latency).
+Scanned at 2025-08-05 11:41:45 IST for 1636s
+Not shown: 995 filtered tcp ports (no-response), 2 filtered tcp ports (net-unreach)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 47714 rttvar: 29248  to: 164706
+
+Nmap scan report for 192.168.1.95
+Host is up (0.12s latency).
+Scanned at 2025-08-05 11:41:32 IST for 1585s
+Not shown: 996 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+1801/tcp closed msmq
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 117866 rttvar: 146045  to: 702046
+
+Nmap scan report for 192.168.1.96
+Host is up (0.056s latency).
+Scanned at 2025-08-05 11:41:39 IST for 1642s
+Not shown: 997 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 55738 rttvar: 65638  to: 318290
+
+Nmap scan report for 192.168.1.97
+Host is up (0.078s latency).
+Scanned at 2025-08-05 11:41:39 IST for 1543s
+Not shown: 983 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach)
+PORT      STATE  SERVICE
+19/tcp    closed chargen
+113/tcp   closed ident
+1108/tcp  closed ratio-adp
+1801/tcp  closed msmq
+2605/tcp  closed bgpd
+2809/tcp  closed corbaloc
+5087/tcp  closed biotic
+5226/tcp  closed hp-status
+6106/tcp  closed isdninfo
+8008/tcp  open   http
+8010/tcp  open   xmpp
+10215/tcp closed unknown
+12174/tcp closed unknown
+14442/tcp closed unknown
+32769/tcp closed filenet-rpc
+49175/tcp closed unknown
+Final times for host: srtt: 77638 rttvar: 27989  to: 189594
+
+Nmap scan report for 192.168.1.98
+Host is up (0.084s latency).
+Scanned at 2025-08-05 11:41:32 IST for 1555s
+Not shown: 991 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+2605/tcp  closed bgpd
+8008/tcp  open   http
+8010/tcp  open   xmpp
+12174/tcp closed unknown
+14442/tcp closed unknown
+49175/tcp closed unknown
+Final times for host: srtt: 83952 rttvar: 61756  to: 330976
+
+Nmap scan report for 192.168.1.99
+Host is up (0.046s latency).
+Scanned at 2025-08-05 11:41:39 IST for 1614s
+Not shown: 994 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+2605/tcp  closed bgpd
+12174/tcp closed unknown
+49175/tcp closed unknown
+Final times for host: srtt: 45733 rttvar: 47394  to: 235309
+
+Nmap scan report for 192.168.1.100
+Host is up (0.082s latency).
+Scanned at 2025-08-05 11:41:45 IST for 1632s
+Not shown: 995 filtered tcp ports (no-response), 2 filtered tcp ports (net-unreach)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 82232 rttvar: 66984  to: 350168
+
+Nmap scan report for 192.168.1.101
+Host is up (0.060s latency).
+Scanned at 2025-08-05 11:41:32 IST for 1646s
+Not shown: 995 filtered tcp ports (no-response), 2 filtered tcp ports (net-unreach)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 60445 rttvar: 82257  to: 389473
+
+Nmap scan report for 192.168.1.102
+Host is up (0.058s latency).
+Scanned at 2025-08-05 11:41:39 IST for 1640s
+Not shown: 996 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 58327 rttvar: 52038  to: 266479
+
+Nmap scan report for 192.168.1.103
+Host is up (0.083s latency).
+Scanned at 2025-08-05 11:41:45 IST for 1628s
+Not shown: 996 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 83070 rttvar: 72655  to: 373690
+
+Nmap scan report for 192.168.1.104
+Host is up (0.044s latency).
+Scanned at 2025-08-05 11:41:32 IST for 1623s
+Not shown: 994 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+8008/tcp  open   http
+8010/tcp  open   xmpp
+49175/tcp closed unknown
+Final times for host: srtt: 43798 rttvar: 26364  to: 149254
+
+Nmap scan report for 192.168.1.105
+Host is up (0.062s latency).
+Scanned at 2025-08-05 11:41:39 IST for 1642s
+Not shown: 997 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 61625 rttvar: 56213  to: 286477
+
+Nmap scan report for 192.168.1.106
+Host is up (0.053s latency).
+Scanned at 2025-08-05 11:41:43 IST for 1616s
+Not shown: 996 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+1801/tcp closed msmq
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 52520 rttvar: 15249  to: 113516
+
+Nmap scan report for 192.168.1.107
+Host is up (0.057s latency).
+Scanned at 2025-08-05 11:41:32 IST for 1624s
+Not shown: 992 filtered tcp ports (no-response)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+2605/tcp  closed bgpd
+8008/tcp  open   http
+8010/tcp  open   xmpp
+12174/tcp closed unknown
+14442/tcp closed unknown
+49175/tcp closed unknown
+Final times for host: srtt: 57075 rttvar: 41256  to: 222099
+
+Nmap scan report for 192.168.1.108
+Host is up (0.042s latency).
+Scanned at 2025-08-05 11:41:32 IST for 1616s
+Not shown: 995 filtered tcp ports (no-response)
+PORT      STATE  SERVICE
+1801/tcp  closed msmq
+8008/tcp  open   http
+8010/tcp  open   xmpp
+12174/tcp closed unknown
+49175/tcp closed unknown
+Final times for host: srtt: 42301 rttvar: 43187  to: 215049
+
+Nmap scan report for 192.168.1.109
+Host is up (0.040s latency).
+Scanned at 2025-08-05 11:41:32 IST for 1648s
+Not shown: 996 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 39837 rttvar: 34892  to: 179405
+
+Nmap scan report for 192.168.1.110
+Host is up (0.065s latency).
+Scanned at 2025-08-05 11:41:39 IST for 1611s
+Not shown: 992 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+2605/tcp  closed bgpd
+8008/tcp  open   http
+8010/tcp  open   xmpp
+12174/tcp closed unknown
+49175/tcp closed unknown
+Final times for host: srtt: 65437 rttvar: 56502  to: 291445
+
+Nmap scan report for 192.168.1.111
+Host is up (0.063s latency).
+Scanned at 2025-08-05 11:41:39 IST for 1607s
+Not shown: 994 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+8008/tcp  open   http
+8010/tcp  open   xmpp
+49175/tcp closed unknown
+Final times for host: srtt: 62627 rttvar: 50134  to: 263163
+
+Nmap scan report for 192.168.1.112
+Host is up (0.16s latency).
+Scanned at 2025-08-05 11:41:32 IST for 1441s
+Not shown: 989 filtered tcp ports (no-response), 2 filtered tcp ports (net-unreach)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+2605/tcp  closed bgpd
+8008/tcp  open   http
+8010/tcp  open   xmpp
+10215/tcp closed unknown
+12174/tcp closed unknown
+14442/tcp closed unknown
+49175/tcp closed unknown
+Final times for host: srtt: 158847 rttvar: 74406  to: 456471
+
+Nmap scan report for 192.168.1.113
+Host is up (0.059s latency).
+Scanned at 2025-08-05 11:41:43 IST for 1605s
+Not shown: 995 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+8008/tcp  open   http
+49175/tcp closed unknown
+Final times for host: srtt: 58710 rttvar: 36500  to: 204710
+
+Nmap scan report for 192.168.1.114
+Host is up (0.060s latency).
+Scanned at 2025-08-05 11:41:39 IST for 1611s
+Not shown: 989 filtered tcp ports (no-response), 2 filtered tcp ports (net-unreach)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+2605/tcp  closed bgpd
+8008/tcp  open   http
+8010/tcp  open   xmpp
+10215/tcp closed unknown
+12174/tcp closed unknown
+14442/tcp closed unknown
+49175/tcp closed unknown
+Final times for host: srtt: 60235 rttvar: 48809  to: 255471
+
+Nmap scan report for 192.168.1.115
+Host is up (0.11s latency).
+Scanned at 2025-08-05 11:41:32 IST for 1626s
+Not shown: 991 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+2605/tcp  closed bgpd
+8008/tcp  open   http
+10215/tcp closed unknown
+12174/tcp closed unknown
+14442/tcp closed unknown
+49175/tcp closed unknown
+Final times for host: srtt: 112253 rttvar: 123901  to: 607857
+
+Nmap scan report for 192.168.1.116
+Host is up (0.079s latency).
+Scanned at 2025-08-05 11:41:37 IST for 1638s
+Not shown: 996 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 78839 rttvar: 63913  to: 334491
+
+Nmap scan report for 192.168.1.117
+Host is up (0.087s latency).
+Scanned at 2025-08-05 11:41:37 IST for 1634s
+Not shown: 997 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach)
+PORT     STATE SERVICE
+8008/tcp open  http
+8010/tcp open  xmpp
+Final times for host: srtt: 86748 rttvar: 66632  to: 353276
+
+Nmap scan report for 192.168.1.118
+Host is up (0.11s latency).
+Scanned at 2025-08-05 11:41:32 IST for 1600s
+Not shown: 994 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+8008/tcp  open   http
+12174/tcp closed unknown
+49175/tcp closed unknown
+Final times for host: srtt: 113803 rttvar: 54642  to: 332371
+
+Nmap scan report for 192.168.1.119
+Host is up (0.061s latency).
+Scanned at 2025-08-05 11:41:35 IST for 1611s
+Not shown: 993 filtered tcp ports (no-response), 2 filtered tcp ports (net-unreach)
+PORT      STATE  SERVICE
+1801/tcp  closed msmq
+2605/tcp  closed bgpd
+8010/tcp  open   xmpp
+12174/tcp closed unknown
+49175/tcp closed unknown
+Final times for host: srtt: 60986 rttvar: 67044  to: 329162
+
+Nmap scan report for 192.168.1.120
+Host is up (0.046s latency).
+Scanned at 2025-08-05 11:41:35 IST for 1646s
+Not shown: 996 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 46046 rttvar: 54665  to: 264706
+
+Nmap scan report for 192.168.1.121
+Host is up (0.068s latency).
+Scanned at 2025-08-05 11:41:32 IST for 1610s
+Not shown: 996 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+1801/tcp closed msmq
+8010/tcp open   xmpp
+Final times for host: srtt: 67701 rttvar: 53523  to: 281793
+
+Nmap scan report for 192.168.1.122
+Host is up (0.056s latency).
+Scanned at 2025-08-05 11:41:37 IST for 1616s
+Not shown: 995 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+1801/tcp closed msmq
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 55865 rttvar: 31018  to: 179937
+
+Nmap scan report for 192.168.1.123
+Host is up (0.076s latency).
+Scanned at 2025-08-05 11:41:35 IST for 1640s
+Not shown: 998 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8010/tcp open   xmpp
+Final times for host: srtt: 76113 rttvar: 78900  to: 391713
+
+Nmap scan report for 192.168.1.124
+Host is up (0.077s latency).
+Scanned at 2025-08-05 11:41:33 IST for 1624s
+Not shown: 995 filtered tcp ports (no-response)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+8010/tcp  open   xmpp
+12174/tcp closed unknown
+49175/tcp closed unknown
+Final times for host: srtt: 76654 rttvar: 45863  to: 260106
+
+Nmap scan report for 192.168.1.125
+Host is up (0.058s latency).
+Scanned at 2025-08-05 11:41:33 IST for 1643s
+Not shown: 996 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 58135 rttvar: 49427  to: 255843
+
+Nmap scan report for 192.168.1.126
+Host is up (0.062s latency).
+Scanned at 2025-08-05 11:41:35 IST for 1642s
+Not shown: 996 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 61605 rttvar: 73218  to: 354477
+
+Nmap scan report for 192.168.1.127
+Host is up (0.13s latency).
+Scanned at 2025-08-05 11:41:37 IST for 1616s
+Not shown: 987 filtered tcp ports (no-response)
+PORT      STATE  SERVICE
+1108/tcp  closed ratio-adp
+1801/tcp  closed msmq
+2605/tcp  closed bgpd
+2809/tcp  closed corbaloc
+5226/tcp  closed hp-status
+6106/tcp  closed isdninfo
+8008/tcp  open   http
+8010/tcp  open   xmpp
+10215/tcp closed unknown
+12174/tcp closed unknown
+14442/tcp closed unknown
+32769/tcp closed filenet-rpc
+49175/tcp closed unknown
+Final times for host: srtt: 133148 rttvar: 143848  to: 708540
+
+Packet capture filter (device eth0): dst host 10.0.2.15 and (icmp or icmp6 or tcp)
+Bogus rttdelta: 1996923 (srtt 82547) ... ignoring
+Bogus rttdelta: 2037789 (srtt 41681) ... ignoring
+Bogus rttdelta: 2048773 (srtt 79604) ... ignoring
+Bogus rttdelta: 2086696 (srtt 41681) ... ignoring
+Bogus rttdelta: 1988598 (srtt 81382) ... ignoring
+Bogus rttdelta: 2032113 (srtt 37867) ... ignoring
+Bogus rttdelta: 1981859 (srtt 58057) ... ignoring
+Bogus rttdelta: 2013617 (srtt 26299) ... ignoring
+Bogus rttdelta: 1974397 (srtt 67393) ... ignoring
+Bogus rttdelta: 2015491 (srtt 26299) ... ignoring
+Bogus rttdelta: 1927432 (srtt 141658) ... ignoring
+Bogus rttdelta: 2046748 (srtt 22342) ... ignoring
+Bogus rttdelta: 1992246 (srtt 78671) ... ignoring
+Bogus rttdelta: 2048575 (srtt 22342) ... ignoring
+Bogus rttdelta: 2015976 (srtt 79604) ... ignoring
+Bogus rttdelta: 2073238 (srtt 22342) ... ignoring
+Increased max_successful_tryno for 192.168.1.169 to 1 (packet drop)
+Bogus rttdelta: 1988038 (srtt 81382) ... ignoring
+Bogus rttdelta: 2044087 (srtt 25333) ... ignoring
+Increased max_successful_tryno for 192.168.1.176 to 1 (packet drop)
+Bogus rttdelta: 2035805 (srtt 55580) ... ignoring
+Bogus rttdelta: 2066052 (srtt 25333) ... ignoring
+Bogus rttdelta: 2009673 (srtt 82547) ... ignoring
+Bogus rttdelta: 2066887 (srtt 25333) ... ignoring
+Increased max_successful_tryno for 192.168.1.188 to 1 (packet drop)
+Bogus rttdelta: 2047197 (srtt 58057) ... ignoring
+Bogus rttdelta: 2083234 (srtt 22020) ... ignoring
+Increased max_successful_tryno for 192.168.1.146 to 1 (packet drop)
+Bogus rttdelta: 2051266 (srtt 83959) ... ignoring
+Bogus rttdelta: 2102397 (srtt 32828) ... ignoring
+Bogus rttdelta: 2070428 (srtt 67393) ... ignoring
+Bogus rttdelta: 2104993 (srtt 32828) ... ignoring
+Increased max_successful_tryno for 192.168.1.144 to 1 (packet drop)
+Bogus rttdelta: 2047580 (srtt 74621) ... ignoring
+Bogus rttdelta: 2086823 (srtt 35378) ... ignoring
+Increased max_successful_tryno for 192.168.1.129 to 1 (packet drop)
+Bogus rttdelta: 2097952 (srtt 55580) ... ignoring
+Bogus rttdelta: 2118154 (srtt 35378) ... ignoring
+Increased max_successful_tryno for 192.168.1.138 to 1 (packet drop)
+Bogus rttdelta: 1924006 (srtt 269057) ... ignoring
+Bogus rttdelta: 2157685 (srtt 35378) ... ignoring
+Bogus rttdelta: 2057472 (srtt 59871) ... ignoring
+Bogus rttdelta: 2081965 (srtt 35378) ... ignoring
+Bogus rttdelta: 1925845 (srtt 248707) ... ignoring
+Bogus rttdelta: 2146187 (srtt 28365) ... ignoring
+Bogus rttdelta: 2112523 (srtt 73015) ... ignoring
+Bogus rttdelta: 2157173 (srtt 28365) ... ignoring
+Bogus rttdelta: 1989936 (srtt 141658) ... ignoring
+Bogus rttdelta: 2103654 (srtt 27940) ... ignoring
+Increased max_successful_tryno for 192.168.1.130 to 1 (packet drop)
+Bogus rttdelta: 2011272 (srtt 136954) ... ignoring
+Bogus rttdelta: 2120286 (srtt 27940) ... ignoring
+Bogus rttdelta: 2074872 (srtt 83959) ... ignoring
+Bogus rttdelta: 2130891 (srtt 27940) ... ignoring
+Increased max_successful_tryno for 192.168.1.177 to 1 (packet drop)
+Bogus rttdelta: 2058140 (srtt 59871) ... ignoring
+Bogus rttdelta: 2086352 (srtt 31659) ... ignoring
+Increased max_successful_tryno for 192.168.1.135 to 1 (packet drop)
+Bogus rttdelta: 2035333 (srtt 86242) ... ignoring
+Bogus rttdelta: 2089916 (srtt 31659) ... ignoring
+Bogus rttdelta: 2035879 (srtt 97781) ... ignoring
+Bogus rttdelta: 2102001 (srtt 31659) ... ignoring
+Bogus rttdelta: 2070692 (srtt 73015) ... ignoring
+Bogus rttdelta: 2112048 (srtt 31659) ... ignoring
+Increased max_successful_tryno for 192.168.1.149 to 1 (packet drop)
+Bogus rttdelta: 2078772 (srtt 76675) ... ignoring
+Bogus rttdelta: 2123788 (srtt 31659) ... ignoring
+Bogus rttdelta: 2063741 (srtt 56151) ... ignoring
+Bogus rttdelta: 2093325 (srtt 26567) ... ignoring
+Bogus rttdelta: 2096288 (srtt 78201) ... ignoring
+Bogus rttdelta: 2144444 (srtt 30045) ... ignoring
+Bogus rttdelta: 1997762 (srtt 76675) ... ignoring
+Bogus rttdelta: 2044398 (srtt 30039) ... ignoring
+Increased max_successful_tryno for 192.168.1.161 to 1 (packet drop)
+Bogus rttdelta: 1991846 (srtt 132367) ... ignoring
+Bogus rttdelta: 2094174 (srtt 30039) ... ignoring
+Bogus rttdelta: 1965767 (srtt 88111) ... ignoring
+Bogus rttdelta: 2026721 (srtt 27157) ... ignoring
+Bogus rttdelta: 1924335 (srtt 136954) ... ignoring
+Bogus rttdelta: 2034132 (srtt 27157) ... ignoring
+Increased max_successful_tryno for 192.168.1.163 to 1 (packet drop)
+Bogus rttdelta: 2027786 (srtt 135005) ... ignoring
+Bogus rttdelta: 2135634 (srtt 27157) ... ignoring
+Bogus rttdelta: 2069893 (srtt 97781) ... ignoring
+Bogus rttdelta: 2140517 (srtt 27157) ... ignoring
+Increased max_successful_tryno for 192.168.1.173 to 1 (packet drop)
+Bogus rttdelta: 2109531 (srtt 67958) ... ignoring
+Bogus rttdelta: 2150332 (srtt 27157) ... ignoring
+Bogus rttdelta: 2091830 (srtt 86242) ... ignoring
+Bogus rttdelta: 2150915 (srtt 27157) ... ignoring
+Increased max_successful_tryno for 192.168.1.180 to 1 (packet drop)
+Bogus rttdelta: 2125448 (srtt 72241) ... ignoring
+Bogus rttdelta: 2170532 (srtt 27157) ... ignoring
+Bogus rttdelta: 2153155 (srtt 56151) ... ignoring
+Bogus rttdelta: 2182149 (srtt 27157) ... ignoring
+Increased max_successful_tryno for 192.168.1.134 to 1 (packet drop)
+Bogus rttdelta: 2093042 (srtt 78201) ... ignoring
+Bogus rttdelta: 2137652 (srtt 33591) ... ignoring
+Increased max_successful_tryno for 192.168.1.166 to 1 (packet drop)
+Bogus rttdelta: 1997422 (srtt 64592) ... ignoring
+Bogus rttdelta: 2032287 (srtt 29727) ... ignoring
+Bogus rttdelta: 1995004 (srtt 72241) ... ignoring
+Bogus rttdelta: 2037518 (srtt 29727) ... ignoring
+Increased max_successful_tryno for 192.168.1.174 to 1 (packet drop)
+Bogus rttdelta: 2006740 (srtt 67958) ... ignoring
+Bogus rttdelta: 2044971 (srtt 29727) ... ignoring
+Increased max_successful_tryno for 192.168.1.189 to 1 (packet drop)
+Bogus rttdelta: 1949801 (srtt 131255) ... ignoring
+Bogus rttdelta: 2051329 (srtt 29727) ... ignoring
+Bogus rttdelta: 1845747 (srtt 238660) ... ignoring
+Bogus rttdelta: 2054680 (srtt 29727) ... ignoring
+Increased max_successful_tryno for 192.168.1.156 to 1 (packet drop)
+Bogus rttdelta: 1984839 (srtt 82763) ... ignoring
+Bogus rttdelta: 2043977 (srtt 23625) ... ignoring
+Bogus rttdelta: 1995121 (srtt 79630) ... ignoring
+Bogus rttdelta: 2051126 (srtt 23625) ... ignoring
+Bogus rttdelta: 1980202 (srtt 127216) ... ignoring
+Bogus rttdelta: 2083254 (srtt 24164) ... ignoring
+Bogus rttdelta: 2024242 (srtt 82111) ... ignoring
+Bogus rttdelta: 2063873 (srtt 42480) ... ignoring
+Bogus rttdelta: 2031445 (srtt 82763) ... ignoring
+Bogus rttdelta: 2071728 (srtt 42480) ... ignoring
+Increased max_successful_tryno for 192.168.1.157 to 1 (packet drop)
+Bogus rttdelta: 2018094 (srtt 129418) ... ignoring
+Bogus rttdelta: 2105032 (srtt 42480) ... ignoring
+Bogus rttdelta: 2131658 (srtt 79630) ... ignoring
+Bogus rttdelta: 2168808 (srtt 42480) ... ignoring
+Increased max_successful_tryno for 192.168.1.150 to 1 (packet drop)
+Bogus rttdelta: 2157398 (srtt 64592) ... ignoring
+Bogus rttdelta: 2179510 (srtt 42480) ... ignoring
+Increased max_successful_tryno for 192.168.1.186 to 1 (packet drop)
+Bogus rttdelta: 2136848 (srtt 86671) ... ignoring
+Bogus rttdelta: 2181039 (srtt 42480) ... ignoring
+Increased max_successful_tryno for 192.168.1.178 to 1 (packet drop)
+Bogus rttdelta: 2089441 (srtt 135005) ... ignoring
+Bogus rttdelta: 2181966 (srtt 42480) ... ignoring
+Increased max_successful_tryno for 192.168.1.137 to 1 (packet drop)
+Bogus rttdelta: 2041479 (srtt 221110) ... ignoring
+Bogus rttdelta: 2220109 (srtt 42480) ... ignoring
+Increased max_successful_tryno for 192.168.1.154 to 1 (packet drop)
+Bogus rttdelta: 2162593 (srtt 132367) ... ignoring
+Bogus rttdelta: 2252480 (srtt 42480) ... ignoring
+Increased max_successful_tryno for 192.168.1.140 to 1 (packet drop)
+Bogus rttdelta: 1989404 (srtt 75151) ... ignoring
+Bogus rttdelta: 2020945 (srtt 43610) ... ignoring
+Bogus rttdelta: 1988337 (srtt 77331) ... ignoring
+Bogus rttdelta: 2022058 (srtt 43610) ... ignoring
+Bogus rttdelta: 1938877 (srtt 127216) ... ignoring
+Bogus rttdelta: 2022483 (srtt 43610) ... ignoring
+Increased max_successful_tryno for 192.168.1.183 to 1 (packet drop)
+Bogus rttdelta: 2096896 (srtt 78118) ... ignoring
+Bogus rttdelta: 2131404 (srtt 43610) ... ignoring
+Bogus rttdelta: 2074648 (srtt 131255) ... ignoring
+Bogus rttdelta: 2162293 (srtt 43610) ... ignoring
+Increased max_successful_tryno for 192.168.1.170 to 1 (packet drop)
+Bogus rttdelta: 2067485 (srtt 75151) ... ignoring
+Bogus rttdelta: 2081421 (srtt 61215) ... ignoring
+Increased max_successful_tryno for 192.168.1.159 to 1 (packet drop)
+Bogus rttdelta: 2104765 (srtt 78118) ... ignoring
+Bogus rttdelta: 2121668 (srtt 61215) ... ignoring
+Increased max_successful_tryno for 192.168.1.167 to 1 (packet drop)
+Bogus rttdelta: 2106282 (srtt 77331) ... ignoring
+Bogus rttdelta: 2122398 (srtt 61215) ... ignoring
+Increased max_successful_tryno for 192.168.1.158 to 1 (packet drop)
+Bogus rttdelta: 2071040 (srtt 129418) ... ignoring
+Bogus rttdelta: 2139243 (srtt 61215) ... ignoring
+Increased max_successful_tryno for 192.168.1.185 to 1 (packet drop)
+Bogus rttdelta: 2133102 (srtt 133880) ... ignoring
+Bogus rttdelta: 2205767 (srtt 61215) ... ignoring
+Bogus rttdelta: 2281931 (srtt 78042) ... ignoring
+Bogus rttdelta: 2298758 (srtt 61215) ... ignoring
+Bogus rttdelta: 2306966 (srtt 82007) ... ignoring
+Bogus rttdelta: 2327758 (srtt 61215) ... ignoring
+Bogus rttdelta: 2464377 (srtt 82111) ... ignoring
+Bogus rttdelta: 2485273 (srtt 61215) ... ignoring
+Increased max_successful_tryno for 192.168.1.148 to 1 (packet drop)
+Bogus rttdelta: 2151317 (srtt 65110) ... ignoring
+Bogus rttdelta: 2164505 (srtt 51922) ... ignoring
+Increased max_successful_tryno for 192.168.1.187 to 1 (packet drop)
+Bogus rttdelta: 2155704 (srtt 133880) ... ignoring
+Bogus rttdelta: 2237662 (srtt 51922) ... ignoring
+Increased max_successful_tryno for 192.168.1.147 to 1 (packet drop)
+Bogus rttdelta: 2235183 (srtt 64698) ... ignoring
+Bogus rttdelta: 2247959 (srtt 51922) ... ignoring
+Increased max_successful_tryno for 192.168.1.139 to 1 (packet drop)
+Bogus rttdelta: 2242016 (srtt 138838) ... ignoring
+Bogus rttdelta: 2328932 (srtt 51922) ... ignoring
+Bogus rttdelta: 2330587 (srtt 132521) ... ignoring
+Bogus rttdelta: 2411186 (srtt 51922) ... ignoring
+Bogus rttdelta: 2510155 (srtt 64698) ... ignoring
+Bogus rttdelta: 2522931 (srtt 51922) ... ignoring
+Bogus rttdelta: 2527527 (srtt 65110) ... ignoring
+Bogus rttdelta: 2540715 (srtt 51922) ... ignoring
+Bogus rttdelta: 2576886 (srtt 78042) ... ignoring
+Bogus rttdelta: 2603006 (srtt 51922) ... ignoring
+Increased max_successful_tryno for 192.168.1.184 to 1 (packet drop)
+Bogus rttdelta: 2648630 (srtt 82007) ... ignoring
+Bogus rttdelta: 2678715 (srtt 51922) ... ignoring
+Increased max_successful_tryno for 192.168.1.172 to 1 (packet drop)
+Bogus rttdelta: 1966783 (srtt 138838) ... ignoring
+Bogus rttdelta: 2012023 (srtt 93598) ... ignoring
+Increased max_successful_tryno for 192.168.1.136 to 1 (packet drop)
+Bogus rttdelta: 2156565 (srtt 132521) ... ignoring
+Bogus rttdelta: 2195488 (srtt 93598) ... ignoring
+Increased max_successful_tryno for 192.168.1.171 to 1 (packet drop)
+Bogus rttdelta: 2504300 (srtt 140200) ... ignoring
+Bogus rttdelta: 2550902 (srtt 93598) ... ignoring
+Bogus rttdelta: 2041885 (srtt 140200) ... ignoring
+Bogus rttdelta: 2116752 (srtt 65333) ... ignoring
+Increased max_successful_tryno for 192.168.1.151 to 1 (packet drop)
+Bogus rttdelta: 2252427 (srtt 78983) ... ignoring
+Bogus rttdelta: 2229540 (srtt 101870) ... ignoring
+Bogus rttdelta: 2207789 (srtt 143749) ... ignoring
+Bogus rttdelta: 2249668 (srtt 101870) ... ignoring
+Bogus rttdelta: 2404383 (srtt 138679) ... ignoring
+Bogus rttdelta: 2441192 (srtt 101870) ... ignoring
+Increased max_successful_tryno for 192.168.1.142 to 1 (packet drop)
+Bogus rttdelta: 2572065 (srtt 145918) ... ignoring
+Bogus rttdelta: 2616113 (srtt 101870) ... ignoring
+Increased max_successful_tryno for 192.168.1.133 to 1 (packet drop)
+Bogus rttdelta: 3266445 (srtt 138679) ... ignoring
+Bogus rttdelta: 3303254 (srtt 101870) ... ignoring
+Bogus rttdelta: 3434071 (srtt 145918) ... ignoring
+Bogus rttdelta: 3478119 (srtt 101870) ... ignoring
+Bogus rttdelta: 2547972 (srtt 91001) ... ignoring
+Bogus rttdelta: 2588964 (srtt 50009) ... ignoring
+Increased max_successful_tryno for 192.168.1.164 to 1 (packet drop)
+Bogus rttdelta: 2709597 (srtt 143749) ... ignoring
+Bogus rttdelta: 2803337 (srtt 50009) ... ignoring
+Increased max_successful_tryno for 192.168.1.152 to 1 (packet drop)
+Bogus rttdelta: 3038482 (srtt 91001) ... ignoring
+Bogus rttdelta: 3079474 (srtt 50009) ... ignoring
+Bogus rttdelta: 3090213 (srtt 78983) ... ignoring
+Bogus rttdelta: 3119187 (srtt 50009) ... ignoring
+Increased max_successful_tryno for 192.168.1.155 to 1 (packet drop)
+doAnyOutstandingRetransmits took 67ms
+Bogus rttdelta: 1983163 (srtt 72035) ... ignoring
+Bogus rttdelta: 1965160 (srtt 90038) ... ignoring
+Increased max_successful_tryno for 192.168.1.162 to 1 (packet drop)
+Bogus rttdelta: 2426157 (srtt 72035) ... ignoring
+Bogus rttdelta: 2408154 (srtt 90038) ... ignoring
+Bogus rttdelta: 2408290 (srtt 97105) ... ignoring
+Bogus rttdelta: 2434062 (srtt 71333) ... ignoring
+Bogus rttdelta: 2152199 (srtt 96236) ... ignoring
+Bogus rttdelta: 2193492 (srtt 54943) ... ignoring
+Bogus rttdelta: 2803158 (srtt 97105) ... ignoring
+Bogus rttdelta: 2845320 (srtt 54943) ... ignoring
+Increased max_successful_tryno for 192.168.1.168 to 1 (packet drop)
+Bogus rttdelta: 2151491 (srtt 101051) ... ignoring
+Bogus rttdelta: 2150682 (srtt 101860) ... ignoring
+Increased max_successful_tryno for 192.168.1.179 to 1 (packet drop)
+Bogus rttdelta: 2571057 (srtt 96236) ... ignoring
+Bogus rttdelta: 2565433 (srtt 101860) ... ignoring
+Increased max_successful_tryno for 192.168.1.165 to 1 (packet drop)
+Bogus rttdelta: 2767744 (srtt 101051) ... ignoring
+Bogus rttdelta: 2766935 (srtt 101860) ... ignoring
+Bogus rttdelta: 2183951 (srtt 104469) ... ignoring
+Bogus rttdelta: 2107141 (srtt 181279) ... ignoring
+Bogus rttdelta: 2120021 (srtt 104469) ... ignoring
+Bogus rttdelta: 2096770 (srtt 127720) ... ignoring
+Increased max_successful_tryno for 192.168.1.182 to 1 (packet drop)
+doAnyOutstandingRetransmits took 44ms
+doAnyOutstandingRetransmits took 71ms
+doAnyOutstandingRetransmits took 74ms
+doAnyOutstandingRetransmits took 36ms
+doAnyOutstandingRetransmits took 63ms
+doAnyOutstandingRetransmits took 95ms
+doAnyOutstandingRetransmits took 36ms
+doAnyOutstandingRetransmits took 67ms
+doAnyOutstandingRetransmits took 110ms
+doAnyOutstandingRetransmits took 43ms
+doAnyOutstandingRetransmits took 49ms
+doAnyOutstandingRetransmits took 64ms
+doAnyOutstandingRetransmits took 46ms
+doAnyOutstandingRetransmits took 54ms
+doAnyOutstandingRetransmits took 41ms
+doAnyOutstandingRetransmits took 47ms
+doAnyOutstandingRetransmits took 34ms
+doAnyOutstandingRetransmits took 41ms
+doAnyOutstandingRetransmits took 60ms
+doAnyOutstandingRetransmits took 64ms
+doAnyOutstandingRetransmits took 32ms
+doAnyOutstandingRetransmits took 36ms
+doAnyOutstandingRetransmits took 50ms
+doAnyOutstandingRetransmits took 56ms
+doAnyOutstandingRetransmits took 161ms
+doAnyOutstandingRetransmits took 42ms
+doAnyOutstandingRetransmits took 121ms
+doAnyOutstandingRetransmits took 166ms
+doAnyOutstandingRetransmits took 299ms
+doAnyOutstandingRetransmits took 110ms
+doAnyOutstandingRetransmits took 156ms
+doAnyOutstandingRetransmits took 173ms
+doAnyOutstandingRetransmits took 35ms
+doAnyOutstandingRetransmits took 88ms
+doAnyOutstandingRetransmits took 149ms
+doAnyOutstandingRetransmits took 32ms
+doAnyOutstandingRetransmits took 79ms
+doAnyOutstandingRetransmits took 48ms
+doAnyOutstandingRetransmits took 124ms
+doAnyOutstandingRetransmits took 114ms
+doAnyOutstandingRetransmits took 135ms
+doAnyOutstandingRetransmits took 191ms
+doAnyOutstandingRetransmits took 138ms
+doAnyOutstandingRetransmits took 214ms
+doAnyOutstandingRetransmits took 73ms
+doAnyOutstandingRetransmits took 45ms
+doAnyOutstandingRetransmits took 386ms
+doAnyOutstandingRetransmits took 270ms
+doAnyOutstandingRetransmits took 47ms
+doAnyOutstandingRetransmits took 132ms
+doAnyOutstandingRetransmits took 105ms
+doAnyOutstandingRetransmits took 264ms
+doAnyOutstandingRetransmits took 85ms
+doAnyOutstandingRetransmits took 181ms
+doAnyOutstandingRetransmits took 338ms
+doAnyOutstandingRetransmits took 166ms
+doAnyOutstandingRetransmits took 32ms
+doAnyOutstandingRetransmits took 50ms
+doAnyOutstandingRetransmits took 159ms
+doAnyOutstandingRetransmits took 108ms
+doAnyOutstandingRetransmits took 34ms
+doAnyOutstandingRetransmits took 33ms
+doAnyOutstandingRetransmits took 41ms
+doAnyOutstandingRetransmits took 251ms
+doAnyOutstandingRetransmits took 58ms
+doAnyOutstandingRetransmits took 188ms
+doAnyOutstandingRetransmits took 45ms
+doAnyOutstandingRetransmits took 34ms
+doAnyOutstandingRetransmits took 46ms
+doAnyOutstandingRetransmits took 57ms
+doAnyOutstandingRetransmits took 42ms
+doAnyOutstandingRetransmits took 48ms
+doAnyOutstandingRetransmits took 31ms
+doAnyOutstandingRetransmits took 36ms
+doAnyOutstandingRetransmits took 62ms
+doAnyOutstandingRetransmits took 35ms
+doAnyOutstandingRetransmits took 31ms
+doAnyOutstandingRetransmits took 147ms
+doAnyOutstandingRetransmits took 92ms
+doAnyOutstandingRetransmits took 72ms
+doAnyOutstandingRetransmits took 53ms
+doAnyOutstandingRetransmits took 43ms
+doAnyOutstandingRetransmits took 53ms
+doAnyOutstandingRetransmits took 41ms
+doAnyOutstandingRetransmits took 44ms
+doAnyOutstandingRetransmits took 42ms
+doAnyOutstandingRetransmits took 74ms
+doAnyOutstandingRetransmits took 116ms
+doAnyOutstandingRetransmits took 113ms
+doAnyOutstandingRetransmits took 125ms
+doAnyOutstandingRetransmits took 43ms
+doAnyOutstandingRetransmits took 63ms
+doAnyOutstandingRetransmits took 144ms
+doAnyOutstandingRetransmits took 411ms
+doAnyOutstandingRetransmits took 65ms
+doAnyOutstandingRetransmits took 53ms
+doAnyOutstandingRetransmits took 282ms
+doAnyOutstandingRetransmits took 183ms
+doAnyOutstandingRetransmits took 41ms
+doAnyOutstandingRetransmits took 412ms
+doAnyOutstandingRetransmits took 88ms
+doAnyOutstandingRetransmits took 34ms
+doAnyOutstandingRetransmits took 49ms
+doAnyOutstandingRetransmits took 50ms
+doAnyOutstandingRetransmits took 69ms
+doAnyOutstandingRetransmits took 231ms
+doAnyOutstandingRetransmits took 220ms
+doAnyOutstandingRetransmits took 102ms
+doAnyOutstandingRetransmits took 60ms
+doAnyOutstandingRetransmits took 215ms
+doAnyOutstandingRetransmits took 54ms
+doAnyOutstandingRetransmits took 128ms
+doAnyOutstandingRetransmits took 115ms
+doAnyOutstandingRetransmits took 164ms
+doAnyOutstandingRetransmits took 81ms
+doAnyOutstandingRetransmits took 52ms
+doAnyOutstandingRetransmits took 290ms
+doAnyOutstandingRetransmits took 201ms
+doAnyOutstandingRetransmits took 84ms
+doAnyOutstandingRetransmits took 36ms
+doAnyOutstandingRetransmits took 36ms
+doAnyOutstandingRetransmits took 91ms
+doAnyOutstandingRetransmits took 36ms
+doAnyOutstandingRetransmits took 41ms
+doAnyOutstandingRetransmits took 53ms
+doAnyOutstandingRetransmits took 44ms
+doAnyOutstandingRetransmits took 52ms
+doAnyOutstandingRetransmits took 60ms
+doAnyOutstandingRetransmits took 40ms
+doAnyOutstandingRetransmits took 33ms
+doAnyOutstandingRetransmits took 56ms
+doAnyOutstandingRetransmits took 40ms
+doAnyOutstandingRetransmits took 35ms
+doAnyOutstandingRetransmits took 36ms
+doAnyOutstandingRetransmits took 39ms
+doAnyOutstandingRetransmits took 37ms
+doAnyOutstandingRetransmits took 31ms
+doAnyOutstandingRetransmits took 80ms
+doAnyOutstandingRetransmits took 92ms
+doAnyOutstandingRetransmits took 80ms
+doAnyOutstandingRetransmits took 31ms
+doAnyOutstandingRetransmits took 51ms
+doAnyOutstandingRetransmits took 55ms
+doAnyOutstandingRetransmits took 156ms
+doAnyOutstandingRetransmits took 125ms
+doAnyOutstandingRetransmits took 42ms
+doAnyOutstandingRetransmits took 63ms
+doAnyOutstandingRetransmits took 47ms
+doAnyOutstandingRetransmits took 110ms
+doAnyOutstandingRetransmits took 87ms
+doAnyOutstandingRetransmits took 151ms
+doAnyOutstandingRetransmits took 175ms
+doAnyOutstandingRetransmits took 58ms
+doAnyOutstandingRetransmits took 70ms
+doAnyOutstandingRetransmits took 123ms
+doAnyOutstandingRetransmits took 93ms
+doAnyOutstandingRetransmits took 138ms
+doAnyOutstandingRetransmits took 93ms
+doAnyOutstandingRetransmits took 107ms
+doAnyOutstandingRetransmits took 98ms
+doAnyOutstandingRetransmits took 91ms
+doAnyOutstandingRetransmits took 165ms
+doAnyOutstandingRetransmits took 82ms
+doAnyOutstandingRetransmits took 54ms
+doAnyOutstandingRetransmits took 73ms
+doAnyOutstandingRetransmits took 86ms
+doAnyOutstandingRetransmits took 63ms
+doAnyOutstandingRetransmits took 340ms
+doAnyOutstandingRetransmits took 124ms
+doAnyOutstandingRetransmits took 92ms
+doAnyOutstandingRetransmits took 73ms
+doAnyOutstandingRetransmits took 32ms
+doAnyOutstandingRetransmits took 214ms
+doAnyOutstandingRetransmits took 111ms
+doAnyOutstandingRetransmits took 71ms
+doAnyOutstandingRetransmits took 167ms
+doAnyOutstandingRetransmits took 214ms
+doAnyOutstandingRetransmits took 79ms
+doAnyOutstandingRetransmits took 85ms
+doAnyOutstandingRetransmits took 144ms
+doAnyOutstandingRetransmits took 138ms
+doAnyOutstandingRetransmits took 114ms
+doAnyOutstandingRetransmits took 135ms
+doAnyOutstandingRetransmits took 134ms
+doAnyOutstandingRetransmits took 37ms
+doAnyOutstandingRetransmits took 50ms
+doAnyOutstandingRetransmits took 88ms
+doAnyOutstandingRetransmits took 150ms
+doAnyOutstandingRetransmits took 115ms
+doAnyOutstandingRetransmits took 43ms
+doAnyOutstandingRetransmits took 89ms
+doAnyOutstandingRetransmits took 57ms
+doAnyOutstandingRetransmits took 175ms
+doAnyOutstandingRetransmits took 101ms
+doAnyOutstandingRetransmits took 31ms
+doAnyOutstandingRetransmits took 78ms
+doAnyOutstandingRetransmits took 47ms
+doAnyOutstandingRetransmits took 59ms
+doAnyOutstandingRetransmits took 41ms
+doAnyOutstandingRetransmits took 130ms
+doAnyOutstandingRetransmits took 211ms
+doAnyOutstandingRetransmits took 102ms
+doAnyOutstandingRetransmits took 65ms
+doAnyOutstandingRetransmits took 52ms
+doAnyOutstandingRetransmits took 53ms
+doAnyOutstandingRetransmits took 112ms
+doAnyOutstandingRetransmits took 138ms
+doAnyOutstandingRetransmits took 79ms
+doAnyOutstandingRetransmits took 78ms
+doAnyOutstandingRetransmits took 137ms
+doAnyOutstandingRetransmits took 71ms
+doAnyOutstandingRetransmits took 67ms
+doAnyOutstandingRetransmits took 61ms
+doAnyOutstandingRetransmits took 66ms
+doAnyOutstandingRetransmits took 117ms
+doAnyOutstandingRetransmits took 94ms
+doAnyOutstandingRetransmits took 146ms
+doAnyOutstandingRetransmits took 88ms
+doAnyOutstandingRetransmits took 54ms
+doAnyOutstandingRetransmits took 86ms
+doAnyOutstandingRetransmits took 91ms
+doAnyOutstandingRetransmits took 270ms
+doAnyOutstandingRetransmits took 154ms
+doAnyOutstandingRetransmits took 37ms
+doAnyOutstandingRetransmits took 43ms
+doAnyOutstandingRetransmits took 122ms
+doAnyOutstandingRetransmits took 222ms
+doAnyOutstandingRetransmits took 117ms
+doAnyOutstandingRetransmits took 59ms
+doAnyOutstandingRetransmits took 75ms
+doAnyOutstandingRetransmits took 133ms
+doAnyOutstandingRetransmits took 166ms
+doAnyOutstandingRetransmits took 109ms
+doAnyOutstandingRetransmits took 120ms
+doAnyOutstandingRetransmits took 59ms
+doAnyOutstandingRetransmits took 80ms
+doAnyOutstandingRetransmits took 180ms
+doAnyOutstandingRetransmits took 256ms
+doAnyOutstandingRetransmits took 196ms
+doAnyOutstandingRetransmits took 166ms
+doAnyOutstandingRetransmits took 108ms
+doAnyOutstandingRetransmits took 103ms
+doAnyOutstandingRetransmits took 59ms
+doAnyOutstandingRetransmits took 66ms
+doAnyOutstandingRetransmits took 203ms
+doAnyOutstandingRetransmits took 78ms
+doAnyOutstandingRetransmits took 50ms
+doAnyOutstandingRetransmits took 99ms
+doAnyOutstandingRetransmits took 46ms
+doAnyOutstandingRetransmits took 31ms
+doAnyOutstandingRetransmits took 38ms
+doAnyOutstandingRetransmits took 31ms
+doAnyOutstandingRetransmits took 340ms
+doAnyOutstandingRetransmits took 163ms
+doAnyOutstandingRetransmits took 33ms
+doAnyOutstandingRetransmits took 61ms
+doAnyOutstandingRetransmits took 119ms
+doAnyOutstandingRetransmits took 48ms
+doAnyOutstandingRetransmits took 58ms
+doAnyOutstandingRetransmits took 34ms
+doAnyOutstandingRetransmits took 58ms
+doAnyOutstandingRetransmits took 111ms
+doAnyOutstandingRetransmits took 55ms
+doAnyOutstandingRetransmits took 42ms
+doAnyOutstandingRetransmits took 38ms
+doAnyOutstandingRetransmits took 138ms
+doAnyOutstandingRetransmits took 163ms
+doAnyOutstandingRetransmits took 53ms
+doAnyOutstandingRetransmits took 44ms
+doAnyOutstandingRetransmits took 94ms
+doAnyOutstandingRetransmits took 190ms
+doAnyOutstandingRetransmits took 35ms
+doAnyOutstandingRetransmits took 36ms
+doAnyOutstandingRetransmits took 36ms
+doAnyOutstandingRetransmits took 43ms
+doAnyOutstandingRetransmits took 157ms
+doAnyOutstandingRetransmits took 49ms
+doAnyOutstandingRetransmits took 111ms
+doAnyOutstandingRetransmits took 48ms
+doAnyOutstandingRetransmits took 60ms
+doAnyOutstandingRetransmits took 74ms
+doAnyOutstandingRetransmits took 67ms
+doAnyOutstandingRetransmits took 58ms
+doAnyOutstandingRetransmits took 66ms
+doAnyOutstandingRetransmits took 137ms
+doAnyOutstandingRetransmits took 77ms
+doAnyOutstandingRetransmits took 97ms
+doAnyOutstandingRetransmits took 55ms
+doAnyOutstandingRetransmits took 62ms
+doAnyOutstandingRetransmits took 209ms
+doAnyOutstandingRetransmits took 38ms
+doAnyOutstandingRetransmits took 35ms
+doAnyOutstandingRetransmits took 65ms
+doAnyOutstandingRetransmits took 159ms
+doAnyOutstandingRetransmits took 144ms
+doAnyOutstandingRetransmits took 109ms
+doAnyOutstandingRetransmits took 48ms
+doAnyOutstandingRetransmits took 70ms
+doAnyOutstandingRetransmits took 55ms
+doAnyOutstandingRetransmits took 31ms
+doAnyOutstandingRetransmits took 46ms
+doAnyOutstandingRetransmits took 345ms
+doAnyOutstandingRetransmits took 33ms
+doAnyOutstandingRetransmits took 400ms
+doAnyOutstandingRetransmits took 116ms
+doAnyOutstandingRetransmits took 31ms
+doAnyOutstandingRetransmits took 56ms
+doAnyOutstandingRetransmits took 53ms
+doAnyOutstandingRetransmits took 44ms
+doAnyOutstandingRetransmits took 49ms
+doAnyOutstandingRetransmits took 41ms
+doAnyOutstandingRetransmits took 99ms
+doAnyOutstandingRetransmits took 59ms
+doAnyOutstandingRetransmits took 42ms
+doAnyOutstandingRetransmits took 31ms
+doAnyOutstandingRetransmits took 31ms
+doAnyOutstandingRetransmits took 50ms
+doAnyOutstandingRetransmits took 33ms
+doAnyOutstandingRetransmits took 153ms
+doAnyOutstandingRetransmits took 190ms
+doAnyOutstandingRetransmits took 112ms
+doAnyOutstandingRetransmits took 46ms
+doAnyOutstandingRetransmits took 98ms
+doAnyOutstandingRetransmits took 101ms
+doAnyOutstandingRetransmits took 59ms
+doAnyOutstandingRetransmits took 195ms
+doAnyOutstandingRetransmits took 416ms
+doAnyOutstandingRetransmits took 54ms
+doAnyOutstandingRetransmits took 95ms
+doAnyOutstandingRetransmits took 138ms
+doAnyOutstandingRetransmits took 101ms
+doAnyOutstandingRetransmits took 47ms
+doAnyOutstandingRetransmits took 57ms
+doAnyOutstandingRetransmits took 52ms
+doAnyOutstandingRetransmits took 55ms
+doAnyOutstandingRetransmits took 65ms
+doAnyOutstandingRetransmits took 95ms
+doAnyOutstandingRetransmits took 65ms
+doAnyOutstandingRetransmits took 41ms
+doAnyOutstandingRetransmits took 95ms
+doAnyOutstandingRetransmits took 35ms
+doAnyOutstandingRetransmits took 190ms
+doAnyOutstandingRetransmits took 109ms
+doAnyOutstandingRetransmits took 66ms
+doAnyOutstandingRetransmits took 34ms
+doAnyOutstandingRetransmits took 39ms
+doAnyOutstandingRetransmits took 296ms
+doAnyOutstandingRetransmits took 73ms
+doAnyOutstandingRetransmits took 34ms
+doAnyOutstandingRetransmits took 48ms
+doAnyOutstandingRetransmits took 41ms
+doAnyOutstandingRetransmits took 45ms
+doAnyOutstandingRetransmits took 47ms
+doAnyOutstandingRetransmits took 103ms
+doAnyOutstandingRetransmits took 54ms
+doAnyOutstandingRetransmits took 199ms
+doAnyOutstandingRetransmits took 62ms
+doAnyOutstandingRetransmits took 91ms
+doAnyOutstandingRetransmits took 80ms
+doAnyOutstandingRetransmits took 91ms
+doAnyOutstandingRetransmits took 140ms
+doAnyOutstandingRetransmits took 90ms
+doAnyOutstandingRetransmits took 80ms
+doAnyOutstandingRetransmits took 79ms
+doAnyOutstandingRetransmits took 58ms
+doAnyOutstandingRetransmits took 178ms
+doAnyOutstandingRetransmits took 98ms
+doAnyOutstandingRetransmits took 88ms
+doAnyOutstandingRetransmits took 62ms
+doAnyOutstandingRetransmits took 88ms
+doAnyOutstandingRetransmits took 42ms
+doAnyOutstandingRetransmits took 169ms
+doAnyOutstandingRetransmits took 99ms
+doAnyOutstandingRetransmits took 47ms
+doAnyOutstandingRetransmits took 81ms
+doAnyOutstandingRetransmits took 35ms
+doAnyOutstandingRetransmits took 176ms
+doAnyOutstandingRetransmits took 138ms
+doAnyOutstandingRetransmits took 59ms
+doAnyOutstandingRetransmits took 76ms
+doAnyOutstandingRetransmits took 55ms
+doAnyOutstandingRetransmits took 86ms
+doAnyOutstandingRetransmits took 170ms
+doAnyOutstandingRetransmits took 192ms
+doAnyOutstandingRetransmits took 40ms
+doAnyOutstandingRetransmits took 73ms
+doAnyOutstandingRetransmits took 243ms
+doAnyOutstandingRetransmits took 64ms
+doAnyOutstandingRetransmits took 41ms
+doAnyOutstandingRetransmits took 32ms
+doAnyOutstandingRetransmits took 66ms
+doAnyOutstandingRetransmits took 78ms
+doAnyOutstandingRetransmits took 109ms
+doAnyOutstandingRetransmits took 410ms
+Increased max_successful_tryno for 192.168.1.158 to 2 (packet drop)
+doAnyOutstandingRetransmits took 121ms
+doAnyOutstandingRetransmits took 36ms
+doAnyOutstandingRetransmits took 105ms
+doAnyOutstandingRetransmits took 157ms
+doAnyOutstandingRetransmits took 58ms
+doAnyOutstandingRetransmits took 75ms
+doAnyOutstandingRetransmits took 93ms
+doAnyOutstandingRetransmits took 79ms
+doAnyOutstandingRetransmits took 55ms
+doAnyOutstandingRetransmits took 36ms
+doAnyOutstandingRetransmits took 41ms
+Increased max_successful_tryno for 192.168.1.163 to 2 (packet drop)
+doAnyOutstandingRetransmits took 37ms
+doAnyOutstandingRetransmits took 39ms
+Bogus rttdelta: 1755972 (srtt 68800) ... ignoring
+Bogus rttdelta: 1682728 (srtt 142044) ... ignoring
+Increased max_successful_tryno for 192.168.1.153 to 1 (packet drop)
+Bogus rttdelta: 2116253 (srtt 68800) ... ignoring
+Bogus rttdelta: 2043009 (srtt 142044) ... ignoring
+doAnyOutstandingRetransmits took 86ms
+Increased max_successful_tryno for 192.168.1.150 to 2 (packet drop)
+Increased max_successful_tryno for 192.168.1.129 to 2 (packet drop)
+Increased max_successful_tryno for 192.168.1.135 to 2 (packet drop)
+Increased max_successful_tryno for 192.168.1.138 to 2 (packet drop)
+doAnyOutstandingRetransmits took 67ms
+doAnyOutstandingRetransmits took 34ms
+Increased max_successful_tryno for 192.168.1.132 to 1 (packet drop)
+doAnyOutstandingRetransmits took 35ms
+Bogus rttdelta: 2353436 (srtt 121570) ... ignoring
+Bogus rttdelta: 2422056 (srtt 52950) ... ignoring
+Increased max_successful_tryno for 192.168.1.132 to 2 (packet drop)
+Increased max_successful_tryno for 192.168.1.190 to 1 (packet drop)
+doAnyOutstandingRetransmits took 43ms
+doAnyOutstandingRetransmits took 59ms
+doAnyOutstandingRetransmits took 121ms
+doAnyOutstandingRetransmits took 63ms
+doAnyOutstandingRetransmits took 82ms
+doAnyOutstandingRetransmits took 89ms
+doAnyOutstandingRetransmits took 61ms
+doAnyOutstandingRetransmits took 144ms
+doAnyOutstandingRetransmits took 71ms
+doAnyOutstandingRetransmits took 88ms
+doAnyOutstandingRetransmits took 71ms
+doAnyOutstandingRetransmits took 97ms
+doAnyOutstandingRetransmits took 113ms
+doAnyOutstandingRetransmits took 63ms
+doAnyOutstandingRetransmits took 35ms
+doAnyOutstandingRetransmits took 45ms
+doAnyOutstandingRetransmits took 40ms
+doAnyOutstandingRetransmits took 58ms
+Bogus rttdelta: 2036000 (srtt 53117) ... ignoring
+Bogus rttdelta: 2055248 (srtt 33869) ... ignoring
+Increased max_successful_tryno for 192.168.1.190 to 2 (packet drop)
+Increased max_successful_tryno for 192.168.1.182 to 2 (packet drop)
+doAnyOutstandingRetransmits took 92ms
+doAnyOutstandingRetransmits took 105ms
+doAnyOutstandingRetransmits took 39ms
+doAnyOutstandingRetransmits took 36ms
+doAnyOutstandingRetransmits took 49ms
+doAnyOutstandingRetransmits took 32ms
+doAnyOutstandingRetransmits took 34ms
+doAnyOutstandingRetransmits took 46ms
+doAnyOutstandingRetransmits took 48ms
+doAnyOutstandingRetransmits took 33ms
+doAnyOutstandingRetransmits took 71ms
+doAnyOutstandingRetransmits took 82ms
+doAnyOutstandingRetransmits took 34ms
+doAnyOutstandingRetransmits took 36ms
+doAnyOutstandingRetransmits took 71ms
+doAnyOutstandingRetransmits took 90ms
+doAnyOutstandingRetransmits took 37ms
+Bogus rttdelta: 1811565 (srtt 113031) ... ignoring
+Bogus rttdelta: 2153612 (srtt 67895) ... ignoring
+doAnyOutstandingRetransmits took 50ms
+Bogus rttdelta: 1853363 (srtt 68789) ... ignoring
+Bogus rttdelta: 1625836 (srtt 68805) ... ignoring
+Bogus rttdelta: 1605099 (srtt 88649) ... ignoring
+doAnyOutstandingRetransmits took 94ms
+doAnyOutstandingRetransmits took 120ms
+doAnyOutstandingRetransmits took 227ms
+doAnyOutstandingRetransmits took 52ms
+processData took 43ms
+doAnyOutstandingRetransmits took 119ms
+doAnyOutstandingRetransmits took 39ms
+doAnyOutstandingRetransmits took 33ms
+doAnyOutstandingRetransmits took 41ms
+doAnyOutstandingRetransmits took 31ms
+doAnyOutstandingRetransmits took 158ms
+doAnyOutstandingRetransmits took 47ms
+doAnyOutstandingRetransmits took 32ms
+doAnyOutstandingRetransmits took 213ms
+doAnyOutstandingRetransmits took 92ms
+doAnyOutstandingRetransmits took 71ms
+doAnyOutstandingRetransmits took 228ms
+doAnyOutstandingRetransmits took 152ms
+doAnyOutstandingRetransmits took 63ms
+Bogus rttdelta: 1870018 (srtt 56981) ... ignoring
+Bogus rttdelta: 1803096 (srtt 123903) ... ignoring
+doAnyOutstandingRetransmits took 764ms
+doAnyOutstandingRetransmits took 99ms
+doAnyOutstandingRetransmits took 433ms
+doAnyOutstandingRetransmits took 32ms
+doAnyOutstandingRetransmits took 108ms
+doAnyOutstandingRetransmits took 523ms
+doAnyOutstandingRetransmits took 53ms
+doAnyOutstandingRetransmits took 101ms
+doAnyOutstandingRetransmits took 432ms
+doAnyOutstandingRetransmits took 217ms
+doAnyOutstandingRetransmits took 5191ms
+doAnyOutstandingRetransmits took 683ms
+doAnyOutstandingRetransmits took 316ms
+doAnyOutstandingRetransmits took 118ms
+doAnyOutstandingRetransmits took 847ms
+doAnyOutstandingRetransmits took 1501ms
+doAnyOutstandingRetransmits took 702ms
+doAnyOutstandingRetransmits took 957ms
+doAnyOutstandingRetransmits took 1294ms
+doAnyOutstandingRetransmits took 992ms
+doAnyOutstandingRetransmits took 1618ms
+doAnyOutstandingRetransmits took 541ms
+doAnyOutstandingRetransmits took 140ms
+doAnyOutstandingRetransmits took 79ms
+doAnyOutstandingRetransmits took 122ms
+doAnyOutstandingRetransmits took 156ms
+doAnyOutstandingRetransmits took 82ms
+doAnyOutstandingRetransmits took 42ms
+doAnyOutstandingRetransmits took 39ms
+doAnyOutstandingRetransmits took 61ms
+doAnyOutstandingRetransmits took 59ms
+doAnyOutstandingRetransmits took 247ms
+doAnyOutstandingRetransmits took 116ms
+doAnyOutstandingRetransmits took 66ms
+doAnyOutstandingRetransmits took 103ms
+doAnyOutstandingRetransmits took 165ms
+doAnyOutstandingRetransmits took 164ms
+doAnyOutstandingRetransmits took 109ms
+doAnyOutstandingRetransmits took 164ms
+doAnyOutstandingRetransmits took 134ms
+doAnyOutstandingRetransmits took 186ms
+doAnyOutstandingRetransmits took 117ms
+doAnyOutstandingRetransmits took 114ms
+doAnyOutstandingRetransmits took 128ms
+doAnyOutstandingRetransmits took 222ms
+doAnyOutstandingRetransmits took 119ms
+doAnyOutstandingRetransmits took 525ms
+doAnyOutstandingRetransmits took 171ms
+doAnyOutstandingRetransmits took 118ms
+doAnyOutstandingRetransmits took 41ms
+Bogus rttdelta: 2162264 (srtt 81609) ... ignoring
+Bogus rttdelta: 2129672 (srtt 114201) ... ignoring
+Bogus rttdelta: 1996635 (srtt 69272) ... ignoring
+Bogus rttdelta: 1951706 (srtt 114201) ... ignoring
+Bogus rttdelta: 1560845 (srtt 70615) ... ignoring
+Bogus rttdelta: 1517259 (srtt 114201) ... ignoring
+Bogus rttdelta: 1555495 (srtt 99520) ... ignoring
+Bogus rttdelta: 1540814 (srtt 114201) ... ignoring
+doAnyOutstandingRetransmits took 49ms
+doAnyOutstandingRetransmits took 43ms
+doAnyOutstandingRetransmits took 34ms
+doAnyOutstandingRetransmits took 36ms
+doAnyOutstandingRetransmits took 203ms
+doAnyOutstandingRetransmits took 83ms
+doAnyOutstandingRetransmits took 33ms
+doAnyOutstandingRetransmits took 31ms
+doAnyOutstandingRetransmits took 32ms
+doAnyOutstandingRetransmits took 44ms
+doAnyOutstandingRetransmits took 70ms
+doAnyOutstandingRetransmits took 35ms
+doAnyOutstandingRetransmits took 31ms
+doAnyOutstandingRetransmits took 49ms
+Bogus rttdelta: 3089446 (srtt 75149) ... ignoring
+Bogus rttdelta: 3047206 (srtt 117389) ... ignoring
+Bogus rttdelta: 2792147 (srtt 99520) ... ignoring
+Bogus rttdelta: 2774278 (srtt 117389) ... ignoring
+Bogus rttdelta: 2430879 (srtt 85397) ... ignoring
+Bogus rttdelta: 2398887 (srtt 117389) ... ignoring
+Bogus rttdelta: 2463003 (srtt 55762) ... ignoring
+Bogus rttdelta: 2401376 (srtt 117389) ... ignoring
+doAnyOutstandingRetransmits took 32ms
+doAnyOutstandingRetransmits took 73ms
+doAnyOutstandingRetransmits took 46ms
+doAnyOutstandingRetransmits took 31ms
+doAnyOutstandingRetransmits took 59ms
+doAnyOutstandingRetransmits took 31ms
+doAnyOutstandingRetransmits took 35ms
+doAnyOutstandingRetransmits took 33ms
+doAnyOutstandingRetransmits took 47ms
+doAnyOutstandingRetransmits took 33ms
+doAnyOutstandingRetransmits took 82ms
+doAnyOutstandingRetransmits took 43ms
+doAnyOutstandingRetransmits took 34ms
+doAnyOutstandingRetransmits took 52ms
+doAnyOutstandingRetransmits took 77ms
+doAnyOutstandingRetransmits took 72ms
+doAnyOutstandingRetransmits took 43ms
+doAnyOutstandingRetransmits took 36ms
+doAnyOutstandingRetransmits took 98ms
+doAnyOutstandingRetransmits took 55ms
+doAnyOutstandingRetransmits took 73ms
+doAnyOutstandingRetransmits took 67ms
+doAnyOutstandingRetransmits took 38ms
+doAnyOutstandingRetransmits took 41ms
+doAnyOutstandingRetransmits took 85ms
+doAnyOutstandingRetransmits took 38ms
+doAnyOutstandingRetransmits took 38ms
+doAnyOutstandingRetransmits took 41ms
+doAnyOutstandingRetransmits took 41ms
+doAnyOutstandingRetransmits took 31ms
+doAnyOutstandingRetransmits took 56ms
+processData took 35ms
+doAnyOutstandingRetransmits took 60ms
+doAnyOutstandingRetransmits took 34ms
+doAnyOutstandingRetransmits took 38ms
+doAnyOutstandingRetransmits took 42ms
+doAnyOutstandingRetransmits took 38ms
+doAnyOutstandingRetransmits took 56ms
+doAnyOutstandingRetransmits took 32ms
+doAnyOutstandingRetransmits took 51ms
+doAnyOutstandingRetransmits took 77ms
+doAnyOutstandingRetransmits took 36ms
+doAnyOutstandingRetransmits took 46ms
+doAnyOutstandingRetransmits took 34ms
+doAnyOutstandingRetransmits took 75ms
+doAnyOutstandingRetransmits took 71ms
+doAnyOutstandingRetransmits took 32ms
+doAnyOutstandingRetransmits took 60ms
+doAnyOutstandingRetransmits took 46ms
+doAnyOutstandingRetransmits took 183ms
+doAnyOutstandingRetransmits took 33ms
+doAnyOutstandingRetransmits took 40ms
+doAnyOutstandingRetransmits took 36ms
+doAnyOutstandingRetransmits took 47ms
+doAnyOutstandingRetransmits took 37ms
+doAnyOutstandingRetransmits took 31ms
+Increased max_successful_tryno for 192.168.1.157 to 2 (packet drop)
+doAnyOutstandingRetransmits took 104ms
+doAnyOutstandingRetransmits took 542ms
+doAnyOutstandingRetransmits took 142ms
+doAnyOutstandingRetransmits took 70ms
+doAnyOutstandingRetransmits took 138ms
+doAnyOutstandingRetransmits took 42ms
+Bogus rttdelta: 2889477 (srtt 87640) ... ignoring
+Bogus rttdelta: 2581743 (srtt 395374) ... ignoring
+doAnyOutstandingRetransmits took 173ms
+Bogus rttdelta: 2929404 (srtt 96434) ... ignoring
+Bogus rttdelta: 2630464 (srtt 395374) ... ignoring
+Bogus rttdelta: 2939013 (srtt 95176) ... ignoring
+Bogus rttdelta: 2638815 (srtt 395374) ... ignoring
+doAnyOutstandingRetransmits took 35ms
+Bogus rttdelta: 2906624 (srtt 95345) ... ignoring
+Bogus rttdelta: 2606595 (srtt 395374) ... ignoring
+Bogus rttdelta: 2908099 (srtt 86918) ... ignoring
+Bogus rttdelta: 2599643 (srtt 395374) ... ignoring
+Bogus rttdelta: 2888980 (srtt 103981) ... ignoring
+Bogus rttdelta: 2597587 (srtt 395374) ... ignoring
+doAnyOutstandingRetransmits took 61ms
+Bogus rttdelta: 2679704 (srtt 75994) ... ignoring
+Bogus rttdelta: 2360324 (srtt 395374) ... ignoring
+Bogus rttdelta: 2090066 (srtt 94201) ... ignoring
+Bogus rttdelta: 2053461 (srtt 97662) ... ignoring
+Bogus rttdelta: 1565484 (srtt 101993) ... ignoring
+Bogus rttdelta: 1521675 (srtt 139463) ... ignoring
+doAnyOutstandingRetransmits took 179ms
+doAnyOutstandingRetransmits took 289ms
+doAnyOutstandingRetransmits took 39ms
+Bogus rttdelta: 4035972 (srtt 406389) ... ignoring
+Bogus rttdelta: 3797256 (srtt 645105) ... ignoring
+Bogus rttdelta: 3502804 (srtt 73019) ... ignoring
+Bogus rttdelta: 2760265 (srtt 96065) ... ignoring
+Bogus rttdelta: 2683540 (srtt 71820) ... ignoring
+doAnyOutstandingRetransmits took 47ms
+doAnyOutstandingRetransmits took 63ms
+doAnyOutstandingRetransmits took 52ms
+doAnyOutstandingRetransmits took 258ms
+doAnyOutstandingRetransmits took 198ms
+doAnyOutstandingRetransmits took 57ms
+doAnyOutstandingRetransmits took 34ms
+doAnyOutstandingRetransmits took 385ms
+doAnyOutstandingRetransmits took 74ms
+doAnyOutstandingRetransmits took 57ms
+doAnyOutstandingRetransmits took 49ms
+doAnyOutstandingRetransmits took 66ms
+doAnyOutstandingRetransmits took 92ms
+doAnyOutstandingRetransmits took 102ms
+doAnyOutstandingRetransmits took 50ms
+doAnyOutstandingRetransmits took 31ms
+doAnyOutstandingRetransmits took 43ms
+doAnyOutstandingRetransmits took 55ms
+doAnyOutstandingRetransmits took 53ms
+doAnyOutstandingRetransmits took 121ms
+doAnyOutstandingRetransmits took 55ms
+doAnyOutstandingRetransmits took 39ms
+doAnyOutstandingRetransmits took 32ms
+doAnyOutstandingRetransmits took 31ms
+doAnyOutstandingRetransmits took 91ms
+doAnyOutstandingRetransmits took 147ms
+doAnyOutstandingRetransmits took 176ms
+doAnyOutstandingRetransmits took 356ms
+doAnyOutstandingRetransmits took 43ms
+doAnyOutstandingRetransmits took 53ms
+doAnyOutstandingRetransmits took 70ms
+doAnyOutstandingRetransmits took 85ms
+doAnyOutstandingRetransmits took 146ms
+doAnyOutstandingRetransmits took 51ms
+doAnyOutstandingRetransmits took 46ms
+doAnyOutstandingRetransmits took 65ms
+doAnyOutstandingRetransmits took 314ms
+doAnyOutstandingRetransmits took 70ms
+doAnyOutstandingRetransmits took 102ms
+doAnyOutstandingRetransmits took 132ms
+doAnyOutstandingRetransmits took 35ms
+doAnyOutstandingRetransmits took 42ms
+doAnyOutstandingRetransmits took 51ms
+doAnyOutstandingRetransmits took 78ms
+doAnyOutstandingRetransmits took 46ms
+doAnyOutstandingRetransmits took 60ms
+doAnyOutstandingRetransmits took 37ms
+doAnyOutstandingRetransmits took 33ms
+doAnyOutstandingRetransmits took 68ms
+doAnyOutstandingRetransmits took 75ms
+doAnyOutstandingRetransmits took 72ms
+doAnyOutstandingRetransmits took 37ms
+doAnyOutstandingRetransmits took 31ms
+Bogus rttdelta: 3862018 (srtt 143628) ... ignoring
+Bogus rttdelta: 3771379 (srtt 234267) ... ignoring
+Increased max_successful_tryno for 192.168.1.161 to 2 (packet drop)
+Bogus rttdelta: 4108174 (srtt 139831) ... ignoring
+Bogus rttdelta: 4013738 (srtt 234267) ... ignoring
+Increased max_successful_tryno for 192.168.1.159 to 2 (packet drop)
+Bogus rttdelta: 4283636 (srtt 143628) ... ignoring
+Bogus rttdelta: 4192997 (srtt 234267) ... ignoring
+Bogus rttdelta: 4508780 (srtt 139831) ... ignoring
+Bogus rttdelta: 4414344 (srtt 234267) ... ignoring
+Bogus rttdelta: 4746028 (srtt 106542) ... ignoring
+Bogus rttdelta: 4618303 (srtt 234267) ... ignoring
+Increased max_successful_tryno for 192.168.1.163 to 3 (packet drop)
+Bogus rttdelta: 4727016 (srtt 143628) ... ignoring
+Bogus rttdelta: 4636377 (srtt 234267) ... ignoring
+processData took 341ms
+doAnyOutstandingRetransmits took 1530ms
+doAnyOutstandingRetransmits took 108ms
+doAnyOutstandingRetransmits took 545ms
+doAnyOutstandingRetransmits took 272ms
+doAnyOutstandingRetransmits took 110ms
+doAnyOutstandingRetransmits took 141ms
+doAnyOutstandingRetransmits took 138ms
+doAnyOutstandingRetransmits took 245ms
+doAnyOutstandingRetransmits took 296ms
+doAnyOutstandingRetransmits took 763ms
+doAnyOutstandingRetransmits took 71ms
+doAnyOutstandingRetransmits took 106ms
+doAnyOutstandingRetransmits took 97ms
+doAnyOutstandingRetransmits took 34ms
+doAnyOutstandingRetransmits took 78ms
+doAnyOutstandingRetransmits took 56ms
+doAnyOutstandingRetransmits took 50ms
+doAnyOutstandingRetransmits took 57ms
+doAnyOutstandingRetransmits took 52ms
+doAnyOutstandingRetransmits took 89ms
+doAnyOutstandingRetransmits took 45ms
+doAnyOutstandingRetransmits took 47ms
+doAnyOutstandingRetransmits took 46ms
+doAnyOutstandingRetransmits took 41ms
+doAnyOutstandingRetransmits took 33ms
+doAnyOutstandingRetransmits took 38ms
+doAnyOutstandingRetransmits took 32ms
+doAnyOutstandingRetransmits took 41ms
+doAnyOutstandingRetransmits took 45ms
+doAnyOutstandingRetransmits took 100ms
+doAnyOutstandingRetransmits took 93ms
+doAnyOutstandingRetransmits took 35ms
+doAnyOutstandingRetransmits took 42ms
+doAnyOutstandingRetransmits took 32ms
+doAnyOutstandingRetransmits took 41ms
+doAnyOutstandingRetransmits took 61ms
+doAnyOutstandingRetransmits took 91ms
+doAnyOutstandingRetransmits took 36ms
+doAnyOutstandingRetransmits took 60ms
+doAnyOutstandingRetransmits took 37ms
+doAnyOutstandingRetransmits took 44ms
+doAnyOutstandingRetransmits took 41ms
+doAnyOutstandingRetransmits took 42ms
+doAnyOutstandingRetransmits took 57ms
+doAnyOutstandingRetransmits took 95ms
+doAnyOutstandingRetransmits took 124ms
+doAnyOutstandingRetransmits took 54ms
+doAnyOutstandingRetransmits took 31ms
+doAnyOutstandingRetransmits took 64ms
+Increased max_successful_tryno for 192.168.1.131 to 1 (packet drop)
+doAnyOutstandingRetransmits took 83ms
+doAnyOutstandingRetransmits took 46ms
+Increased max_successful_tryno for 192.168.1.191 to 1 (packet drop)
+doAnyOutstandingRetransmits took 34ms
+doAnyOutstandingRetransmits took 36ms
+Increased max_successful_tryno for 192.168.1.133 to 2 (packet drop)
+Increased max_successful_tryno for 192.168.1.187 to 2 (packet drop)
+processData took 45ms
+Bogus rttdelta: 2004759 (srtt 63370) ... ignoring
+Bogus rttdelta: 2043154 (srtt 24975) ... ignoring
+Increased max_successful_tryno for 192.168.1.131 to 2 (packet drop)
+Bogus rttdelta: 2025031 (srtt 75920) ... ignoring
+Bogus rttdelta: 2075976 (srtt 24975) ... ignoring
+Increased max_successful_tryno for 192.168.1.191 to 2 (packet drop)
+Increased max_successful_tryno for 192.168.1.171 to 2 (packet drop)
+Increased max_successful_tryno for 192.168.1.156 to 2 (packet drop)
+doAnyOutstandingRetransmits took 55ms
+Increased max_successful_tryno for 192.168.1.165 to 2 (packet drop)
+doAnyOutstandingRetransmits took 445ms
+Bogus rttdelta: 3684464 (srtt 155630) ... ignoring
+Bogus rttdelta: 3665208 (srtt 174886) ... ignoring
+Bogus rttdelta: 3594510 (srtt 198724) ... ignoring
+Bogus rttdelta: 3618348 (srtt 174886) ... ignoring
+doAnyOutstandingRetransmits took 128ms
+Bogus rttdelta: 3632201 (srtt 143540) ... ignoring
+Bogus rttdelta: 3600855 (srtt 174886) ... ignoring
+doAnyOutstandingRetransmits took 44ms
+doAnyOutstandingRetransmits took 71ms
+doAnyOutstandingRetransmits took 45ms
+doAnyOutstandingRetransmits took 47ms
+Increased max_successful_tryno for 192.168.1.189 to 2 (packet drop)
+doAnyOutstandingRetransmits took 163ms
+doAnyOutstandingRetransmits took 163ms
+doAnyOutstandingRetransmits took 61ms
+processData took 84ms
+doAnyOutstandingRetransmits took 77ms
+Bogus rttdelta: 5901893 (srtt 293447) ... ignoring
+Bogus rttdelta: 5150922 (srtt 1044418) ... ignoring
+Bogus rttdelta: 5797273 (srtt 278529) ... ignoring
+Bogus rttdelta: 5031384 (srtt 1044418) ... ignoring
+Bogus rttdelta: 5402684 (srtt 630906) ... ignoring
+Bogus rttdelta: 4989172 (srtt 1044418) ... ignoring
+doAnyOutstandingRetransmits took 1495ms
+doAnyOutstandingRetransmits took 1815ms
+doAnyOutstandingRetransmits took 1003ms
+Bogus rttdelta: 4633887 (srtt 160000) ... ignoring
+processData took 112ms
+doAnyOutstandingRetransmits took 215ms
+doAnyOutstandingRetransmits took 170ms
+doAnyOutstandingRetransmits took 490ms
+doAnyOutstandingRetransmits took 643ms
+doAnyOutstandingRetransmits took 330ms
+doAnyOutstandingRetransmits took 273ms
+doAnyOutstandingRetransmits took 264ms
+doAnyOutstandingRetransmits took 307ms
+doAnyOutstandingRetransmits took 691ms
+doAnyOutstandingRetransmits took 413ms
+doAnyOutstandingRetransmits took 504ms
+doAnyOutstandingRetransmits took 434ms
+doAnyOutstandingRetransmits took 462ms
+doAnyOutstandingRetransmits took 343ms
+doAnyOutstandingRetransmits took 712ms
+doAnyOutstandingRetransmits took 807ms
+doAnyOutstandingRetransmits took 492ms
+doAnyOutstandingRetransmits took 263ms
+doAnyOutstandingRetransmits took 546ms
+doAnyOutstandingRetransmits took 625ms
+doAnyOutstandingRetransmits took 361ms
+doAnyOutstandingRetransmits took 418ms
+doAnyOutstandingRetransmits took 955ms
+doAnyOutstandingRetransmits took 737ms
+doAnyOutstandingRetransmits took 197ms
+doAnyOutstandingRetransmits took 448ms
+doAnyOutstandingRetransmits took 501ms
+doAnyOutstandingRetransmits took 516ms
+doAnyOutstandingRetransmits took 301ms
+doAnyOutstandingRetransmits took 485ms
+doAnyOutstandingRetransmits took 464ms
+doAnyOutstandingRetransmits took 309ms
+doAnyOutstandingRetransmits took 259ms
+doAnyOutstandingRetransmits took 278ms
+doAnyOutstandingRetransmits took 444ms
+doAnyOutstandingRetransmits took 502ms
+doAnyOutstandingRetransmits took 445ms
+doAnyOutstandingRetransmits took 299ms
+doAnyOutstandingRetransmits took 739ms
+doAnyOutstandingRetransmits took 481ms
+doAnyOutstandingRetransmits took 325ms
+doAnyOutstandingRetransmits took 250ms
+doAnyOutstandingRetransmits took 501ms
+doAnyOutstandingRetransmits took 359ms
+doAnyOutstandingRetransmits took 282ms
+doAnyOutstandingRetransmits took 169ms
+doAnyOutstandingRetransmits took 380ms
+doAnyOutstandingRetransmits took 616ms
+doAnyOutstandingRetransmits took 330ms
+doAnyOutstandingRetransmits took 310ms
+doAnyOutstandingRetransmits took 318ms
+doAnyOutstandingRetransmits took 521ms
+doAnyOutstandingRetransmits took 356ms
+doAnyOutstandingRetransmits took 405ms
+doAnyOutstandingRetransmits took 408ms
+doAnyOutstandingRetransmits took 376ms
+doAnyOutstandingRetransmits took 670ms
+doAnyOutstandingRetransmits took 566ms
+doAnyOutstandingRetransmits took 518ms
+doAnyOutstandingRetransmits took 400ms
+doAnyOutstandingRetransmits took 497ms
+doAnyOutstandingRetransmits took 473ms
+doAnyOutstandingRetransmits took 435ms
+doAnyOutstandingRetransmits took 227ms
+doAnyOutstandingRetransmits took 783ms
+doAnyOutstandingRetransmits took 542ms
+doAnyOutstandingRetransmits took 649ms
+doAnyOutstandingRetransmits took 362ms
+doAnyOutstandingRetransmits took 315ms
+doAnyOutstandingRetransmits took 692ms
+doAnyOutstandingRetransmits took 697ms
+doAnyOutstandingRetransmits took 508ms
+doAnyOutstandingRetransmits took 362ms
+doAnyOutstandingRetransmits took 828ms
+doAnyOutstandingRetransmits took 572ms
+doAnyOutstandingRetransmits took 784ms
+doAnyOutstandingRetransmits took 439ms
+doAnyOutstandingRetransmits took 492ms
+doAnyOutstandingRetransmits took 476ms
+doAnyOutstandingRetransmits took 413ms
+doAnyOutstandingRetransmits took 298ms
+doAnyOutstandingRetransmits took 681ms
+doAnyOutstandingRetransmits took 593ms
+doAnyOutstandingRetransmits took 275ms
+doAnyOutstandingRetransmits took 297ms
+doAnyOutstandingRetransmits took 487ms
+doAnyOutstandingRetransmits took 602ms
+doAnyOutstandingRetransmits took 362ms
+doAnyOutstandingRetransmits took 486ms
+doAnyOutstandingRetransmits took 560ms
+doAnyOutstandingRetransmits took 497ms
+doAnyOutstandingRetransmits took 304ms
+doAnyOutstandingRetransmits took 385ms
+doAnyOutstandingRetransmits took 640ms
+doAnyOutstandingRetransmits took 398ms
+doAnyOutstandingRetransmits took 395ms
+doAnyOutstandingRetransmits took 306ms
+doAnyOutstandingRetransmits took 647ms
+doAnyOutstandingRetransmits took 550ms
+doAnyOutstandingRetransmits took 345ms
+doAnyOutstandingRetransmits took 292ms
+doAnyOutstandingRetransmits took 308ms
+doAnyOutstandingRetransmits took 289ms
+doAnyOutstandingRetransmits took 392ms
+doAnyOutstandingRetransmits took 364ms
+doAnyOutstandingRetransmits took 549ms
+doAnyOutstandingRetransmits took 441ms
+doAnyOutstandingRetransmits took 603ms
+doAnyOutstandingRetransmits took 345ms
+doAnyOutstandingRetransmits took 248ms
+doAnyOutstandingRetransmits took 266ms
+doAnyOutstandingRetransmits took 168ms
+doAnyOutstandingRetransmits took 134ms
+doAnyOutstandingRetransmits took 133ms
+doAnyOutstandingRetransmits took 91ms
+doAnyOutstandingRetransmits took 110ms
+doAnyOutstandingRetransmits took 218ms
+doAnyOutstandingRetransmits took 213ms
+doAnyOutstandingRetransmits took 313ms
+doAnyOutstandingRetransmits took 376ms
+doAnyOutstandingRetransmits took 287ms
+doAnyOutstandingRetransmits took 1267ms
+doAnyOutstandingRetransmits took 1853ms
+doAnyOutstandingRetransmits took 1036ms
+doAnyOutstandingRetransmits took 1056ms
+doAnyOutstandingRetransmits took 249ms
+doAnyOutstandingRetransmits took 432ms
+doAnyOutstandingRetransmits took 726ms
+doAnyOutstandingRetransmits took 623ms
+doAnyOutstandingRetransmits took 533ms
+doAnyOutstandingRetransmits took 416ms
+doAnyOutstandingRetransmits took 585ms
+doAnyOutstandingRetransmits took 372ms
+doAnyOutstandingRetransmits took 507ms
+doAnyOutstandingRetransmits took 530ms
+doAnyOutstandingRetransmits took 381ms
+doAnyOutstandingRetransmits took 1402ms
+doAnyOutstandingRetransmits took 143ms
+doAnyOutstandingRetransmits took 41ms
+doAnyOutstandingRetransmits took 82ms
+doAnyOutstandingRetransmits took 72ms
+doAnyOutstandingRetransmits took 72ms
+doAnyOutstandingRetransmits took 73ms
+doAnyOutstandingRetransmits took 69ms
+doAnyOutstandingRetransmits took 75ms
+doAnyOutstandingRetransmits took 55ms
+doAnyOutstandingRetransmits took 130ms
+doAnyOutstandingRetransmits took 105ms
+doAnyOutstandingRetransmits took 85ms
+doAnyOutstandingRetransmits took 43ms
+doAnyOutstandingRetransmits took 107ms
+doAnyOutstandingRetransmits took 64ms
+doAnyOutstandingRetransmits took 42ms
+doAnyOutstandingRetransmits took 65ms
+doAnyOutstandingRetransmits took 112ms
+doAnyOutstandingRetransmits took 72ms
+doAnyOutstandingRetransmits took 36ms
+doAnyOutstandingRetransmits took 76ms
+doAnyOutstandingRetransmits took 79ms
+doAnyOutstandingRetransmits took 81ms
+doAnyOutstandingRetransmits took 39ms
+doAnyOutstandingRetransmits took 65ms
+doAnyOutstandingRetransmits took 85ms
+doAnyOutstandingRetransmits took 103ms
+doAnyOutstandingRetransmits took 54ms
+doAnyOutstandingRetransmits took 42ms
+doAnyOutstandingRetransmits took 48ms
+doAnyOutstandingRetransmits took 56ms
+doAnyOutstandingRetransmits took 48ms
+doAnyOutstandingRetransmits took 34ms
+doAnyOutstandingRetransmits took 1905ms
+Destroying timed-out global ping from 192.168.1.159.
+doAnyOutstandingRetransmits took 250ms
+Bogus rttdelta: 4692321 (srtt 51131) ... ignoring
+Bogus rttdelta: 4717543 (srtt 25909) ... ignoring
+Bogus rttdelta: 5375503 (srtt 55766) ... ignoring
+Bogus rttdelta: 5405360 (srtt 25909) ... ignoring
+Bogus rttdelta: 5390719 (srtt 41072) ... ignoring
+Bogus rttdelta: 5405882 (srtt 25909) ... ignoring
+Bogus rttdelta: 5470820 (srtt 47421) ... ignoring
+Bogus rttdelta: 5492332 (srtt 25909) ... ignoring
+Bogus rttdelta: 5529750 (srtt 67057) ... ignoring
+Bogus rttdelta: 5570898 (srtt 25909) ... ignoring
+Bogus rttdelta: 5696419 (srtt 66718) ... ignoring
+Bogus rttdelta: 5737228 (srtt 25909) ... ignoring
+doAnyOutstandingRetransmits took 31ms
+doAnyOutstandingRetransmits took 32ms
+doAnyOutstandingRetransmits took 72ms
+doAnyOutstandingRetransmits took 157ms
+doAnyOutstandingRetransmits took 333ms
+doAnyOutstandingRetransmits took 88ms
+doAnyOutstandingRetransmits took 43ms
+doAnyOutstandingRetransmits took 39ms
+doAnyOutstandingRetransmits took 36ms
+doAnyOutstandingRetransmits took 47ms
+doAnyOutstandingRetransmits took 68ms
+doAnyOutstandingRetransmits took 36ms
+doAnyOutstandingRetransmits took 44ms
+doAnyOutstandingRetransmits took 41ms
+doAnyOutstandingRetransmits took 47ms
+doAnyOutstandingRetransmits took 32ms
+doAnyOutstandingRetransmits took 88ms
+doAnyOutstandingRetransmits took 50ms
+doAnyOutstandingRetransmits took 60ms
+doAnyOutstandingRetransmits took 79ms
+doAnyOutstandingRetransmits took 59ms
+doAnyOutstandingRetransmits took 80ms
+doAnyOutstandingRetransmits took 98ms
+doAnyOutstandingRetransmits took 99ms
+doAnyOutstandingRetransmits took 154ms
+doAnyOutstandingRetransmits took 132ms
+doAnyOutstandingRetransmits took 55ms
+doAnyOutstandingRetransmits took 76ms
+doAnyOutstandingRetransmits took 64ms
+doAnyOutstandingRetransmits took 62ms
+doAnyOutstandingRetransmits took 302ms
+doAnyOutstandingRetransmits took 174ms
+doAnyOutstandingRetransmits took 92ms
+doAnyOutstandingRetransmits took 48ms
+doAnyOutstandingRetransmits took 51ms
+doAnyOutstandingRetransmits took 73ms
+doAnyOutstandingRetransmits took 226ms
+doAnyOutstandingRetransmits took 224ms
+doAnyOutstandingRetransmits took 144ms
+doAnyOutstandingRetransmits took 249ms
+doAnyOutstandingRetransmits took 220ms
+doAnyOutstandingRetransmits took 79ms
+doAnyOutstandingRetransmits took 56ms
+doAnyOutstandingRetransmits took 307ms
+doAnyOutstandingRetransmits took 175ms
+doAnyOutstandingRetransmits took 32ms
+doAnyOutstandingRetransmits took 50ms
+doAnyOutstandingRetransmits took 58ms
+doAnyOutstandingRetransmits took 39ms
+doAnyOutstandingRetransmits took 42ms
+doAnyOutstandingRetransmits took 36ms
+doAnyOutstandingRetransmits took 80ms
+doAnyOutstandingRetransmits took 37ms
+doAnyOutstandingRetransmits took 32ms
+doAnyOutstandingRetransmits took 93ms
+doAnyOutstandingRetransmits took 32ms
+doAnyOutstandingRetransmits took 42ms
+doAnyOutstandingRetransmits took 55ms
+Overall sending rates: 178.10 packets / s, 7779.21 bytes / s.
+Nmap scan report for 192.168.1.128
+Host is up (0.093s latency).
+Scanned at 2025-08-05 12:09:20 IST for 1219s
+Not shown: 998 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+8008/tcp open  http
+8010/tcp open  xmpp
+Final times for host: srtt: 93369 rttvar: 91125  to: 457869
+
+Nmap scan report for 192.168.1.129
+Host is up (0.041s latency).
+Scanned at 2025-08-05 12:09:02 IST for 1222s
+Not shown: 990 filtered tcp ports (no-response)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+2605/tcp  closed bgpd
+5226/tcp  closed hp-status
+8008/tcp  open   http
+8010/tcp  open   xmpp
+10215/tcp closed unknown
+12174/tcp closed unknown
+14442/tcp closed unknown
+49175/tcp closed unknown
+Final times for host: srtt: 41065 rttvar: 42441  to: 210829
+
+Nmap scan report for 192.168.1.130
+Host is up (0.027s latency).
+Scanned at 2025-08-05 12:09:02 IST for 1220s
+Not shown: 995 filtered tcp ports (no-response)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+8008/tcp  open   http
+8010/tcp  open   xmpp
+49175/tcp closed unknown
+Final times for host: srtt: 26633 rttvar: 14871  to: 100000
+
+Nmap scan report for 192.168.1.131
+Host is up (0.054s latency).
+Scanned at 2025-08-05 12:09:02 IST for 1245s
+Not shown: 997 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 53787 rttvar: 35146  to: 194371
+
+Nmap scan report for 192.168.1.132
+Host is up (0.094s latency).
+Scanned at 2025-08-05 12:09:02 IST for 1253s
+Not shown: 997 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 93775 rttvar: 134592  to: 632143
+
+Nmap scan report for 192.168.1.133
+Host is up (0.066s latency).
+Scanned at 2025-08-05 12:09:02 IST for 1245s
+Not shown: 996 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+5915/tcp closed unknown
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 66214 rttvar: 37188  to: 214966
+
+Nmap scan report for 192.168.1.134
+Host is up (0.074s latency).
+Scanned at 2025-08-05 12:09:02 IST for 1246s
+Not shown: 997 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 73894 rttvar: 45930  to: 257614
+
+Nmap scan report for 192.168.1.135
+Host is up (0.053s latency).
+Scanned at 2025-08-05 12:09:02 IST for 1224s
+Not shown: 991 filtered tcp ports (no-response)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+2605/tcp  closed bgpd
+8008/tcp  open   http
+8010/tcp  open   xmpp
+10215/tcp closed unknown
+12174/tcp closed unknown
+14442/tcp closed unknown
+49175/tcp closed unknown
+Final times for host: srtt: 52521 rttvar: 35235  to: 193461
+
+Nmap scan report for 192.168.1.136
+Host is up (0.063s latency).
+Scanned at 2025-08-05 12:09:02 IST for 1226s
+Not shown: 992 filtered tcp ports (no-response)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+2605/tcp  closed bgpd
+8008/tcp  open   http
+8010/tcp  open   xmpp
+12174/tcp closed unknown
+14442/tcp closed unknown
+49175/tcp closed unknown
+Final times for host: srtt: 62972 rttvar: 53109  to: 275408
+
+Nmap scan report for 192.168.1.137
+Host is up (0.12s latency).
+Scanned at 2025-08-05 12:09:02 IST for 1254s
+Not shown: 997 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 116255 rttvar: 137273  to: 665347
+
+Nmap scan report for 192.168.1.138
+Host is up (0.070s latency).
+Scanned at 2025-08-05 12:09:02 IST for 1240s
+Not shown: 997 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 69630 rttvar: 40781  to: 232754
+
+Nmap scan report for 192.168.1.139
+Host is up (0.037s latency).
+Scanned at 2025-08-05 12:09:15 IST for 1212s
+Not shown: 995 filtered tcp ports (no-response)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+8008/tcp  open   http
+8010/tcp  open   xmpp
+49175/tcp closed unknown
+Final times for host: srtt: 37273 rttvar: 20754  to: 120289
+
+Nmap scan report for 192.168.1.140
+Host is up (0.023s latency).
+Scanned at 2025-08-05 12:09:05 IST for 1217s
+Not shown: 996 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+1801/tcp closed msmq
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 23269 rttvar: 16165  to: 100000
+
+Nmap scan report for 192.168.1.141
+Host is up (0.039s latency).
+Scanned at 2025-08-05 12:09:02 IST for 1210s
+Not shown: 995 filtered tcp ports (no-response)
+PORT      STATE  SERVICE
+1801/tcp  closed msmq
+8008/tcp  open   http
+8010/tcp  open   xmpp
+12174/tcp closed unknown
+49175/tcp closed unknown
+Final times for host: srtt: 38825 rttvar: 56545  to: 265005
+
+Nmap scan report for 192.168.1.142
+Host is up (0.043s latency).
+Scanned at 2025-08-05 12:09:02 IST for 1225s
+Not shown: 990 filtered tcp ports (no-response)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+2605/tcp  closed bgpd
+5226/tcp  closed hp-status
+8008/tcp  open   http
+8010/tcp  open   xmpp
+10215/tcp closed unknown
+12174/tcp closed unknown
+14442/tcp closed unknown
+49175/tcp closed unknown
+Final times for host: srtt: 42928 rttvar: 23941  to: 138692
+
+Nmap scan report for 192.168.1.143
+Host is up (0.046s latency).
+Scanned at 2025-08-05 12:09:04 IST for 1237s
+Not shown: 998 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+8008/tcp open  http
+8010/tcp open  xmpp
+Final times for host: srtt: 46164 rttvar: 32435  to: 175904
+
+Nmap scan report for 192.168.1.144
+Host is up (0.036s latency).
+Scanned at 2025-08-05 12:09:13 IST for 1240s
+Not shown: 997 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 36278 rttvar: 23635  to: 130818
+
+Nmap scan report for 192.168.1.145
+Host is up (0.052s latency).
+Scanned at 2025-08-05 12:09:02 IST for 1251s
+Not shown: 998 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+8008/tcp open  http
+8010/tcp open  xmpp
+Final times for host: srtt: 51631 rttvar: 50398  to: 253223
+
+Nmap scan report for 192.168.1.146
+Host is up (0.044s latency).
+Scanned at 2025-08-05 12:09:04 IST for 1214s
+Not shown: 994 filtered tcp ports (no-response)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+2605/tcp  closed bgpd
+8010/tcp  open   xmpp
+12174/tcp closed unknown
+49175/tcp closed unknown
+Final times for host: srtt: 44068 rttvar: 64904  to: 303684
+
+Nmap scan report for 192.168.1.147
+Host is up (0.054s latency).
+Scanned at 2025-08-05 12:09:06 IST for 1242s
+Not shown: 997 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 54351 rttvar: 31102  to: 178759
+
+Nmap scan report for 192.168.1.148
+Host is up (0.043s latency).
+Scanned at 2025-08-05 12:09:02 IST for 1251s
+Not shown: 997 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 43063 rttvar: 22300  to: 132263
+
+Nmap scan report for 192.168.1.149
+Host is up (0.034s latency).
+Scanned at 2025-08-05 12:09:04 IST for 1249s
+Not shown: 997 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 33584 rttvar: 22234  to: 122520
+
+Nmap scan report for 192.168.1.150
+Host is up (0.11s latency).
+Scanned at 2025-08-05 12:09:06 IST for 1248s
+Not shown: 997 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 105896 rttvar: 146018  to: 689968
+
+Nmap scan report for 192.168.1.151
+Host is up (0.060s latency).
+Scanned at 2025-08-05 12:09:02 IST for 1252s
+Not shown: 997 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 59984 rttvar: 63209  to: 312820
+
+Nmap scan report for 192.168.1.152
+Host is up (0.035s latency).
+Scanned at 2025-08-05 12:09:09 IST for 1241s
+Not shown: 997 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 35214 rttvar: 39511  to: 193258
+
+Nmap scan report for 192.168.1.153
+Host is up (0.046s latency).
+Scanned at 2025-08-05 12:09:06 IST for 1248s
+Not shown: 997 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+801/tcp  closed device
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 46459 rttvar: 36940  to: 194219
+
+Nmap scan report for 192.168.1.154
+Host is up (0.064s latency).
+Scanned at 2025-08-05 12:09:02 IST for 1245s
+Not shown: 997 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 63551 rttvar: 52821  to: 274835
+
+Nmap scan report for 192.168.1.155
+Host is up (0.060s latency).
+Scanned at 2025-08-05 12:09:09 IST for 1231s
+Not shown: 997 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 59636 rttvar: 46553  to: 245848
+
+Nmap scan report for 192.168.1.156
+Host is up (0.056s latency).
+Scanned at 2025-08-05 12:09:06 IST for 1242s
+Not shown: 997 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 55839 rttvar: 28531  to: 169963
+
+Nmap scan report for 192.168.1.157
+Host is up (0.053s latency).
+Scanned at 2025-08-05 12:09:02 IST for 1224s
+Not shown: 993 filtered tcp ports (no-response)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+2605/tcp  closed bgpd
+8008/tcp  open   http
+8010/tcp  open   xmpp
+12174/tcp closed unknown
+49175/tcp closed unknown
+Final times for host: srtt: 52818 rttvar: 36177  to: 197526
+
+Nmap scan report for 192.168.1.158
+Host is up (0.028s latency).
+Scanned at 2025-08-05 12:09:09 IST for 1213s
+Not shown: 995 filtered tcp ports (no-response)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+8008/tcp  open   http
+8010/tcp  open   xmpp
+49175/tcp closed unknown
+Final times for host: srtt: 28210 rttvar: 34980  to: 168130
+
+Nmap scan report for 192.168.1.159
+Host is up (0.030s latency).
+Scanned at 2025-08-05 12:09:06 IST for 1188s
+Not shown: 996 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+1801/tcp closed msmq
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 30155 rttvar: 35813  to: 173407
+
+Nmap scan report for 192.168.1.160
+Host is up (0.063s latency).
+Scanned at 2025-08-05 12:09:02 IST for 1227s
+Not shown: 996 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+1801/tcp closed msmq
+1864/tcp closed paradym-31
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 63127 rttvar: 29002  to: 179135
+
+Nmap scan report for 192.168.1.161
+Host is up (0.028s latency).
+Scanned at 2025-08-05 12:09:20 IST for 1201s
+Not shown: 993 filtered tcp ports (no-response)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+2605/tcp  closed bgpd
+8008/tcp  open   http
+8010/tcp  open   xmpp
+12174/tcp closed unknown
+49175/tcp closed unknown
+Final times for host: srtt: 27892 rttvar: 27889  to: 139448
+
+Nmap scan report for 192.168.1.162
+Host is up (0.042s latency).
+Scanned at 2025-08-05 12:09:06 IST for 1248s
+Not shown: 997 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 41605 rttvar: 40722  to: 204493
+
+Nmap scan report for 192.168.1.163
+Host is up (0.028s latency).
+Scanned at 2025-08-05 12:09:02 IST for 1210s
+Not shown: 994 filtered tcp ports (no-response)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+8008/tcp  open   http
+8010/tcp  open   xmpp
+32769/tcp closed filenet-rpc
+49175/tcp closed unknown
+Final times for host: srtt: 28084 rttvar: 43722  to: 202972
+
+Nmap scan report for 192.168.1.164
+Host is up (0.048s latency).
+Scanned at 2025-08-05 12:09:20 IST for 1235s
+Not shown: 997 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 48200 rttvar: 42724  to: 219096
+
+Nmap scan report for 192.168.1.165
+Host is up (0.053s latency).
+Scanned at 2025-08-05 12:09:20 IST for 1232s
+Not shown: 997 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 52698 rttvar: 41657  to: 219326
+
+Nmap scan report for 192.168.1.166
+Host is up (0.14s latency).
+Scanned at 2025-08-05 12:09:03 IST for 1249s
+Not shown: 997 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 138604 rttvar: 201474  to: 944500
+
+Nmap scan report for 192.168.1.167
+Host is up (0.046s latency).
+Scanned at 2025-08-05 12:09:04 IST for 1229s
+Not shown: 995 filtered tcp ports (no-response)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+8008/tcp  open   http
+8010/tcp  open   xmpp
+49175/tcp closed unknown
+Final times for host: srtt: 45655 rttvar: 36770  to: 192735
+
+Nmap scan report for 192.168.1.168
+Host is up (0.11s latency).
+Scanned at 2025-08-05 12:09:11 IST for 1232s
+Not shown: 997 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 106974 rttvar: 124317  to: 604242
+
+Nmap scan report for 192.168.1.169
+Host is up (0.044s latency).
+Scanned at 2025-08-05 12:09:03 IST for 1223s
+Not shown: 993 filtered tcp ports (no-response)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+2605/tcp  closed bgpd
+8008/tcp  open   http
+8010/tcp  open   xmpp
+12174/tcp closed unknown
+49175/tcp closed unknown
+Final times for host: srtt: 44260 rttvar: 29998  to: 164252
+
+Nmap scan report for 192.168.1.170
+Host is up (0.047s latency).
+Scanned at 2025-08-05 12:09:04 IST for 1236s
+Not shown: 997 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 46688 rttvar: 24699  to: 145484
+
+Nmap scan report for 192.168.1.171
+Host is up (0.047s latency).
+Scanned at 2025-08-05 12:09:12 IST for 1236s
+Not shown: 997 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 46793 rttvar: 35089  to: 187149
+
+Nmap scan report for 192.168.1.172
+Host is up (0.053s latency).
+Scanned at 2025-08-05 12:09:03 IST for 1236s
+Not shown: 997 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 53310 rttvar: 32592  to: 183678
+
+Nmap scan report for 192.168.1.173
+Host is up (0.047s latency).
+Scanned at 2025-08-05 12:09:03 IST for 1239s
+Not shown: 997 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 47220 rttvar: 28524  to: 161316
+
+Nmap scan report for 192.168.1.174
+Host is up (0.043s latency).
+Scanned at 2025-08-05 12:09:04 IST for 1245s
+Not shown: 998 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8010/tcp open   xmpp
+Final times for host: srtt: 43073 rttvar: 30771  to: 166157
+
+Nmap scan report for 192.168.1.175
+Host is up (0.043s latency).
+Scanned at 2025-08-05 12:09:06 IST for 1224s
+Not shown: 995 filtered tcp ports (no-response)
+PORT      STATE  SERVICE
+1801/tcp  closed msmq
+8008/tcp  open   http
+8010/tcp  open   xmpp
+12174/tcp closed unknown
+49175/tcp closed unknown
+Final times for host: srtt: 42821 rttvar: 43124  to: 215317
+
+Nmap scan report for 192.168.1.176
+Host is up (0.037s latency).
+Scanned at 2025-08-05 12:09:03 IST for 1245s
+Not shown: 997 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 36864 rttvar: 16576  to: 103168
+
+Nmap scan report for 192.168.1.177
+Host is up (0.066s latency).
+Scanned at 2025-08-05 12:09:04 IST for 1249s
+Not shown: 997 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 65673 rttvar: 60311  to: 306917
+
+Nmap scan report for 192.168.1.178
+Host is up (0.031s latency).
+Scanned at 2025-08-05 12:09:12 IST for 1240s
+Not shown: 996 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+2998/tcp closed iss-realsec
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 31480 rttvar: 30879  to: 154996
+
+Nmap scan report for 192.168.1.179
+Host is up (0.046s latency).
+Scanned at 2025-08-05 12:09:03 IST for 1251s
+Not shown: 997 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 46222 rttvar: 34826  to: 185526
+
+Nmap scan report for 192.168.1.180
+Host is up (0.039s latency).
+Scanned at 2025-08-05 12:09:10 IST for 1241s
+Not shown: 997 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 39223 rttvar: 19411  to: 116867
+
+Nmap scan report for 192.168.1.181
+Host is up (0.11s latency).
+Scanned at 2025-08-05 12:09:06 IST for 1249s
+Not shown: 998 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+8008/tcp open  http
+8010/tcp open  xmpp
+Final times for host: srtt: 114034 rttvar: 174460  to: 811874
+
+Nmap scan report for 192.168.1.182
+Host is up (0.032s latency).
+Scanned at 2025-08-05 12:09:14 IST for 1240s
+Not shown: 996 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+720/tcp  closed unknown
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 32368 rttvar: 21482  to: 118296
+
+Nmap scan report for 192.168.1.183
+Host is up (0.040s latency).
+Scanned at 2025-08-05 12:09:19 IST for 1234s
+Not shown: 997 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 39807 rttvar: 23494  to: 133783
+
+Nmap scan report for 192.168.1.184
+Host is up (0.033s latency).
+Scanned at 2025-08-05 12:09:07 IST for 1247s
+Not shown: 997 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 33329 rttvar: 25318  to: 134601
+
+Nmap scan report for 192.168.1.185
+Host is up (0.10s latency).
+Scanned at 2025-08-05 12:09:10 IST for 1247s
+Not shown: 997 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 104063 rttvar: 112546  to: 554247
+
+Nmap scan report for 192.168.1.186
+Host is up (0.045s latency).
+Scanned at 2025-08-05 12:09:08 IST for 1229s
+Not shown: 997 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 45283 rttvar: 34631  to: 183807
+
+Nmap scan report for 192.168.1.187
+Host is up (0.050s latency).
+Scanned at 2025-08-05 12:09:07 IST for 1239s
+Not shown: 997 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 49636 rttvar: 28281  to: 162760
+
+Nmap scan report for 192.168.1.188
+Host is up (0.039s latency).
+Scanned at 2025-08-05 12:09:08 IST for 1233s
+Not shown: 997 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 39285 rttvar: 30418  to: 160957
+
+Nmap scan report for 192.168.1.189
+Host is up (0.027s latency).
+Scanned at 2025-08-05 12:09:20 IST for 1233s
+Not shown: 997 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 26692 rttvar: 20592  to: 109060
+
+Nmap scan report for 192.168.1.190
+Host is up (0.041s latency).
+Scanned at 2025-08-05 12:09:07 IST for 1247s
+Not shown: 997 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 40968 rttvar: 21497  to: 126956
+
+Nmap scan report for 192.168.1.191
+Host is up (0.051s latency).
+Scanned at 2025-08-05 12:09:12 IST for 1236s
+Not shown: 997 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 51013 rttvar: 32010  to: 179053
+
+Packet capture filter (device eth0): dst host 10.0.2.15 and (icmp or icmp6 or tcp)
+Bogus rttdelta: 2175116 (srtt 86238) ... ignoring
+Bogus rttdelta: 2184556 (srtt 76798) ... ignoring
+Bogus rttdelta: 2264196 (srtt 86238) ... ignoring
+Bogus rttdelta: 2289849 (srtt 60585) ... ignoring
+Increased max_successful_tryno for 192.168.1.197 to 1 (packet drop)
+Bogus rttdelta: 1961629 (srtt 280334) ... ignoring
+Bogus rttdelta: 2182051 (srtt 59912) ... ignoring
+Bogus rttdelta: 2003360 (srtt 130653) ... ignoring
+Bogus rttdelta: 2074101 (srtt 59912) ... ignoring
+Bogus rttdelta: 2093870 (srtt 88514) ... ignoring
+Bogus rttdelta: 2128669 (srtt 53715) ... ignoring
+Bogus rttdelta: 1997911 (srtt 88514) ... ignoring
+Bogus rttdelta: 2023316 (srtt 63109) ... ignoring
+Increased max_successful_tryno for 192.168.1.198 to 1 (packet drop)
+Bogus rttdelta: 2048818 (srtt 130653) ... ignoring
+Bogus rttdelta: 2116362 (srtt 63109) ... ignoring
+Increased max_successful_tryno for 192.168.1.206 to 1 (packet drop)
+Bogus rttdelta: 2176003 (srtt 104433) ... ignoring
+Bogus rttdelta: 2217327 (srtt 63109) ... ignoring
+Bogus rttdelta: 2132050 (srtt 104433) ... ignoring
+Bogus rttdelta: 2178127 (srtt 58356) ... ignoring
+Increased max_successful_tryno for 192.168.1.242 to 1 (packet drop)
+Bogus rttdelta: 1966995 (srtt 280334) ... ignoring
+Bogus rttdelta: 2188973 (srtt 58356) ... ignoring
+Increased max_successful_tryno for 192.168.1.237 to 1 (packet drop)
+Bogus rttdelta: 2152555 (srtt 45298) ... ignoring
+Bogus rttdelta: 2144242 (srtt 53611) ... ignoring
+Bogus rttdelta: 2252612 (srtt 45298) ... ignoring
+Bogus rttdelta: 2244299 (srtt 53611) ... ignoring
+Increased max_successful_tryno for 192.168.1.212 to 1 (packet drop)
+Bogus rttdelta: 2265759 (srtt 68011) ... ignoring
+Bogus rttdelta: 2289877 (srtt 43893) ... ignoring
+Bogus rttdelta: 2084951 (srtt 68011) ... ignoring
+Bogus rttdelta: 2109865 (srtt 43097) ... ignoring
+Increased max_successful_tryno for 192.168.1.230 to 1 (packet drop)
+Bogus rttdelta: 2033547 (srtt 122984) ... ignoring
+Bogus rttdelta: 2117787 (srtt 38744) ... ignoring
+Bogus rttdelta: 2319953 (srtt 143098) ... ignoring
+Bogus rttdelta: 2408328 (srtt 54723) ... ignoring
+Increased max_successful_tryno for 192.168.1.205 to 1 (packet drop)
+Bogus rttdelta: 2589337 (srtt 126268) ... ignoring
+Bogus rttdelta: 2660882 (srtt 54723) ... ignoring
+Increased max_successful_tryno for 192.168.1.194 to 1 (packet drop)
+Bogus rttdelta: 3170247 (srtt 143098) ... ignoring
+Bogus rttdelta: 3258622 (srtt 54723) ... ignoring
+Bogus rttdelta: 3222451 (srtt 126268) ... ignoring
+Bogus rttdelta: 3293996 (srtt 54723) ... ignoring
+Bogus rttdelta: 5250912 (srtt 122984) ... ignoring
+Bogus rttdelta: 5319173 (srtt 54723) ... ignoring
+Increased max_successful_tryno for 192.168.1.199 to 1 (packet drop)
+doAnyOutstandingRetransmits took 36ms
+doAnyOutstandingRetransmits took 35ms
+Bogus rttdelta: 2166524 (srtt 62909) ... ignoring
+Bogus rttdelta: 2078466 (srtt 150967) ... ignoring
+Increased max_successful_tryno for 192.168.1.253 to 1 (packet drop)
+Bogus rttdelta: 2136454 (srtt 96549) ... ignoring
+Bogus rttdelta: 2082036 (srtt 150967) ... ignoring
+Increased max_successful_tryno for 192.168.1.227 to 1 (packet drop)
+Bogus rttdelta: 2201037 (srtt 98739) ... ignoring
+Bogus rttdelta: 2148809 (srtt 150967) ... ignoring
+Increased max_successful_tryno for 192.168.1.209 to 1 (packet drop)
+Bogus rttdelta: 2444413 (srtt 46139) ... ignoring
+Bogus rttdelta: 2339585 (srtt 150967) ... ignoring
+Increased max_successful_tryno for 192.168.1.233 to 1 (packet drop)
+Bogus rttdelta: 2491137 (srtt 78390) ... ignoring
+Bogus rttdelta: 2418560 (srtt 150967) ... ignoring
+Bogus rttdelta: 2521510 (srtt 62909) ... ignoring
+Bogus rttdelta: 2433452 (srtt 150967) ... ignoring
+Bogus rttdelta: 2741870 (srtt 96549) ... ignoring
+Bogus rttdelta: 2687452 (srtt 150967) ... ignoring
+Bogus rttdelta: 2857312 (srtt 98739) ... ignoring
+Bogus rttdelta: 2805084 (srtt 150967) ... ignoring
+Bogus rttdelta: 3042318 (srtt 94904) ... ignoring
+Bogus rttdelta: 2986255 (srtt 150967) ... ignoring
+Increased max_successful_tryno for 192.168.1.248 to 1 (packet drop)
+Bogus rttdelta: 3619811 (srtt 94904) ... ignoring
+Bogus rttdelta: 3563748 (srtt 150967) ... ignoring
+Bogus rttdelta: 3753731 (srtt 96110) ... ignoring
+Bogus rttdelta: 3698874 (srtt 150967) ... ignoring
+Increased max_successful_tryno for 192.168.1.245 to 1 (packet drop)
+Bogus rttdelta: 4364006 (srtt 96110) ... ignoring
+Bogus rttdelta: 4309149 (srtt 150967) ... ignoring
+doAnyOutstandingRetransmits took 61ms
+processData took 35ms
+Bogus rttdelta: 2353813 (srtt 76419) ... ignoring
+Bogus rttdelta: 2292432 (srtt 137800) ... ignoring
+Increased max_successful_tryno for 192.168.1.210 to 1 (packet drop)
+Bogus rttdelta: 2445563 (srtt 159352) ... ignoring
+Bogus rttdelta: 2467115 (srtt 137800) ... ignoring
+Bogus rttdelta: 2667011 (srtt 76419) ... ignoring
+Bogus rttdelta: 2605630 (srtt 137800) ... ignoring
+Bogus rttdelta: 2742202 (srtt 78390) ... ignoring
+Bogus rttdelta: 2682792 (srtt 137800) ... ignoring
+Increased max_successful_tryno for 192.168.1.192 to 1 (packet drop)
+Bogus rttdelta: 2108126 (srtt 159352) ... ignoring
+Bogus rttdelta: 2141846 (srtt 125632) ... ignoring
+Increased max_successful_tryno for 192.168.1.218 to 1 (packet drop)
+Bogus rttdelta: 1887292 (srtt 306820) ... ignoring
+Bogus rttdelta: 2082593 (srtt 111519) ... ignoring
+Bogus rttdelta: 2091702 (srtt 173192) ... ignoring
+Bogus rttdelta: 2160643 (srtt 104251) ... ignoring
+Bogus rttdelta: 1892854 (srtt 173192) ... ignoring
+Bogus rttdelta: 2010138 (srtt 55908) ... ignoring
+Increased max_successful_tryno for 192.168.1.211 to 1 (packet drop)
+Bogus rttdelta: 1873779 (srtt 306820) ... ignoring
+Bogus rttdelta: 2147699 (srtt 32900) ... ignoring
+Increased max_successful_tryno for 192.168.1.221 to 1 (packet drop)
+Bogus rttdelta: 1930696 (srtt 128567) ... ignoring
+Bogus rttdelta: 2043570 (srtt 15693) ... ignoring
+Bogus rttdelta: 1937051 (srtt 97426) ... ignoring
+Bogus rttdelta: 2018327 (srtt 16150) ... ignoring
+Bogus rttdelta: 1943755 (srtt 97298) ... ignoring
+Bogus rttdelta: 2024734 (srtt 16319) ... ignoring
+Bogus rttdelta: 2049523 (srtt 38452) ... ignoring
+Bogus rttdelta: 2071656 (srtt 16319) ... ignoring
+Bogus rttdelta: 1995088 (srtt 49255) ... ignoring
+Bogus rttdelta: 2028024 (srtt 16319) ... ignoring
+Bogus rttdelta: 1997808 (srtt 64234) ... ignoring
+Bogus rttdelta: 2047003 (srtt 15039) ... ignoring
+Bogus rttdelta: 1929428 (srtt 128567) ... ignoring
+Bogus rttdelta: 2042956 (srtt 15039) ... ignoring
+Increased max_successful_tryno for 192.168.1.201 to 1 (packet drop)
+Bogus rttdelta: 2028202 (srtt 55420) ... ignoring
+Bogus rttdelta: 2068583 (srtt 15039) ... ignoring
+Bogus rttdelta: 2005513 (srtt 49255) ... ignoring
+Bogus rttdelta: 2039729 (srtt 15039) ... ignoring
+Increased max_successful_tryno for 192.168.1.249 to 1 (packet drop)
+Bogus rttdelta: 1966149 (srtt 97426) ... ignoring
+Bogus rttdelta: 2048536 (srtt 15039) ... ignoring
+Increased max_successful_tryno for 192.168.1.202 to 1 (packet drop)
+Bogus rttdelta: 1990384 (srtt 64234) ... ignoring
+Bogus rttdelta: 2039579 (srtt 15039) ... ignoring
+Increased max_successful_tryno for 192.168.1.196 to 1 (packet drop)
+Bogus rttdelta: 2004178 (srtt 55420) ... ignoring
+Bogus rttdelta: 2043752 (srtt 15846) ... ignoring
+Increased max_successful_tryno for 192.168.1.217 to 1 (packet drop)
+Bogus rttdelta: 1963861 (srtt 97298) ... ignoring
+Bogus rttdelta: 2045313 (srtt 15846) ... ignoring
+Increased max_successful_tryno for 192.168.1.241 to 1 (packet drop)
+Bogus rttdelta: 1987278 (srtt 99872) ... ignoring
+Bogus rttdelta: 2072144 (srtt 15006) ... ignoring
+Bogus rttdelta: 1780713 (srtt 274477) ... ignoring
+Bogus rttdelta: 2038286 (srtt 16904) ... ignoring
+Bogus rttdelta: 2100832 (srtt 52508) ... ignoring
+Bogus rttdelta: 2136436 (srtt 16904) ... ignoring
+Increased max_successful_tryno for 192.168.1.250 to 1 (packet drop)
+Bogus rttdelta: 2224774 (srtt 99872) ... ignoring
+Bogus rttdelta: 2307742 (srtt 16904) ... ignoring
+Increased max_successful_tryno for 192.168.1.240 to 1 (packet drop)
+Bogus rttdelta: 2344390 (srtt 86161) ... ignoring
+Bogus rttdelta: 2413647 (srtt 16904) ... ignoring
+Bogus rttdelta: 2380641 (srtt 52508) ... ignoring
+Bogus rttdelta: 2416245 (srtt 16904) ... ignoring
+Bogus rttdelta: 2099985 (srtt 86161) ... ignoring
+Bogus rttdelta: 2170560 (srtt 15586) ... ignoring
+Increased max_successful_tryno for 192.168.1.251 to 1 (packet drop)
+Bogus rttdelta: 1996850 (srtt 92938) ... ignoring
+Bogus rttdelta: 2075544 (srtt 14244) ... ignoring
+Bogus rttdelta: 2036575 (srtt 63329) ... ignoring
+Bogus rttdelta: 2085660 (srtt 14244) ... ignoring
+Bogus rttdelta: 2028517 (srtt 63329) ... ignoring
+Bogus rttdelta: 2073036 (srtt 18810) ... ignoring
+Increased max_successful_tryno for 192.168.1.200 to 1 (packet drop)
+Bogus rttdelta: 2023661 (srtt 92938) ... ignoring
+Bogus rttdelta: 2097789 (srtt 18810) ... ignoring
+Increased max_successful_tryno for 192.168.1.203 to 1 (packet drop)
+Bogus rttdelta: 1987407 (srtt 274477) ... ignoring
+Bogus rttdelta: 2237898 (srtt 23986) ... ignoring
+Increased max_successful_tryno for 192.168.1.222 to 1 (packet drop)
+Bogus rttdelta: 2382184 (srtt 128062) ... ignoring
+Bogus rttdelta: 2480911 (srtt 29335) ... ignoring
+Bogus rttdelta: 2152953 (srtt 29265) ... ignoring
+Bogus rttdelta: 2089830 (srtt 128062) ... ignoring
+Bogus rttdelta: 2188627 (srtt 29265) ... ignoring
+Increased max_successful_tryno for 192.168.1.254 to 1 (packet drop)
+Bogus rttdelta: 1945782 (srtt 282186) ... ignoring
+Bogus rttdelta: 2198703 (srtt 29265) ... ignoring
+Bogus rttdelta: 2021544 (srtt 282186) ... ignoring
+Bogus rttdelta: 2230733 (srtt 72997) ... ignoring
+Increased max_successful_tryno for 192.168.1.225 to 1 (packet drop)
+Bogus rttdelta: 1950980 (srtt 145602) ... ignoring
+Bogus rttdelta: 2038598 (srtt 57984) ... ignoring
+Bogus rttdelta: 2042190 (srtt 105777) ... ignoring
+Bogus rttdelta: 2095883 (srtt 52084) ... ignoring
+Bogus rttdelta: 2147298 (srtt 104718) ... ignoring
+Bogus rttdelta: 2203793 (srtt 48223) ... ignoring
+Bogus rttdelta: 2053591 (srtt 128383) ... ignoring
+Bogus rttdelta: 2129462 (srtt 52512) ... ignoring
+Bogus rttdelta: 2304027 (srtt 104718) ... ignoring
+Bogus rttdelta: 2356233 (srtt 52512) ... ignoring
+Increased max_successful_tryno for 192.168.1.208 to 1 (packet drop)
+Bogus rttdelta: 2495244 (srtt 140377) ... ignoring
+Bogus rttdelta: 2583109 (srtt 52512) ... ignoring
+Bogus rttdelta: 2510652 (srtt 129541) ... ignoring
+Bogus rttdelta: 2587681 (srtt 52512) ... ignoring
+Increased max_successful_tryno for 192.168.1.204 to 1 (packet drop)
+Bogus rttdelta: 2610052 (srtt 105777) ... ignoring
+Bogus rttdelta: 2663317 (srtt 52512) ... ignoring
+Increased max_successful_tryno for 192.168.1.244 to 1 (packet drop)
+Bogus rttdelta: 2052318 (srtt 140377) ... ignoring
+Bogus rttdelta: 2120941 (srtt 71754) ... ignoring
+Increased max_successful_tryno for 192.168.1.246 to 1 (packet drop)
+Bogus rttdelta: 2077462 (srtt 54736) ... ignoring
+Bogus rttdelta: 2056983 (srtt 75215) ... ignoring
+Increased max_successful_tryno for 192.168.1.216 to 1 (packet drop)
+Bogus rttdelta: 2145226 (srtt 248833) ... ignoring
+Bogus rttdelta: 2318844 (srtt 75215) ... ignoring
+Bogus rttdelta: 2366570 (srtt 54736) ... ignoring
+Bogus rttdelta: 2346091 (srtt 75215) ... ignoring
+Bogus rttdelta: 2336227 (srtt 128383) ... ignoring
+Bogus rttdelta: 2389395 (srtt 75215) ... ignoring
+Increased max_successful_tryno for 192.168.1.219 to 1 (packet drop)
+Bogus rttdelta: 2121325 (srtt 47455) ... ignoring
+Bogus rttdelta: 2093565 (srtt 75215) ... ignoring
+Increased max_successful_tryno for 192.168.1.255 to 1 (packet drop)
+Bogus rttdelta: 2371372 (srtt 100225) ... ignoring
+Bogus rttdelta: 2396382 (srtt 75215) ... ignoring
+Bogus rttdelta: 2441658 (srtt 47455) ... ignoring
+Bogus rttdelta: 2413898 (srtt 75215) ... ignoring
+Bogus rttdelta: 2446235 (srtt 100225) ... ignoring
+Bogus rttdelta: 2467072 (srtt 79388) ... ignoring
+Increased max_successful_tryno for 192.168.1.195 to 1 (packet drop)
+Bogus rttdelta: 2321559 (srtt 248833) ... ignoring
+Bogus rttdelta: 2491004 (srtt 79388) ... ignoring
+Increased max_successful_tryno for 192.168.1.226 to 1 (packet drop)
+Bogus rttdelta: 2616074 (srtt 147496) ... ignoring
+Bogus rttdelta: 2684182 (srtt 79388) ... ignoring
+Bogus rttdelta: 2046021 (srtt 147496) ... ignoring
+Bogus rttdelta: 2114898 (srtt 78619) ... ignoring
+Increased max_successful_tryno for 192.168.1.193 to 1 (packet drop)
+Bogus rttdelta: 2343369 (srtt 39805) ... ignoring
+Bogus rttdelta: 2304555 (srtt 78619) ... ignoring
+Increased max_successful_tryno for 192.168.1.238 to 1 (packet drop)
+Bogus rttdelta: 1983179 (srtt 131619) ... ignoring
+Bogus rttdelta: 2065781 (srtt 49017) ... ignoring
+Bogus rttdelta: 1962741 (srtt 131619) ... ignoring
+Bogus rttdelta: 2051087 (srtt 43273) ... ignoring
+Increased max_successful_tryno for 192.168.1.247 to 1 (packet drop)
+Bogus rttdelta: 1959832 (srtt 82370) ... ignoring
+Bogus rttdelta: 2005513 (srtt 36689) ... ignoring
+Bogus rttdelta: 2020827 (srtt 82370) ... ignoring
+Bogus rttdelta: 2052983 (srtt 50214) ... ignoring
+Increased max_successful_tryno for 192.168.1.213 to 1 (packet drop)
+Bogus rttdelta: 2050072 (srtt 69371) ... ignoring
+Bogus rttdelta: 2077648 (srtt 41795) ... ignoring
+Bogus rttdelta: 2097290 (srtt 69371) ... ignoring
+Bogus rttdelta: 2129962 (srtt 36699) ... ignoring
+Increased max_successful_tryno for 192.168.1.252 to 1 (packet drop)
+Bogus rttdelta: 2057745 (srtt 51761) ... ignoring
+Bogus rttdelta: 2067284 (srtt 42222) ... ignoring
+Bogus rttdelta: 2061541 (srtt 47380) ... ignoring
+Bogus rttdelta: 2066699 (srtt 42222) ... ignoring
+Bogus rttdelta: 2021658 (srtt 51761) ... ignoring
+Bogus rttdelta: 2031197 (srtt 42222) ... ignoring
+Increased max_successful_tryno for 192.168.1.235 to 1 (packet drop)
+Bogus rttdelta: 2056964 (srtt 47380) ... ignoring
+Bogus rttdelta: 2061765 (srtt 42579) ... ignoring
+Increased max_successful_tryno for 192.168.1.215 to 1 (packet drop)
+Bogus rttdelta: 1985195 (srtt 123374) ... ignoring
+Bogus rttdelta: 2064259 (srtt 44310) ... ignoring
+Bogus rttdelta: 1938814 (srtt 123374) ... ignoring
+Bogus rttdelta: 2021511 (srtt 40677) ... ignoring
+Increased max_successful_tryno for 192.168.1.220 to 1 (packet drop)
+Bogus rttdelta: 1798057 (srtt 295669) ... ignoring
+Bogus rttdelta: 2056897 (srtt 36829) ... ignoring
+Bogus rttdelta: 2008094 (srtt 118779) ... ignoring
+Bogus rttdelta: 2097289 (srtt 29584) ... ignoring
+Bogus rttdelta: 1789223 (srtt 295669) ... ignoring
+Bogus rttdelta: 2050893 (srtt 33999) ... ignoring
+Increased max_successful_tryno for 192.168.1.228 to 1 (packet drop)
+Bogus rttdelta: 1949677 (srtt 118779) ... ignoring
+Bogus rttdelta: 2034457 (srtt 33999) ... ignoring
+Increased max_successful_tryno for 192.168.1.243 to 1 (packet drop)
+Bogus rttdelta: 1774164 (srtt 281526) ... ignoring
+Bogus rttdelta: 2018197 (srtt 37493) ... ignoring
+Bogus rttdelta: 1813206 (srtt 242994) ... ignoring
+Bogus rttdelta: 2018707 (srtt 37493) ... ignoring
+Bogus rttdelta: 2038252 (srtt 47924) ... ignoring
+Bogus rttdelta: 2049318 (srtt 36858) ... ignoring
+Bogus rttdelta: 2071940 (srtt 47924) ... ignoring
+Bogus rttdelta: 2082652 (srtt 37212) ... ignoring
+Increased max_successful_tryno for 192.168.1.214 to 1 (packet drop)
+Bogus rttdelta: 1856270 (srtt 242994) ... ignoring
+Bogus rttdelta: 2067969 (srtt 31295) ... ignoring
+Increased max_successful_tryno for 192.168.1.229 to 1 (packet drop)
+Bogus rttdelta: 1804691 (srtt 281526) ... ignoring
+Bogus rttdelta: 2056265 (srtt 29952) ... ignoring
+Increased max_successful_tryno for 192.168.1.231 to 1 (packet drop)
+doAnyOutstandingRetransmits took 43ms
+doAnyOutstandingRetransmits took 32ms
+doAnyOutstandingRetransmits took 48ms
+doAnyOutstandingRetransmits took 55ms
+doAnyOutstandingRetransmits took 86ms
+doAnyOutstandingRetransmits took 66ms
+doAnyOutstandingRetransmits took 82ms
+doAnyOutstandingRetransmits took 80ms
+doAnyOutstandingRetransmits took 35ms
+doAnyOutstandingRetransmits took 66ms
+doAnyOutstandingRetransmits took 67ms
+doAnyOutstandingRetransmits took 32ms
+doAnyOutstandingRetransmits took 35ms
+doAnyOutstandingRetransmits took 55ms
+doAnyOutstandingRetransmits took 31ms
+doAnyOutstandingRetransmits took 39ms
+doAnyOutstandingRetransmits took 34ms
+doAnyOutstandingRetransmits took 32ms
+doAnyOutstandingRetransmits took 35ms
+doAnyOutstandingRetransmits took 52ms
+doAnyOutstandingRetransmits took 56ms
+doAnyOutstandingRetransmits took 37ms
+doAnyOutstandingRetransmits took 31ms
+doAnyOutstandingRetransmits took 73ms
+doAnyOutstandingRetransmits took 54ms
+doAnyOutstandingRetransmits took 92ms
+doAnyOutstandingRetransmits took 60ms
+doAnyOutstandingRetransmits took 34ms
+doAnyOutstandingRetransmits took 35ms
+doAnyOutstandingRetransmits took 57ms
+doAnyOutstandingRetransmits took 37ms
+doAnyOutstandingRetransmits took 75ms
+doAnyOutstandingRetransmits took 40ms
+doAnyOutstandingRetransmits took 76ms
+doAnyOutstandingRetransmits took 32ms
+doAnyOutstandingRetransmits took 48ms
+doAnyOutstandingRetransmits took 37ms
+doAnyOutstandingRetransmits took 77ms
+doAnyOutstandingRetransmits took 64ms
+doAnyOutstandingRetransmits took 122ms
+doAnyOutstandingRetransmits took 58ms
+doAnyOutstandingRetransmits took 39ms
+doAnyOutstandingRetransmits took 51ms
+doAnyOutstandingRetransmits took 35ms
+doAnyOutstandingRetransmits took 44ms
+doAnyOutstandingRetransmits took 43ms
+doAnyOutstandingRetransmits took 80ms
+doAnyOutstandingRetransmits took 31ms
+doAnyOutstandingRetransmits took 40ms
+doAnyOutstandingRetransmits took 31ms
+doAnyOutstandingRetransmits took 39ms
+doAnyOutstandingRetransmits took 68ms
+doAnyOutstandingRetransmits took 45ms
+doAnyOutstandingRetransmits took 99ms
+doAnyOutstandingRetransmits took 193ms
+doAnyOutstandingRetransmits took 2349ms
+Bogus rttdelta: 3014518 (srtt 64035) ... ignoring
+Bogus rttdelta: 3000510 (srtt 78043) ... ignoring
+Bogus rttdelta: 3020182 (srtt 56233) ... ignoring
+Bogus rttdelta: 2998372 (srtt 78043) ... ignoring
+Bogus rttdelta: 2964689 (srtt 69950) ... ignoring
+Bogus rttdelta: 2956596 (srtt 78043) ... ignoring
+doAnyOutstandingRetransmits took 6200ms
+Bogus rttdelta: 2453770 (srtt 59956) ... ignoring
+Bogus rttdelta: 2435683 (srtt 78043) ... ignoring
+Bogus rttdelta: 2328585 (srtt 60020) ... ignoring
+Bogus rttdelta: 2310562 (srtt 78043) ... ignoring
+Bogus rttdelta: 2110736 (srtt 85865) ... ignoring
+Bogus rttdelta: 2118558 (srtt 78043) ... ignoring
+doAnyOutstandingRetransmits took 1741ms
+doAnyOutstandingRetransmits took 3605ms
+doAnyOutstandingRetransmits took 1127ms
+doAnyOutstandingRetransmits took 200ms
+doAnyOutstandingRetransmits took 47ms
+doAnyOutstandingRetransmits took 731ms
+doAnyOutstandingRetransmits took 372ms
+doAnyOutstandingRetransmits took 114ms
+doAnyOutstandingRetransmits took 110ms
+doAnyOutstandingRetransmits took 168ms
+doAnyOutstandingRetransmits took 262ms
+doAnyOutstandingRetransmits took 98ms
+doAnyOutstandingRetransmits took 149ms
+doAnyOutstandingRetransmits took 125ms
+doAnyOutstandingRetransmits took 225ms
+doAnyOutstandingRetransmits took 84ms
+doAnyOutstandingRetransmits took 308ms
+doAnyOutstandingRetransmits took 121ms
+doAnyOutstandingRetransmits took 130ms
+doAnyOutstandingRetransmits took 172ms
+doAnyOutstandingRetransmits took 188ms
+doAnyOutstandingRetransmits took 491ms
+doAnyOutstandingRetransmits took 138ms
+doAnyOutstandingRetransmits took 138ms
+doAnyOutstandingRetransmits took 340ms
+doAnyOutstandingRetransmits took 123ms
+doAnyOutstandingRetransmits took 195ms
+doAnyOutstandingRetransmits took 212ms
+doAnyOutstandingRetransmits took 102ms
+doAnyOutstandingRetransmits took 438ms
+doAnyOutstandingRetransmits took 304ms
+doAnyOutstandingRetransmits took 54ms
+doAnyOutstandingRetransmits took 127ms
+doAnyOutstandingRetransmits took 190ms
+doAnyOutstandingRetransmits took 109ms
+doAnyOutstandingRetransmits took 81ms
+doAnyOutstandingRetransmits took 68ms
+doAnyOutstandingRetransmits took 37ms
+doAnyOutstandingRetransmits took 60ms
+doAnyOutstandingRetransmits took 88ms
+doAnyOutstandingRetransmits took 200ms
+doAnyOutstandingRetransmits took 80ms
+doAnyOutstandingRetransmits took 119ms
+doAnyOutstandingRetransmits took 50ms
+doAnyOutstandingRetransmits took 102ms
+doAnyOutstandingRetransmits took 83ms
+doAnyOutstandingRetransmits took 72ms
+doAnyOutstandingRetransmits took 48ms
+doAnyOutstandingRetransmits took 67ms
+doAnyOutstandingRetransmits took 48ms
+doAnyOutstandingRetransmits took 544ms
+doAnyOutstandingRetransmits took 78ms
+doAnyOutstandingRetransmits took 122ms
+doAnyOutstandingRetransmits took 201ms
+doAnyOutstandingRetransmits took 119ms
+doAnyOutstandingRetransmits took 77ms
+doAnyOutstandingRetransmits took 80ms
+doAnyOutstandingRetransmits took 215ms
+doAnyOutstandingRetransmits took 101ms
+doAnyOutstandingRetransmits took 31ms
+doAnyOutstandingRetransmits took 63ms
+doAnyOutstandingRetransmits took 87ms
+doAnyOutstandingRetransmits took 49ms
+doAnyOutstandingRetransmits took 119ms
+doAnyOutstandingRetransmits took 118ms
+doAnyOutstandingRetransmits took 75ms
+doAnyOutstandingRetransmits took 150ms
+doAnyOutstandingRetransmits took 33ms
+doAnyOutstandingRetransmits took 1532ms
+doAnyOutstandingRetransmits took 134ms
+doAnyOutstandingRetransmits took 2671ms
+doAnyOutstandingRetransmits took 130ms
+doAnyOutstandingRetransmits took 152ms
+doAnyOutstandingRetransmits took 90ms
+doAnyOutstandingRetransmits took 46ms
+doAnyOutstandingRetransmits took 46ms
+doAnyOutstandingRetransmits took 162ms
+doAnyOutstandingRetransmits took 903ms
+doAnyOutstandingRetransmits took 460ms
+doAnyOutstandingRetransmits took 181ms
+doAnyOutstandingRetransmits took 84ms
+doAnyOutstandingRetransmits took 40ms
+doAnyOutstandingRetransmits took 56ms
+doAnyOutstandingRetransmits took 93ms
+doAnyOutstandingRetransmits took 47ms
+doAnyOutstandingRetransmits took 35ms
+doAnyOutstandingRetransmits took 41ms
+doAnyOutstandingRetransmits took 146ms
+doAnyOutstandingRetransmits took 32ms
+doAnyOutstandingRetransmits took 78ms
+doAnyOutstandingRetransmits took 33ms
+doAnyOutstandingRetransmits took 90ms
+doAnyOutstandingRetransmits took 74ms
+doAnyOutstandingRetransmits took 31ms
+doAnyOutstandingRetransmits took 44ms
+doAnyOutstandingRetransmits took 179ms
+doAnyOutstandingRetransmits took 31ms
+doAnyOutstandingRetransmits took 89ms
+doAnyOutstandingRetransmits took 60ms
+doAnyOutstandingRetransmits took 120ms
+doAnyOutstandingRetransmits took 79ms
+doAnyOutstandingRetransmits took 34ms
+doAnyOutstandingRetransmits took 112ms
+doAnyOutstandingRetransmits took 122ms
+doAnyOutstandingRetransmits took 124ms
+doAnyOutstandingRetransmits took 44ms
+doAnyOutstandingRetransmits took 66ms
+doAnyOutstandingRetransmits took 51ms
+doAnyOutstandingRetransmits took 32ms
+doAnyOutstandingRetransmits took 71ms
+doAnyOutstandingRetransmits took 86ms
+doAnyOutstandingRetransmits took 41ms
+doAnyOutstandingRetransmits took 33ms
+doAnyOutstandingRetransmits took 48ms
+doAnyOutstandingRetransmits took 38ms
+doAnyOutstandingRetransmits took 35ms
+doAnyOutstandingRetransmits took 58ms
+doAnyOutstandingRetransmits took 32ms
+doAnyOutstandingRetransmits took 86ms
+doAnyOutstandingRetransmits took 151ms
+doAnyOutstandingRetransmits took 39ms
+doAnyOutstandingRetransmits took 78ms
+doAnyOutstandingRetransmits took 31ms
+doAnyOutstandingRetransmits took 31ms
+doAnyOutstandingRetransmits took 40ms
+doAnyOutstandingRetransmits took 64ms
+doAnyOutstandingRetransmits took 40ms
+doAnyOutstandingRetransmits took 40ms
+doAnyOutstandingRetransmits took 42ms
+doAnyOutstandingRetransmits took 43ms
+doAnyOutstandingRetransmits took 36ms
+doAnyOutstandingRetransmits took 62ms
+doAnyOutstandingRetransmits took 67ms
+doAnyOutstandingRetransmits took 37ms
+doAnyOutstandingRetransmits took 47ms
+doAnyOutstandingRetransmits took 49ms
+doAnyOutstandingRetransmits took 43ms
+doAnyOutstandingRetransmits took 32ms
+doAnyOutstandingRetransmits took 43ms
+doAnyOutstandingRetransmits took 42ms
+doAnyOutstandingRetransmits took 38ms
+doAnyOutstandingRetransmits took 45ms
+doAnyOutstandingRetransmits took 57ms
+doAnyOutstandingRetransmits took 62ms
+doAnyOutstandingRetransmits took 51ms
+doAnyOutstandingRetransmits took 139ms
+doAnyOutstandingRetransmits took 126ms
+doAnyOutstandingRetransmits took 46ms
+doAnyOutstandingRetransmits took 121ms
+doAnyOutstandingRetransmits took 142ms
+doAnyOutstandingRetransmits took 118ms
+doAnyOutstandingRetransmits took 102ms
+doAnyOutstandingRetransmits took 63ms
+doAnyOutstandingRetransmits took 89ms
+doAnyOutstandingRetransmits took 161ms
+doAnyOutstandingRetransmits took 177ms
+doAnyOutstandingRetransmits took 115ms
+doAnyOutstandingRetransmits took 115ms
+doAnyOutstandingRetransmits took 56ms
+doAnyOutstandingRetransmits took 36ms
+doAnyOutstandingRetransmits took 129ms
+doAnyOutstandingRetransmits took 123ms
+doAnyOutstandingRetransmits took 32ms
+Increased max_successful_tryno for 192.168.1.239 to 1 (packet drop)
+Increased max_successful_tryno for 192.168.1.225 to 2 (packet drop)
+doAnyOutstandingRetransmits took 35ms
+doAnyOutstandingRetransmits took 46ms
+doAnyOutstandingRetransmits took 39ms
+doAnyOutstandingRetransmits took 35ms
+doAnyOutstandingRetransmits took 38ms
+doAnyOutstandingRetransmits took 48ms
+Bogus rttdelta: 2020116 (srtt 61385) ... ignoring
+Bogus rttdelta: 2064527 (srtt 16974) ... ignoring
+Increased max_successful_tryno for 192.168.1.239 to 2 (packet drop)
+doAnyOutstandingRetransmits took 36ms
+Increased max_successful_tryno for 192.168.1.217 to 2 (packet drop)
+Increased max_successful_tryno for 192.168.1.238 to 2 (packet drop)
+doAnyOutstandingRetransmits took 51ms
+Increased max_successful_tryno for 192.168.1.223 to 1 (packet drop)
+doAnyOutstandingRetransmits took 39ms
+doAnyOutstandingRetransmits took 38ms
+Increased max_successful_tryno for 192.168.1.215 to 2 (packet drop)
+doAnyOutstandingRetransmits took 37ms
+doAnyOutstandingRetransmits took 43ms
+doAnyOutstandingRetransmits took 76ms
+doAnyOutstandingRetransmits took 95ms
+doAnyOutstandingRetransmits took 88ms
+processData took 37ms
+doAnyOutstandingRetransmits took 236ms
+processData took 39ms
+doAnyOutstandingRetransmits took 108ms
+doAnyOutstandingRetransmits took 113ms
+doAnyOutstandingRetransmits took 58ms
+doAnyOutstandingRetransmits took 71ms
+doAnyOutstandingRetransmits took 40ms
+doAnyOutstandingRetransmits took 47ms
+doAnyOutstandingRetransmits took 34ms
+doAnyOutstandingRetransmits took 42ms
+doAnyOutstandingRetransmits took 48ms
+doAnyOutstandingRetransmits took 119ms
+doAnyOutstandingRetransmits took 87ms
+doAnyOutstandingRetransmits took 34ms
+doAnyOutstandingRetransmits took 48ms
+doAnyOutstandingRetransmits took 34ms
+doAnyOutstandingRetransmits took 34ms
+doAnyOutstandingRetransmits took 59ms
+doAnyOutstandingRetransmits took 48ms
+doAnyOutstandingRetransmits took 57ms
+doAnyOutstandingRetransmits took 49ms
+doAnyOutstandingRetransmits took 42ms
+doAnyOutstandingRetransmits took 55ms
+doAnyOutstandingRetransmits took 44ms
+doAnyOutstandingRetransmits took 37ms
+doAnyOutstandingRetransmits took 31ms
+doAnyOutstandingRetransmits took 31ms
+doAnyOutstandingRetransmits took 31ms
+doAnyOutstandingRetransmits took 31ms
+doAnyOutstandingRetransmits took 42ms
+doAnyOutstandingRetransmits took 33ms
+doAnyOutstandingRetransmits took 39ms
+doAnyOutstandingRetransmits took 32ms
+doAnyOutstandingRetransmits took 35ms
+doAnyOutstandingRetransmits took 31ms
+doAnyOutstandingRetransmits took 39ms
+doAnyOutstandingRetransmits took 41ms
+doAnyOutstandingRetransmits took 48ms
+doAnyOutstandingRetransmits took 31ms
+doAnyOutstandingRetransmits took 31ms
+doAnyOutstandingRetransmits took 43ms
+doAnyOutstandingRetransmits took 41ms
+doAnyOutstandingRetransmits took 179ms
+doAnyOutstandingRetransmits took 36ms
+doAnyOutstandingRetransmits took 37ms
+doAnyOutstandingRetransmits took 39ms
+doAnyOutstandingRetransmits took 91ms
+doAnyOutstandingRetransmits took 40ms
+doAnyOutstandingRetransmits took 45ms
+doAnyOutstandingRetransmits took 34ms
+doAnyOutstandingRetransmits took 32ms
+doAnyOutstandingRetransmits took 63ms
+doAnyOutstandingRetransmits took 83ms
+doAnyOutstandingRetransmits took 31ms
+doAnyOutstandingRetransmits took 38ms
+doAnyOutstandingRetransmits took 50ms
+doAnyOutstandingRetransmits took 34ms
+doAnyOutstandingRetransmits took 36ms
+doAnyOutstandingRetransmits took 48ms
+doAnyOutstandingRetransmits took 35ms
+doAnyOutstandingRetransmits took 88ms
+doAnyOutstandingRetransmits took 31ms
+doAnyOutstandingRetransmits took 243ms
+doAnyOutstandingRetransmits took 65ms
+doAnyOutstandingRetransmits took 53ms
+doAnyOutstandingRetransmits took 43ms
+doAnyOutstandingRetransmits took 46ms
+doAnyOutstandingRetransmits took 32ms
+doAnyOutstandingRetransmits took 33ms
+doAnyOutstandingRetransmits took 39ms
+doAnyOutstandingRetransmits took 41ms
+doAnyOutstandingRetransmits took 49ms
+doAnyOutstandingRetransmits took 103ms
+doAnyOutstandingRetransmits took 101ms
+doAnyOutstandingRetransmits took 50ms
+doAnyOutstandingRetransmits took 105ms
+doAnyOutstandingRetransmits took 46ms
+doAnyOutstandingRetransmits took 35ms
+doAnyOutstandingRetransmits took 32ms
+doAnyOutstandingRetransmits took 64ms
+doAnyOutstandingRetransmits took 33ms
+doAnyOutstandingRetransmits took 35ms
+doAnyOutstandingRetransmits took 65ms
+doAnyOutstandingRetransmits took 56ms
+doAnyOutstandingRetransmits took 152ms
+doAnyOutstandingRetransmits took 32ms
+doAnyOutstandingRetransmits took 63ms
+doAnyOutstandingRetransmits took 112ms
+doAnyOutstandingRetransmits took 249ms
+doAnyOutstandingRetransmits took 61ms
+doAnyOutstandingRetransmits took 47ms
+doAnyOutstandingRetransmits took 43ms
+doAnyOutstandingRetransmits took 34ms
+doAnyOutstandingRetransmits took 62ms
+doAnyOutstandingRetransmits took 36ms
+doAnyOutstandingRetransmits took 33ms
+doAnyOutstandingRetransmits took 78ms
+doAnyOutstandingRetransmits took 74ms
+doAnyOutstandingRetransmits took 70ms
+doAnyOutstandingRetransmits took 195ms
+doAnyOutstandingRetransmits took 146ms
+doAnyOutstandingRetransmits took 95ms
+doAnyOutstandingRetransmits took 108ms
+doAnyOutstandingRetransmits took 34ms
+doAnyOutstandingRetransmits took 40ms
+doAnyOutstandingRetransmits took 79ms
+doAnyOutstandingRetransmits took 144ms
+doAnyOutstandingRetransmits took 63ms
+doAnyOutstandingRetransmits took 46ms
+doAnyOutstandingRetransmits took 56ms
+doAnyOutstandingRetransmits took 59ms
+doAnyOutstandingRetransmits took 89ms
+doAnyOutstandingRetransmits took 57ms
+doAnyOutstandingRetransmits took 38ms
+doAnyOutstandingRetransmits took 71ms
+doAnyOutstandingRetransmits took 65ms
+doAnyOutstandingRetransmits took 44ms
+doAnyOutstandingRetransmits took 56ms
+doAnyOutstandingRetransmits took 100ms
+doAnyOutstandingRetransmits took 40ms
+doAnyOutstandingRetransmits took 32ms
+doAnyOutstandingRetransmits took 82ms
+doAnyOutstandingRetransmits took 52ms
+doAnyOutstandingRetransmits took 31ms
+doAnyOutstandingRetransmits took 96ms
+doAnyOutstandingRetransmits took 35ms
+doAnyOutstandingRetransmits took 32ms
+doAnyOutstandingRetransmits took 104ms
+doAnyOutstandingRetransmits took 138ms
+doAnyOutstandingRetransmits took 126ms
+doAnyOutstandingRetransmits took 37ms
+doAnyOutstandingRetransmits took 41ms
+doAnyOutstandingRetransmits took 33ms
+doAnyOutstandingRetransmits took 104ms
+doAnyOutstandingRetransmits took 93ms
+doAnyOutstandingRetransmits took 37ms
+doAnyOutstandingRetransmits took 36ms
+doAnyOutstandingRetransmits took 74ms
+doAnyOutstandingRetransmits took 74ms
+doAnyOutstandingRetransmits took 46ms
+doAnyOutstandingRetransmits took 50ms
+doAnyOutstandingRetransmits took 99ms
+doAnyOutstandingRetransmits took 64ms
+doAnyOutstandingRetransmits took 46ms
+doAnyOutstandingRetransmits took 50ms
+doAnyOutstandingRetransmits took 133ms
+doAnyOutstandingRetransmits took 137ms
+doAnyOutstandingRetransmits took 47ms
+doAnyOutstandingRetransmits took 50ms
+doAnyOutstandingRetransmits took 47ms
+doAnyOutstandingRetransmits took 77ms
+doAnyOutstandingRetransmits took 84ms
+doAnyOutstandingRetransmits took 54ms
+doAnyOutstandingRetransmits took 51ms
+doAnyOutstandingRetransmits took 44ms
+doAnyOutstandingRetransmits took 99ms
+doAnyOutstandingRetransmits took 55ms
+doAnyOutstandingRetransmits took 31ms
+doAnyOutstandingRetransmits took 41ms
+doAnyOutstandingRetransmits took 53ms
+doAnyOutstandingRetransmits took 51ms
+doAnyOutstandingRetransmits took 100ms
+doAnyOutstandingRetransmits took 38ms
+doAnyOutstandingRetransmits took 34ms
+doAnyOutstandingRetransmits took 42ms
+doAnyOutstandingRetransmits took 93ms
+doAnyOutstandingRetransmits took 72ms
+doAnyOutstandingRetransmits took 50ms
+doAnyOutstandingRetransmits took 38ms
+doAnyOutstandingRetransmits took 89ms
+doAnyOutstandingRetransmits took 106ms
+doAnyOutstandingRetransmits took 135ms
+doAnyOutstandingRetransmits took 42ms
+doAnyOutstandingRetransmits took 35ms
+doAnyOutstandingRetransmits took 70ms
+doAnyOutstandingRetransmits took 36ms
+doAnyOutstandingRetransmits took 38ms
+doAnyOutstandingRetransmits took 34ms
+doAnyOutstandingRetransmits took 39ms
+doAnyOutstandingRetransmits took 32ms
+doAnyOutstandingRetransmits took 32ms
+doAnyOutstandingRetransmits took 45ms
+doAnyOutstandingRetransmits took 141ms
+doAnyOutstandingRetransmits took 129ms
+doAnyOutstandingRetransmits took 38ms
+doAnyOutstandingRetransmits took 36ms
+doAnyOutstandingRetransmits took 39ms
+doAnyOutstandingRetransmits took 80ms
+doAnyOutstandingRetransmits took 113ms
+doAnyOutstandingRetransmits took 83ms
+doAnyOutstandingRetransmits took 85ms
+doAnyOutstandingRetransmits took 45ms
+doAnyOutstandingRetransmits took 41ms
+doAnyOutstandingRetransmits took 65ms
+doAnyOutstandingRetransmits took 43ms
+doAnyOutstandingRetransmits took 43ms
+doAnyOutstandingRetransmits took 43ms
+doAnyOutstandingRetransmits took 40ms
+doAnyOutstandingRetransmits took 87ms
+doAnyOutstandingRetransmits took 214ms
+doAnyOutstandingRetransmits took 39ms
+doAnyOutstandingRetransmits took 39ms
+doAnyOutstandingRetransmits took 32ms
+doAnyOutstandingRetransmits took 42ms
+doAnyOutstandingRetransmits took 35ms
+doAnyOutstandingRetransmits took 70ms
+doAnyOutstandingRetransmits took 35ms
+doAnyOutstandingRetransmits took 117ms
+doAnyOutstandingRetransmits took 35ms
+doAnyOutstandingRetransmits took 35ms
+doAnyOutstandingRetransmits took 33ms
+doAnyOutstandingRetransmits took 210ms
+doAnyOutstandingRetransmits took 97ms
+doAnyOutstandingRetransmits took 87ms
+doAnyOutstandingRetransmits took 78ms
+doAnyOutstandingRetransmits took 39ms
+doAnyOutstandingRetransmits took 48ms
+doAnyOutstandingRetransmits took 129ms
+doAnyOutstandingRetransmits took 46ms
+Increased max_successful_tryno for 192.168.1.242 to 2 (packet drop)
+doAnyOutstandingRetransmits took 58ms
+doAnyOutstandingRetransmits took 120ms
+doAnyOutstandingRetransmits took 88ms
+doAnyOutstandingRetransmits took 46ms
+doAnyOutstandingRetransmits took 41ms
+doAnyOutstandingRetransmits took 43ms
+doAnyOutstandingRetransmits took 34ms
+doAnyOutstandingRetransmits took 32ms
+doAnyOutstandingRetransmits took 125ms
+doAnyOutstandingRetransmits took 40ms
+doAnyOutstandingRetransmits took 71ms
+doAnyOutstandingRetransmits took 40ms
+doAnyOutstandingRetransmits took 33ms
+doAnyOutstandingRetransmits took 87ms
+doAnyOutstandingRetransmits took 54ms
+doAnyOutstandingRetransmits took 53ms
+doAnyOutstandingRetransmits took 64ms
+doAnyOutstandingRetransmits took 80ms
+doAnyOutstandingRetransmits took 45ms
+doAnyOutstandingRetransmits took 85ms
+Increased max_successful_tryno for 192.168.1.218 to 2 (packet drop)
+Increased max_successful_tryno for 192.168.1.231 to 2 (packet drop)
+doAnyOutstandingRetransmits took 45ms
+doAnyOutstandingRetransmits took 49ms
+Increased max_successful_tryno for 192.168.1.233 to 2 (packet drop)
+Increased max_successful_tryno for 192.168.1.248 to 2 (packet drop)
+Increased max_successful_tryno for 192.168.1.228 to 2 (packet drop)
+doAnyOutstandingRetransmits took 53ms
+doAnyOutstandingRetransmits took 72ms
+doAnyOutstandingRetransmits took 42ms
+Increased max_successful_tryno for 192.168.1.250 to 2 (packet drop)
+doAnyOutstandingRetransmits took 50ms
+doAnyOutstandingRetransmits took 39ms
+doAnyOutstandingRetransmits took 31ms
+Bogus rttdelta: 1901553 (srtt 121243) ... ignoring
+Bogus rttdelta: 1895926 (srtt 126870) ... ignoring
+Increased max_successful_tryno for 192.168.1.213 to 2 (packet drop)
+Bogus rttdelta: 2239604 (srtt 106846) ... ignoring
+Bogus rttdelta: 2219580 (srtt 126870) ... ignoring
+Increased max_successful_tryno for 192.168.1.201 to 2 (packet drop)
+Bogus rttdelta: 2503812 (srtt 121243) ... ignoring
+Bogus rttdelta: 2498185 (srtt 126870) ... ignoring
+Bogus rttdelta: 2562894 (srtt 106846) ... ignoring
+Bogus rttdelta: 2542870 (srtt 126870) ... ignoring
+Bogus rttdelta: 2899054 (srtt 106846) ... ignoring
+Bogus rttdelta: 2879030 (srtt 126870) ... ignoring
+Bogus rttdelta: 3109411 (srtt 121243) ... ignoring
+Bogus rttdelta: 3103784 (srtt 126870) ... ignoring
+Increased max_successful_tryno for 192.168.1.198 to 2 (packet drop)
+Bogus rttdelta: 1712544 (srtt 286433) ... ignoring
+Bogus rttdelta: 1730896 (srtt 268081) ... ignoring
+Bogus rttdelta: 2224240 (srtt 65091) ... ignoring
+Bogus rttdelta: 2021250 (srtt 268081) ... ignoring
+Increased max_successful_tryno for 192.168.1.203 to 2 (packet drop)
+Bogus rttdelta: 2154064 (srtt 136911) ... ignoring
+Bogus rttdelta: 2022894 (srtt 268081) ... ignoring
+Increased max_successful_tryno for 192.168.1.193 to 2 (packet drop)
+Bogus rttdelta: 2069518 (srtt 286433) ... ignoring
+Bogus rttdelta: 2087870 (srtt 268081) ... ignoring
+Bogus rttdelta: 2544307 (srtt 136911) ... ignoring
+Bogus rttdelta: 2413137 (srtt 268081) ... ignoring
+Bogus rttdelta: 2932149 (srtt 136911) ... ignoring
+Bogus rttdelta: 2800979 (srtt 268081) ... ignoring
+doAnyOutstandingRetransmits took 33ms
+Bogus rttdelta: 3933947 (srtt 124278) ... ignoring
+Bogus rttdelta: 3790144 (srtt 268081) ... ignoring
+Bogus rttdelta: 3641164 (srtt 130889) ... ignoring
+Bogus rttdelta: 3503972 (srtt 268081) ... ignoring
+Bogus rttdelta: 3614366 (srtt 157094) ... ignoring
+Bogus rttdelta: 3503379 (srtt 268081) ... ignoring
+Bogus rttdelta: 3649532 (srtt 114408) ... ignoring
+Bogus rttdelta: 3495859 (srtt 268081) ... ignoring
+Bogus rttdelta: 3648118 (srtt 113326) ... ignoring
+Bogus rttdelta: 3493363 (srtt 268081) ... ignoring
+Bogus rttdelta: 3616356 (srtt 144405) ... ignoring
+Bogus rttdelta: 3492680 (srtt 268081) ... ignoring
+Bogus rttdelta: 3597898 (srtt 146777) ... ignoring
+Bogus rttdelta: 3476594 (srtt 268081) ... ignoring
+Bogus rttdelta: 3584740 (srtt 156596) ... ignoring
+Bogus rttdelta: 3473255 (srtt 268081) ... ignoring
+Bogus rttdelta: 3452335 (srtt 131310) ... ignoring
+Bogus rttdelta: 3315564 (srtt 268081) ... ignoring
+Bogus rttdelta: 3108684 (srtt 286433) ... ignoring
+Bogus rttdelta: 3127036 (srtt 268081) ... ignoring
+Bogus rttdelta: 3106044 (srtt 136911) ... ignoring
+Bogus rttdelta: 2974874 (srtt 268081) ... ignoring
+Bogus rttdelta: 2247967 (srtt 155961) ... ignoring
+Bogus rttdelta: 2135847 (srtt 268081) ... ignoring
+Bogus rttdelta: 6641612 (srtt 295316) ... ignoring
+Bogus rttdelta: 6708270 (srtt 228658) ... ignoring
+Bogus rttdelta: 6373598 (srtt 159216) ... ignoring
+Bogus rttdelta: 6304156 (srtt 228658) ... ignoring
+Bogus rttdelta: 6030393 (srtt 174331) ... ignoring
+Bogus rttdelta: 5976066 (srtt 228658) ... ignoring
+Bogus rttdelta: 5179579 (srtt 159216) ... ignoring
+Bogus rttdelta: 5110137 (srtt 228658) ... ignoring
+Bogus rttdelta: 4121804 (srtt 295316) ... ignoring
+Bogus rttdelta: 4188462 (srtt 228658) ... ignoring
+Bogus rttdelta: 2714454 (srtt 107624) ... ignoring
+Bogus rttdelta: 2593420 (srtt 228658) ... ignoring
+Bogus rttdelta: 2687887 (srtt 134897) ... ignoring
+Bogus rttdelta: 2594126 (srtt 228658) ... ignoring
+Bogus rttdelta: 1587850 (srtt 131440) ... ignoring
+doAnyOutstandingRetransmits took 46ms
+doAnyOutstandingRetransmits took 66ms
+doAnyOutstandingRetransmits took 100ms
+doAnyOutstandingRetransmits took 33ms
+doAnyOutstandingRetransmits took 54ms
+doAnyOutstandingRetransmits took 47ms
+doAnyOutstandingRetransmits took 32ms
+doAnyOutstandingRetransmits took 39ms
+doAnyOutstandingRetransmits took 33ms
+doAnyOutstandingRetransmits took 38ms
+doAnyOutstandingRetransmits took 45ms
+doAnyOutstandingRetransmits took 49ms
+doAnyOutstandingRetransmits took 96ms
+doAnyOutstandingRetransmits took 53ms
+doAnyOutstandingRetransmits took 41ms
+doAnyOutstandingRetransmits took 41ms
+doAnyOutstandingRetransmits took 122ms
+doAnyOutstandingRetransmits took 36ms
+doAnyOutstandingRetransmits took 42ms
+doAnyOutstandingRetransmits took 63ms
+doAnyOutstandingRetransmits took 52ms
+doAnyOutstandingRetransmits took 81ms
+doAnyOutstandingRetransmits took 66ms
+doAnyOutstandingRetransmits took 38ms
+doAnyOutstandingRetransmits took 81ms
+doAnyOutstandingRetransmits took 32ms
+doAnyOutstandingRetransmits took 55ms
+doAnyOutstandingRetransmits took 60ms
+doAnyOutstandingRetransmits took 54ms
+Bogus rttdelta: 3055272 (srtt 83987) ... ignoring
+Bogus rttdelta: 3004269 (srtt 134990) ... ignoring
+Increased max_successful_tryno for 192.168.1.211 to 2 (packet drop)
+doAnyOutstandingRetransmits took 46ms
+doAnyOutstandingRetransmits took 120ms
+doAnyOutstandingRetransmits took 72ms
+doAnyOutstandingRetransmits took 59ms
+processData took 36ms
+doAnyOutstandingRetransmits took 55ms
+doAnyOutstandingRetransmits took 62ms
+doAnyOutstandingRetransmits took 39ms
+doAnyOutstandingRetransmits took 45ms
+Destroying timed-out global ping from 192.168.1.205.
+Increased max_successful_tryno for 192.168.1.214 to 2 (packet drop)
+doAnyOutstandingRetransmits took 42ms
+doAnyOutstandingRetransmits took 56ms
+doAnyOutstandingRetransmits took 50ms
+doAnyOutstandingRetransmits took 34ms
+doAnyOutstandingRetransmits took 34ms
+doAnyOutstandingRetransmits took 50ms
+doAnyOutstandingRetransmits took 48ms
+doAnyOutstandingRetransmits took 35ms
+doAnyOutstandingRetransmits took 39ms
+doAnyOutstandingRetransmits took 39ms
+doAnyOutstandingRetransmits took 31ms
+doAnyOutstandingRetransmits took 42ms
+doAnyOutstandingRetransmits took 155ms
+doAnyOutstandingRetransmits took 42ms
+doAnyOutstandingRetransmits took 37ms
+doAnyOutstandingRetransmits took 39ms
+doAnyOutstandingRetransmits took 59ms
+Overall sending rates: 224.54 packets / s, 9810.43 bytes / s.
+Nmap scan report for 192.168.1.192
+Host is up (0.069s latency).
+Scanned at 2025-08-05 12:30:43 IST for 934s
+Not shown: 995 filtered tcp ports (no-response), 2 filtered tcp ports (net-unreach)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 69273 rttvar: 54869  to: 288749
+
+Nmap scan report for 192.168.1.193
+Host is up (0.075s latency).
+Scanned at 2025-08-05 12:29:57 IST for 980s
+Not shown: 995 filtered tcp ports (no-response), 2 filtered tcp ports (net-unreach)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 75071 rttvar: 44741  to: 254035
+
+Nmap scan report for 192.168.1.194
+Host is up (0.12s latency).
+Scanned at 2025-08-05 12:29:57 IST for 979s
+Not shown: 995 filtered tcp ports (no-response), 2 filtered tcp ports (net-unreach)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 119186 rttvar: 169771  to: 798270
+
+Nmap scan report for 192.168.1.195
+Host is up (0.055s latency).
+Scanned at 2025-08-05 12:29:57 IST for 963s
+Not shown: 995 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+1801/tcp closed msmq
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 55216 rttvar: 49206  to: 252040
+
+Nmap scan report for 192.168.1.196
+Host is up (0.055s latency).
+Scanned at 2025-08-05 12:29:57 IST for 982s
+Not shown: 995 filtered tcp ports (no-response), 2 filtered tcp ports (net-unreach)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 55071 rttvar: 54545  to: 273251
+
+Nmap scan report for 192.168.1.197
+Host is up (0.066s latency).
+Scanned at 2025-08-05 12:29:57 IST for 982s
+Not shown: 997 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+Final times for host: srtt: 66162 rttvar: 50108  to: 266594
+
+Nmap scan report for 192.168.1.198
+Host is up (0.075s latency).
+Scanned at 2025-08-05 12:29:57 IST for 983s
+Not shown: 996 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 74547 rttvar: 69053  to: 350759
+
+Nmap scan report for 192.168.1.199
+Host is up (0.061s latency).
+Scanned at 2025-08-05 12:29:57 IST for 982s
+Not shown: 996 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 60874 rttvar: 35558  to: 203106
+
+Nmap scan report for 192.168.1.200
+Host is up (0.057s latency).
+Scanned at 2025-08-05 12:29:57 IST for 978s
+Not shown: 997 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+Final times for host: srtt: 57143 rttvar: 40828  to: 220455
+
+Nmap scan report for 192.168.1.201
+Host is up (0.039s latency).
+Scanned at 2025-08-05 12:29:57 IST for 980s
+Not shown: 994 filtered tcp ports (no-response), 3 filtered tcp ports (net-unreach)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 39071 rttvar: 40474  to: 200967
+
+Nmap scan report for 192.168.1.202
+Host is up (0.050s latency).
+Scanned at 2025-08-05 12:29:57 IST for 983s
+Not shown: 996 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 49894 rttvar: 40606  to: 212318
+
+Nmap scan report for 192.168.1.203
+Host is up (0.056s latency).
+Scanned at 2025-08-05 12:30:43 IST for 936s
+Not shown: 996 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 55817 rttvar: 45592  to: 238185
+
+Nmap scan report for 192.168.1.204
+Host is up (0.071s latency).
+Scanned at 2025-08-05 12:30:40 IST for 940s
+Not shown: 994 filtered tcp ports (no-response), 3 filtered tcp ports (net-unreach)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 71345 rttvar: 39279  to: 228461
+
+Nmap scan report for 192.168.1.205
+Host is up (0.039s latency).
+Scanned at 2025-08-05 12:29:58 IST for 942s
+Not shown: 993 filtered tcp ports (no-response), 2 filtered tcp ports (net-unreach)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+8008/tcp  open   http
+8010/tcp  open   xmpp
+49175/tcp closed unknown
+Final times for host: srtt: 39333 rttvar: 32701  to: 170137
+
+Nmap scan report for 192.168.1.206
+Host is up (0.056s latency).
+Scanned at 2025-08-05 12:30:40 IST for 935s
+Not shown: 996 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 56419 rttvar: 47612  to: 246867
+
+Nmap scan report for 192.168.1.207
+Host is up (0.085s latency).
+Scanned at 2025-08-05 12:30:43 IST for 937s
+Not shown: 998 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach)
+PORT     STATE SERVICE
+8008/tcp open  http
+Final times for host: srtt: 85192 rttvar: 71698  to: 371984
+
+Nmap scan report for 192.168.1.208
+Host is up (0.077s latency).
+Scanned at 2025-08-05 12:29:58 IST for 984s
+Not shown: 996 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 77256 rttvar: 59823  to: 316548
+
+Nmap scan report for 192.168.1.209
+Host is up (0.041s latency).
+Scanned at 2025-08-05 12:29:58 IST for 982s
+Not shown: 995 filtered tcp ports (no-response), 2 filtered tcp ports (net-unreach)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 40990 rttvar: 34424  to: 178686
+
+Nmap scan report for 192.168.1.210
+Host is up (0.078s latency).
+Scanned at 2025-08-05 12:30:43 IST for 938s
+Not shown: 994 filtered tcp ports (no-response), 3 filtered tcp ports (net-unreach)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 78390 rttvar: 73175  to: 371090
+
+Nmap scan report for 192.168.1.211
+Host is up (0.067s latency).
+Scanned at 2025-08-05 12:30:49 IST for 933s
+Not shown: 995 filtered tcp ports (no-response), 2 filtered tcp ports (net-unreach)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 67338 rttvar: 32069  to: 195614
+
+Nmap scan report for 192.168.1.212
+Host is up (0.062s latency).
+Scanned at 2025-08-05 12:29:58 IST for 982s
+Not shown: 995 filtered tcp ports (no-response), 2 filtered tcp ports (net-unreach)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 62099 rttvar: 43698  to: 236891
+
+Nmap scan report for 192.168.1.213
+Host is up (0.068s latency).
+Scanned at 2025-08-05 12:30:46 IST for 929s
+Not shown: 995 filtered tcp ports (no-response), 2 filtered tcp ports (net-unreach)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 67966 rttvar: 84550  to: 406166
+
+Nmap scan report for 192.168.1.214
+Host is up (0.17s latency).
+Scanned at 2025-08-05 12:30:59 IST for 930s
+Not shown: 995 filtered tcp ports (no-response), 2 filtered tcp ports (net-unreach)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 168369 rttvar: 138789  to: 723525
+
+Nmap scan report for 192.168.1.215
+Host is up (0.043s latency).
+Scanned at 2025-08-05 12:29:58 IST for 973s
+Not shown: 994 filtered tcp ports (no-response), 4 filtered tcp ports (net-unreach)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+Final times for host: srtt: 42993 rttvar: 49298  to: 240185
+
+Nmap scan report for 192.168.1.216
+Host is up (0.026s latency).
+Scanned at 2025-08-05 12:31:02 IST for 906s
+Not shown: 994 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+8008/tcp  open   http
+8010/tcp  open   xmpp
+12174/tcp closed unknown
+49175/tcp closed unknown
+Final times for host: srtt: 25615 rttvar: 25548  to: 127807
+
+Nmap scan report for 192.168.1.217
+Host is up (0.075s latency).
+Scanned at 2025-08-05 12:30:48 IST for 918s
+Not shown: 993 filtered tcp ports (no-response), 3 filtered tcp ports (net-unreach)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+1801/tcp closed msmq
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 75067 rttvar: 74345  to: 372447
+
+Nmap scan report for 192.168.1.218
+Host is up (0.12s latency).
+Scanned at 2025-08-05 12:29:58 IST for 945s
+Not shown: 989 filtered tcp ports (no-response), 3 filtered tcp ports (net-unreach)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+2605/tcp  closed bgpd
+8008/tcp  open   http
+8010/tcp  open   xmpp
+12174/tcp closed unknown
+14442/tcp closed unknown
+49175/tcp closed unknown
+Final times for host: srtt: 121741 rttvar: 104110  to: 538181
+
+Nmap scan report for 192.168.1.219
+Host is up (0.083s latency).
+Scanned at 2025-08-05 12:30:52 IST for 881s
+Not shown: 987 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+2605/tcp  closed bgpd
+2809/tcp  closed corbaloc
+5226/tcp  closed hp-status
+8008/tcp  open   http
+8010/tcp  open   xmpp
+10215/tcp closed unknown
+12174/tcp closed unknown
+14442/tcp closed unknown
+32769/tcp closed filenet-rpc
+49175/tcp closed unknown
+Final times for host: srtt: 82688 rttvar: 103474  to: 496584
+
+Nmap scan report for 192.168.1.220
+Host is up (0.060s latency).
+Scanned at 2025-08-05 12:30:49 IST for 924s
+Not shown: 997 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 60457 rttvar: 42501  to: 230461
+
+Nmap scan report for 192.168.1.221
+Host is up (0.057s latency).
+Scanned at 2025-08-05 12:29:58 IST for 955s
+Not shown: 995 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+1801/tcp closed msmq
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 57205 rttvar: 32327  to: 186513
+
+Nmap scan report for 192.168.1.222
+Host is up (0.049s latency).
+Scanned at 2025-08-05 12:30:41 IST for 887s
+Not shown: 995 filtered tcp ports (no-response)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+8008/tcp  open   http
+8010/tcp  open   xmpp
+49175/tcp closed unknown
+Final times for host: srtt: 49005 rttvar: 51647  to: 255593
+
+Nmap scan report for 192.168.1.223
+Host is up (0.036s latency).
+Scanned at 2025-08-05 12:30:41 IST for 896s
+Not shown: 994 filtered tcp ports (no-response)
+PORT      STATE  SERVICE
+1801/tcp  closed msmq
+2605/tcp  closed bgpd
+8008/tcp  open   http
+8010/tcp  open   xmpp
+12174/tcp closed unknown
+49175/tcp closed unknown
+Final times for host: srtt: 35549 rttvar: 37732  to: 186477
+
+Nmap scan report for 192.168.1.224
+Host is up (0.058s latency).
+Scanned at 2025-08-05 12:29:58 IST for 973s
+Not shown: 997 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach)
+PORT     STATE SERVICE
+8008/tcp open  http
+8010/tcp open  xmpp
+Final times for host: srtt: 57885 rttvar: 41116  to: 222349
+
+Nmap scan report for 192.168.1.225
+Host is up (0.12s latency).
+Scanned at 2025-08-05 12:30:41 IST for 919s
+Not shown: 996 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+1801/tcp closed msmq
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 121132 rttvar: 108785  to: 556272
+
+Nmap scan report for 192.168.1.226
+Host is up (0.047s latency).
+Scanned at 2025-08-05 12:30:41 IST for 931s
+Not shown: 997 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 47150 rttvar: 50780  to: 250270
+
+Nmap scan report for 192.168.1.227
+Host is up (0.057s latency).
+Scanned at 2025-08-05 12:29:58 IST for 935s
+Not shown: 992 filtered tcp ports (no-response)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+2605/tcp  closed bgpd
+8008/tcp  open   http
+8010/tcp  open   xmpp
+12174/tcp closed unknown
+14442/tcp closed unknown
+49175/tcp closed unknown
+Final times for host: srtt: 57333 rttvar: 55379  to: 278849
+
+Nmap scan report for 192.168.1.228
+Host is up (0.051s latency).
+Scanned at 2025-08-05 12:30:44 IST for 927s
+Not shown: 995 filtered tcp ports (no-response), 2 filtered tcp ports (net-unreach)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 51100 rttvar: 51743  to: 258072
+
+Nmap scan report for 192.168.1.229
+Host is up (0.074s latency).
+Scanned at 2025-08-05 12:31:02 IST for 917s
+Not shown: 996 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 73599 rttvar: 54218  to: 290471
+
+Nmap scan report for 192.168.1.230
+Host is up (0.11s latency).
+Scanned at 2025-08-05 12:29:58 IST for 941s
+Not shown: 987 filtered tcp ports (no-response)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+2605/tcp  closed bgpd
+2809/tcp  closed corbaloc
+5226/tcp  closed hp-status
+6106/tcp  closed isdninfo
+8008/tcp  open   http
+8010/tcp  open   xmpp
+10215/tcp closed unknown
+12174/tcp closed unknown
+14442/tcp closed unknown
+32769/tcp closed filenet-rpc
+49175/tcp closed unknown
+Final times for host: srtt: 114455 rttvar: 110876  to: 557959
+
+Nmap scan report for 192.168.1.231
+Host is up (0.059s latency).
+Scanned at 2025-08-05 12:30:50 IST for 893s
+Not shown: 996 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+1801/tcp closed msmq
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 58842 rttvar: 56124  to: 283338
+
+Nmap scan report for 192.168.1.232
+Host is up (0.089s latency).
+Scanned at 2025-08-05 12:30:48 IST for 925s
+Not shown: 996 filtered tcp ports (no-response), 2 filtered tcp ports (net-unreach)
+PORT     STATE SERVICE
+8008/tcp open  http
+8010/tcp open  xmpp
+Final times for host: srtt: 88756 rttvar: 102243  to: 497728
+
+Nmap scan report for 192.168.1.233
+Host is up (0.036s latency).
+Scanned at 2025-08-05 12:29:58 IST for 969s
+Not shown: 994 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+8008/tcp  open   http
+8010/tcp  open   xmpp
+49175/tcp closed unknown
+Final times for host: srtt: 35808 rttvar: 42152  to: 204416
+
+Nmap scan report for 192.168.1.234
+Host is up (0.068s latency).
+Scanned at 2025-08-05 12:30:50 IST for 923s
+Not shown: 997 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 68100 rttvar: 56021  to: 292184
+
+Nmap scan report for 192.168.1.235
+Host is up (0.076s latency).
+Scanned at 2025-08-05 12:30:47 IST for 930s
+Not shown: 995 filtered tcp ports (no-response), 2 filtered tcp ports (net-unreach)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 75505 rttvar: 39684  to: 234241
+
+Nmap scan report for 192.168.1.236
+Host is up (0.059s latency).
+Scanned at 2025-08-05 12:29:58 IST for 981s
+Not shown: 997 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 59435 rttvar: 37509  to: 209471
+
+Nmap scan report for 192.168.1.237
+Host is up (0.061s latency).
+Scanned at 2025-08-05 12:30:50 IST for 930s
+Not shown: 997 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 60710 rttvar: 29854  to: 180126
+
+Nmap scan report for 192.168.1.238
+Host is up (0.056s latency).
+Scanned at 2025-08-05 12:30:47 IST for 934s
+Not shown: 995 filtered tcp ports (no-response), 2 filtered tcp ports (net-unreach)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 56016 rttvar: 32032  to: 184144
+
+Nmap scan report for 192.168.1.239
+Host is up (0.060s latency).
+Scanned at 2025-08-05 12:29:58 IST for 971s
+Not shown: 994 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+2605/tcp  closed bgpd
+8008/tcp  open   http
+8010/tcp  open   xmpp
+12174/tcp closed unknown
+Final times for host: srtt: 60107 rttvar: 53716  to: 274971
+
+Nmap scan report for 192.168.1.240
+Host is up (0.055s latency).
+Scanned at 2025-08-05 12:30:53 IST for 922s
+Not shown: 996 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 55161 rttvar: 57626  to: 285665
+
+Nmap scan report for 192.168.1.241
+Host is up (0.062s latency).
+Scanned at 2025-08-05 12:30:47 IST for 884s
+Not shown: 989 filtered tcp ports (no-response), 2 filtered tcp ports (net-unreach)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+2605/tcp  closed bgpd
+8008/tcp  open   http
+8010/tcp  open   xmpp
+10215/tcp closed unknown
+12174/tcp closed unknown
+14442/tcp closed unknown
+49175/tcp closed unknown
+Final times for host: srtt: 61726 rttvar: 70901  to: 345330
+
+Nmap scan report for 192.168.1.242
+Host is up (0.080s latency).
+Scanned at 2025-08-05 12:29:58 IST for 929s
+Not shown: 993 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+8008/tcp  open   http
+8010/tcp  open   xmpp
+12174/tcp closed unknown
+49175/tcp closed unknown
+Final times for host: srtt: 79653 rttvar: 80932  to: 403381
+
+Nmap scan report for 192.168.1.243
+Host is up (0.076s latency).
+Scanned at 2025-08-05 12:29:58 IST for 975s
+Not shown: 995 filtered tcp ports (no-response), 2 filtered tcp ports (net-unreach)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 75534 rttvar: 74547  to: 373722
+
+Nmap scan report for 192.168.1.244
+Host is up (0.090s latency).
+Scanned at 2025-08-05 12:30:47 IST for 872s
+Not shown: 994 filtered tcp ports (no-response), 2 filtered tcp ports (net-unreach)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+1801/tcp closed msmq
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 90457 rttvar: 58526  to: 324561
+
+Nmap scan report for 192.168.1.245
+Host is up (0.062s latency).
+Scanned at 2025-08-05 12:30:48 IST for 892s
+Not shown: 988 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+2605/tcp  closed bgpd
+5226/tcp  closed hp-status
+8008/tcp  open   http
+8010/tcp  open   xmpp
+10215/tcp closed unknown
+12174/tcp closed unknown
+14442/tcp closed unknown
+32769/tcp closed filenet-rpc
+49175/tcp closed unknown
+Final times for host: srtt: 62365 rttvar: 60669  to: 305041
+
+Nmap scan report for 192.168.1.246
+Host is up (0.079s latency).
+Scanned at 2025-08-05 12:29:58 IST for 939s
+Not shown: 985 filtered tcp ports (no-response), 2 filtered tcp ports (net-unreach)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+2605/tcp  closed bgpd
+2809/tcp  closed corbaloc
+5226/tcp  closed hp-status
+6106/tcp  closed isdninfo
+8008/tcp  open   http
+8010/tcp  open   xmpp
+10215/tcp closed unknown
+12174/tcp closed unknown
+14442/tcp closed unknown
+32769/tcp closed filenet-rpc
+49175/tcp closed unknown
+Final times for host: srtt: 79362 rttvar: 96820  to: 466642
+
+Nmap scan report for 192.168.1.247
+Host is up (0.11s latency).
+Scanned at 2025-08-05 12:30:47 IST for 908s
+Not shown: 991 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+2605/tcp  closed bgpd
+8008/tcp  open   http
+8010/tcp  open   xmpp
+12174/tcp closed unknown
+14442/tcp closed unknown
+49175/tcp closed unknown
+Final times for host: srtt: 109629 rttvar: 141774  to: 676725
+
+Nmap scan report for 192.168.1.248
+Host is up (0.086s latency).
+Scanned at 2025-08-05 12:30:55 IST for 914s
+Not shown: 990 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+2605/tcp  closed bgpd
+8008/tcp  open   http
+8010/tcp  open   xmpp
+10215/tcp closed unknown
+12174/tcp closed unknown
+14442/tcp closed unknown
+49175/tcp closed unknown
+Final times for host: srtt: 85638 rttvar: 101203  to: 490450
+
+Nmap scan report for 192.168.1.249
+Host is up (0.075s latency).
+Scanned at 2025-08-05 12:30:51 IST for 916s
+Not shown: 990 filtered tcp ports (no-response), 2 filtered tcp ports (net-unreach)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+2605/tcp  closed bgpd
+8008/tcp  open   http
+8010/tcp  open   xmpp
+12174/tcp closed unknown
+14442/tcp closed unknown
+49175/tcp closed unknown
+Final times for host: srtt: 75391 rttvar: 95298  to: 456583
+
+Nmap scan report for 192.168.1.250
+Host is up (0.070s latency).
+Scanned at 2025-08-05 12:30:45 IST for 930s
+Not shown: 996 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 70461 rttvar: 57173  to: 299153
+
+Nmap scan report for 192.168.1.251
+Host is up (0.053s latency).
+Scanned at 2025-08-05 12:30:55 IST for 914s
+Not shown: 994 filtered tcp ports (no-response), 2 filtered tcp ports (net-unreach)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+8008/tcp  open   http
+8010/tcp  open   xmpp
+49175/tcp closed unknown
+Final times for host: srtt: 53288 rttvar: 56447  to: 279076
+
+Nmap scan report for 192.168.1.252
+Host is up (0.093s latency).
+Scanned at 2025-08-05 12:31:02 IST for 868s
+Not shown: 989 filtered tcp ports (no-response), 5 filtered tcp ports (net-unreach)
+PORT      STATE  SERVICE
+113/tcp   closed ident
+1801/tcp  closed msmq
+8008/tcp  open   http
+8010/tcp  open   xmpp
+12174/tcp closed unknown
+49175/tcp closed unknown
+Final times for host: srtt: 92514 rttvar: 96416  to: 478178
+
+Nmap scan report for 192.168.1.253
+Host is up (0.064s latency).
+Scanned at 2025-08-05 12:30:47 IST for 931s
+Not shown: 995 filtered tcp ports (no-response), 2 filtered tcp ports (net-unreach)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 64286 rttvar: 33710  to: 199126
+
+Nmap scan report for 192.168.1.254
+Host is up (0.058s latency).
+Scanned at 2025-08-05 12:30:48 IST for 931s
+Not shown: 995 filtered tcp ports (no-response), 2 filtered tcp ports (net-unreach)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 57564 rttvar: 45732  to: 240492
+
+Nmap scan report for 192.168.1.255
+Host is up (0.045s latency).
+Scanned at 2025-08-05 12:30:45 IST for 933s
+Not shown: 996 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach)
+PORT     STATE  SERVICE
+113/tcp  closed ident
+8008/tcp open   http
+8010/tcp open   xmpp
+Final times for host: srtt: 45089 rttvar: 30820  to: 168369
+
+Read from /usr/bin/../share/nmap: nmap-protocols nmap-services.
+Nmap done: 256 IP addresses (256 hosts up) scanned in 6124.60 seconds
